@@ -28,13 +28,17 @@ python3 -m http.server 8765
 open http://localhost:8765/
 ```
 
-## Deploy
+## Workflow
 
-```bash
-vercel deploy --prod
-```
+Trunk-based. `main` is always shippable, and merging to `main` is what deploys to production.
 
-Or — once this repo is linked to the Vercel project — any push to `main` auto-deploys.
+1. Branch off `main`: `git checkout -b <topic>`
+2. Edit, commit, push.
+3. Open a PR against `main`. Vercel auto-builds a preview URL — verify there.
+4. **Squash-merge** to `main` (this auto-deploys to production).
+5. Delete the branch.
+
+Don't push directly to `main`. Don't merge without a preview.
 
 ## Domain
 

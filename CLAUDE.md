@@ -15,9 +15,27 @@
 - `archive/` is the previous React/Vite site, kept for reference.
 - The `section.sr-only[lang="th"]` block after `</footer>` is the Thai SEO/AEO surface for LLM crawlers — not dead code.
 
-## Workflow gotcha
+## Workflow
 
-- Push to `main` auto-deploys via Vercel. Don't make the repo private without upgrading Vercel from Hobby, or non-owner commits get blocked.
+Trunk-based. Branch off `main`, push, open PR, verify the Vercel preview, squash-merge, delete branch. Never push directly to `main`.
+
+**Agents:** work in a sibling git worktree, never in the user's main checkout.
+
+```bash
+git worktree add ../bigtre-website-<topic> -b <topic> main
+cd ../bigtre-website-<topic>
+# edit, commit, push, open PR
+```
+
+After the PR squash-merges and the branch is deleted:
+
+```bash
+git worktree remove ../bigtre-website-<topic>
+```
+
+Gotchas:
+
+- Squash-merge to `main` auto-deploys via Vercel. Don't make the repo private without upgrading Vercel from Hobby, or non-owner commits get blocked.
 - DNS lives in Google Domains / Squarespace. Don't switch nameservers to Vercel, it breaks email.
 - Strategy / positioning docs live in `../bigtre-hq/`, not here.
 
