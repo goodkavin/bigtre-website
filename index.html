@@ -333,7 +333,7 @@
     letter-spacing: -0.01em;
     text-wrap: balance;
   }
-  .quote .em { font-style: italic; color: var(--accent); }
+  .quote .em { font-style: italic; color: #C8472A; }
 
   .diagram-wrap {
     position: relative;
@@ -343,6 +343,37 @@
     margin-left: auto;
   }
   .diagram-wrap svg {
+    width: 100%; height: 100%;
+    overflow: visible;
+  }
+
+  .pivot {
+    margin-top: clamp(72px, 9vw, 128px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    text-align: center;
+  }
+  .pivot-line {
+    font-family: var(--display);
+    font-size: clamp(28px, 3.4vw, 48px);
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    max-width: 22ch;
+    text-wrap: balance;
+    margin: 0;
+  }
+  .pivot-line .serif-it { color: var(--accent); }
+  .pivot-arrow { color: var(--accent); opacity: 0.75; margin: -4px 0 4px; }
+  .pivot-diagram {
+    position: relative;
+    width: 100%;
+    max-width: 540px;
+    aspect-ratio: 1 / 1;
+  }
+  .pivot-diagram svg {
     width: 100%; height: 100%;
     overflow: visible;
   }
@@ -445,6 +476,16 @@
     letter-spacing: -0.02em;
     line-height: 1.1;
   }
+  .phase-kicker {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    color: var(--ink-mute);
+    margin-top: -8px;
+  }
+  section.s.ink .phase-kicker { color: #B8B0A2; }
   .phase-desc {
     font-size: 14.5px;
     color: var(--ink-mute);
@@ -1091,16 +1132,63 @@
           <text x="0" y="-4" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-weight="700" font-size="13" fill="#F2EEE5">OWNER</text>
           <text x="0" y="12" text-anchor="middle" font-family="Geist Mono, monospace" font-size="9" fill="#F2EEE5" opacity="0.7">CONTEXT</text>
 
-          <!-- AI orbit -->
-          <circle cx="0" cy="0" r="100" fill="none" stroke="#0E5C3B" stroke-width="1" stroke-dasharray="2 4" opacity="0.6"/>
+          <!-- AI orbit (broken — no context) -->
+          <circle cx="0" cy="0" r="100" fill="none" stroke="#C8472A" stroke-width="1" stroke-dasharray="2 4" opacity="0.5"/>
           <g id="aiBlob" transform="translate(100 0)">
-            <circle r="14" fill="#0E5C3B"/>
-            <text x="0" y="3" text-anchor="middle" font-family="Geist Mono, monospace" font-size="9" font-weight="600" fill="#F2EEE5">AI</text>
+            <circle r="14" fill="#C8472A"/>
+            <text x="0" y="3" text-anchor="middle" font-family="Geist Mono, monospace" font-size="9" font-weight="600" fill="#FBF8F1">AI</text>
           </g>
         </svg>
-        <div style="position:absolute; bottom:-40px; left:0; right:0; text-align:center; font-family:var(--mono); font-size:11px; color:var(--ink-mute);">
-          → To paint the picture, you have to get out of the frame.
-        </div>
+      </div>
+    </div>
+
+    <!-- Pivot: out of the frame -->
+    <div class="pivot">
+      <p class="pivot-line">To paint the picture, <span class="serif-it">you have to get out of the frame.</span></p>
+      <div class="pivot-arrow" aria-hidden="true">
+        <svg width="14" height="44" viewBox="0 0 14 44"><path d="M7 0 V36 M0.5 30 L7 36 L13.5 30" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+
+      <div class="pivot-diagram" id="diagram2">
+        <svg viewBox="-260 -260 520 520" aria-hidden="true">
+          <defs>
+            <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+              <path d="M0,0 L10,5 L0,10 z" fill="#0E5C3B"/>
+            </marker>
+            <radialGradient id="contextGrad" cx="50%" cy="50%">
+              <stop offset="0%" stop-color="#0E5C3B" stop-opacity="0.9"/>
+              <stop offset="100%" stop-color="#0E5C3B" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+
+          <!-- Frame: business ring -->
+          <circle cx="0" cy="0" r="240" fill="none" stroke="#14111033" stroke-dasharray="4 6" stroke-width="1"/>
+          <!-- Inner green track (where nodes sit) -->
+          <circle cx="0" cy="0" r="180" fill="none" stroke="#0E5C3B" stroke-width="1.4" opacity="0.55"/>
+
+          <!-- Inside nodes (populated by JS) -->
+          <g id="cycleNodes"></g>
+
+          <!-- Center: Context layer with halo -->
+          <circle cx="0" cy="0" r="72" fill="url(#contextGrad)" id="contextHalo" opacity="0"/>
+          <circle cx="0" cy="0" r="46" fill="#0E5C3B"/>
+          <text x="0" y="4" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-weight="700" font-size="12" fill="#F2EEE5" letter-spacing="1">CONTEXT</text>
+
+          <!-- Outside the ring: Owner pill (top-right) -->
+          <g id="ownerOutside" transform="translate(210, -210)">
+            <rect x="-36" y="-14" width="72" height="28" rx="14" fill="#14110D"/>
+            <text x="0" y="4" text-anchor="middle" font-family="Geist Mono, monospace" font-size="11" fill="#FBF8F1" letter-spacing="0.5">OWNER</text>
+          </g>
+          <!-- Owner -> inner AI-orbit ring arrow -->
+          <path id="ownerArrow" d="M 180 -195 Q 140 -135 78 -75" stroke="#0E5C3B" stroke-width="1.4" fill="none" stroke-dasharray="3 4" marker-end="url(#arrowGreen)" opacity="0"/>
+
+          <!-- AI orbit dashed ring + AI blob (working — powered by Context) -->
+          <circle cx="0" cy="0" r="100" fill="none" stroke="#0E5C3B" stroke-width="1" stroke-dasharray="2 4" opacity="0.55"/>
+          <g id="aiBlob2" transform="translate(100 0)" opacity="0">
+            <circle r="14" fill="#0E5C3B"/>
+            <text x="0" y="3" text-anchor="middle" font-family="Geist Mono, monospace" font-size="9" font-weight="600" fill="#FBF8F1">AI</text>
+          </g>
+        </svg>
       </div>
     </div>
   </div>
@@ -1223,20 +1311,23 @@
     <div class="phases">
       <div class="phase" style="--fill: 0.30;">
         <div class="phase-bar"></div>
-        <div class="phase-when">Week 1–6 / Know your business</div>
-        <div class="phase-title">Live dashboards.<br>One source of truth.</div>
+        <div class="phase-when">Week 1–6</div>
+        <div class="phase-title">AI-Analyzed Data</div>
+        <div class="phase-kicker">AI dashboards. Single source of truth.</div>
         <div class="phase-desc">We integrate every channel and normalize every number. By week six you stop guessing, and you stop being the bottleneck.</div>
       </div>
       <div class="phase" style="--fill: 0.65;">
         <div class="phase-bar"></div>
-        <div class="phase-when">Month 2–4 / Run it across teams</div>
-        <div class="phase-title">Daily flows run<br>themselves.</div>
+        <div class="phase-when">Month 2–4</div>
+        <div class="phase-title">AI-Operated Tasks</div>
+        <div class="phase-kicker">Daily flows run themselves.</div>
         <div class="phase-desc">Automate the boring 60%. Listings, reconciliation, stock alerts, fulfillment hand-offs. Your team works on judgment, not data entry.</div>
       </div>
       <div class="phase" style="--fill: 1.0;">
         <div class="phase-bar"></div>
-        <div class="phase-when">Month 5–12 / AI as your teammate</div>
-        <div class="phase-title">Answers. Operate.<br>You review.</div>
+        <div class="phase-when">Month 5–12</div>
+        <div class="phase-title">AI-Fused Company</div>
+        <div class="phase-kicker">Answers. Operate. You review.</div>
         <div class="phase-desc">Agentic teammates work inside your context. They draft, propose, summarize. You keep the final call where it counts.</div>
       </div>
     </div>
@@ -1672,19 +1763,150 @@
       }
     });
 
-    // AI blob orbit — kept as RAF, smooth enough
-    let t0 = performance.now();
+    // AI blob orbit — broken: zigzag between waypoints inside the ring
+    let zzDir = 1;
+    let zzPrev = { x: 100, y: 0 };
+    function zzNext() {
+      const prevAngle = Math.atan2(zzPrev.y, zzPrev.x);
+      const stepAngle = (0.55 + Math.random() * 0.7) * zzDir;
+      if (Math.random() < 0.22) zzDir = -zzDir;
+      const angle = prevAngle + stepAngle;
+      const r = 70 + Math.random() * 60;
+      return { x: Math.cos(angle) * r, y: Math.sin(angle) * r };
+    }
+    let zzNextPt = zzNext();
+    let zzSegStart = performance.now();
+    let zzSegDur = 520;
     function orbit(t) {
-      const dt = (t - t0) / 1000;
-      const angle = dt * 0.35;
-      const r = 110;
-      const x = Math.cos(angle) * r;
-      const y = Math.sin(angle) * r;
+      if (t - zzSegStart > zzSegDur) {
+        zzPrev = zzNextPt;
+        zzNextPt = zzNext();
+        zzSegStart = t;
+        zzSegDur = 380 + Math.random() * 340;
+      }
+      const u = (t - zzSegStart) / zzSegDur;
+      const x = zzPrev.x + (zzNextPt.x - zzPrev.x) * u;
+      const y = zzPrev.y + (zzNextPt.y - zzPrev.y) * u;
       const blob = document.getElementById('aiBlob');
       if (blob) blob.setAttribute('transform', `translate(${x} ${y})`);
       requestAnimationFrame(orbit);
     }
     requestAnimationFrame(orbit);
+  }
+
+  // ---- Second diagram: "out of the frame" ----
+  const cycleNodesEl = document.getElementById('cycleNodes');
+  if (cycleNodesEl) {
+    const cycleR = 200;
+    const cycleNodes = [
+      { label: 'Inventory',   angle: -90 },
+      { label: 'Analytics',   angle: -45 },
+      { label: 'Online',      angle:   0 },
+      { label: 'Accounting',  angle:  45 },
+      { label: 'Marketing',   angle:  90 },
+      { label: 'Logistics',   angle: 135 },
+      { label: 'Offline',     angle: 180 },
+      { label: 'Procurement', angle: 225 },
+    ];
+    const cycleNodeGroups = [];
+
+    cycleNodes.forEach((n) => {
+      const rad = (n.angle * Math.PI) / 180;
+      const x = Math.cos(rad) * cycleR;
+      const y = Math.sin(rad) * cycleR;
+
+      const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+      g.setAttribute('transform', `translate(${x * 0.6} ${y * 0.6})`);
+      g.setAttribute('opacity', '0');
+
+      const w = n.label.length * 7 + 18;
+      const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+      rect.setAttribute('x', -w/2); rect.setAttribute('y', -11);
+      rect.setAttribute('width', w); rect.setAttribute('height', 22);
+      rect.setAttribute('rx', 11);
+      rect.setAttribute('fill', '#F2EEE5');
+      rect.setAttribute('stroke', '#14111033');
+      rect.setAttribute('stroke-width', '1');
+
+      const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      text.setAttribute('text-anchor', 'middle');
+      text.setAttribute('y', 3.5);
+      text.setAttribute('font-family', 'Geist Mono, monospace');
+      text.setAttribute('font-size', '10');
+      text.setAttribute('fill', '#14110D');
+      text.textContent = n.label;
+
+      g.appendChild(rect); g.appendChild(text);
+      cycleNodesEl.appendChild(g);
+      cycleNodeGroups.push({ g, rect, text, x, y, rad });
+    });
+
+    // Heartbeat loop on the Owner -> Context arrow (starts after entry timeline)
+    const ownerArrow = document.getElementById('ownerArrow');
+    let heartbeatStarted = false;
+    function startHeartbeat() {
+      if (heartbeatStarted) return;
+      heartbeatStarted = true;
+      const h0 = performance.now();
+      (function tick(t) {
+        const dt = (t - h0) / 1000;
+        const wave = (Math.sin(dt * 1.8) + 1) / 2;
+        const o = 0.55 + wave * 0.4;
+        if (ownerArrow) ownerArrow.setAttribute('opacity', o);
+        requestAnimationFrame(tick);
+      })(h0);
+    }
+
+    ScrollTrigger.create({
+      trigger: '#diagram2', start: 'top 80%', once: true,
+      onEnter: () => {
+        const tl = gsap.timeline({
+          defaults: { ease: 'expo.out' },
+          onComplete: startHeartbeat,
+        });
+        cycleNodeGroups.forEach((n, i) => {
+          tl.to(n.g, {
+            attr: { transform: `translate(${n.x} ${n.y})` },
+            opacity: 1, duration: 0.8,
+          }, i * 0.06);
+        });
+        tl.to('#contextHalo',{ opacity: 1,    duration: 1.0 }, 0.4);
+        tl.to('#ownerArrow', { opacity: 0.85, duration: 0.8 }, 0.7);
+        tl.to('#aiBlob2',    { opacity: 1,    duration: 0.6 }, 1.0);
+      }
+    });
+
+    // AI blob 2 — smooth orbit around the Context layer
+    // Each node lights up green as the AI sweeps past its angle
+    const PILL_OFF = [242, 238, 229];   // #F2EEE5
+    const PILL_ON  = [14, 92, 59];      // #0E5C3B
+    const TEXT_OFF = [20, 17, 13];      // #14110D
+    const TEXT_ON  = [251, 248, 241];   // #FBF8F1
+    const ACTIVATION_RAD = 22 * Math.PI / 180;
+    const lerp = (a, b, t) => Math.round(a + (b - a) * t);
+    const rgb = (c1, c2, t) =>
+      `rgb(${lerp(c1[0], c2[0], t)},${lerp(c1[1], c2[1], t)},${lerp(c1[2], c2[2], t)})`;
+
+    let ai2_t0 = performance.now();
+    function orbit2(t) {
+      const dt = (t - ai2_t0) / 1000;
+      const angle = dt * 0.85;
+      const r = 100;
+      const blob = document.getElementById('aiBlob2');
+      if (blob) blob.setAttribute('transform', `translate(${Math.cos(angle) * r} ${Math.sin(angle) * r})`);
+
+      cycleNodeGroups.forEach((n) => {
+        let d = Math.abs(angle - n.rad) % (2 * Math.PI);
+        if (d > Math.PI) d = 2 * Math.PI - d;
+        const a = Math.max(0, 1 - d / ACTIVATION_RAD);
+        n.rect.setAttribute('fill',   rgb(PILL_OFF, PILL_ON, a));
+        n.text.setAttribute('fill',   rgb(TEXT_OFF, TEXT_ON, a));
+        n.rect.setAttribute('stroke', a > 0.05 ? '#0E5C3B' : '#14111033');
+      });
+
+      requestAnimationFrame(orbit2);
+    }
+    requestAnimationFrame(orbit2);
   }
 })();
 </script>
