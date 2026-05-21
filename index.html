@@ -1164,8 +1164,8 @@
           <!-- Business label, bottom-left of frame -->
           <text x="-228" y="234" font-family="Geist Mono, monospace" font-size="10" fill="#14110D" opacity="0.55" letter-spacing="1.2">BUSINESS</text>
 
-          <!-- Clockwise cycle arrows between adjacent nodes -->
-          <g id="cycleArrows" stroke="#0E5C3B" stroke-width="1.4" fill="none" stroke-linecap="round"></g>
+          <!-- Green ring the eight nodes sit on -->
+          <circle cx="0" cy="0" r="200" fill="none" stroke="#0E5C3B" stroke-width="1.4" opacity="0.45"/>
 
           <!-- Inside nodes (populated by JS) -->
           <g id="cycleNodes"></g>
@@ -1178,8 +1178,8 @@
 
           <!-- Outside the ring: Owner pill (top-right) -->
           <g id="ownerOutside" transform="translate(210, -210)">
-            <rect x="-36" y="-14" width="72" height="28" rx="14" fill="#F2EEE5" stroke="#14110D" stroke-width="1"/>
-            <text x="0" y="4" text-anchor="middle" font-family="Geist Mono, monospace" font-size="11" fill="#14110D" letter-spacing="0.5">OWNER</text>
+            <rect x="-36" y="-14" width="72" height="28" rx="14" fill="#14110D"/>
+            <text x="0" y="4" text-anchor="middle" font-family="Geist Mono, monospace" font-size="11" fill="#FBF8F1" letter-spacing="0.5">OWNER</text>
           </g>
           <!-- Owner -> Context arrow -->
           <path id="ownerArrow" d="M 180 -195 Q 130 -110 60 -22" stroke="#0E5C3B" stroke-width="1.4" fill="none" stroke-dasharray="3 4" marker-end="url(#arrowGreen)" opacity="0"/>
@@ -1782,9 +1782,8 @@
   }
 
   // ---- Second diagram: "out of the frame" ----
-  const cycleNodesEl  = document.getElementById('cycleNodes');
-  const cycleArrowsEl = document.getElementById('cycleArrows');
-  if (cycleNodesEl && cycleArrowsEl) {
+  const cycleNodesEl = document.getElementById('cycleNodes');
+  if (cycleNodesEl) {
     const cycleR = 200;
     const cycleNodes = [
       { label: 'Inventory',   angle: -90 },
@@ -1826,41 +1825,8 @@
 
       g.appendChild(rect); g.appendChild(text);
       cycleNodesEl.appendChild(g);
-      cycleNodeGroups.push({ g, x, y });
+      cycleNodeGroups.push({ g, rect, text, x, y, rad });
     });
-
-    // Cycle arrows between adjacent nodes (clockwise)
-    const cycleArrowEls = [];
-    for (let i = 0; i < cycleNodes.length; i++) {
-      const cur = cycleNodes[i];
-      const nxt = cycleNodes[(i + 1) % cycleNodes.length];
-
-      const a1 = (cur.angle * Math.PI) / 180;
-      const a2 = (nxt.angle * Math.PI) / 180;
-      const sx = Math.cos(a1) * cycleR;
-      const sy = Math.sin(a1) * cycleR;
-      const ex = Math.cos(a2) * cycleR;
-      const ey = Math.sin(a2) * cycleR;
-
-      // Control point sits outside the cycle, on the bisector
-      const midRad = ((cur.angle + 22.5) * Math.PI) / 180;
-      const cx = Math.cos(midRad) * (cycleR + 38);
-      const cy = Math.sin(midRad) * (cycleR + 38);
-
-      // Pull endpoints in slightly so arrows clear the pills
-      const t = 0.22;
-      const sxA = sx + (cx - sx) * t;
-      const syA = sy + (cy - sy) * t;
-      const exA = ex + (cx - ex) * t;
-      const eyA = ey + (cy - ey) * t;
-
-      const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-      path.setAttribute('d', `M ${sxA} ${syA} Q ${cx} ${cy} ${exA} ${eyA}`);
-      path.setAttribute('marker-end', 'url(#arrowGreen)');
-      path.setAttribute('opacity', '0');
-      cycleArrowsEl.appendChild(path);
-      cycleArrowEls.push(path);
-    }
 
     // Heartbeat loop on the Owner -> Context arrow (starts after entry timeline)
     const ownerArrow = document.getElementById('ownerArrow');
@@ -1871,7 +1837,7 @@
       const h0 = performance.now();
       (function tick(t) {
         const dt = (t - h0) / 1000;
-        const wave = (Math.sin(dt * 1.8) + 1) / 2;  // 0..1
+        const wave = (Math.sin(dt * 1.8) + 1) / 2;
         const o = 0.55 + wave * 0.4;
         if (ownerArrow) ownerArrow.setAttribute('opacity', o);
         requestAnimationFrame(tick);
@@ -1891,24 +1857,39 @@
             opacity: 1, duration: 0.8,
           }, i * 0.06);
         });
-        cycleArrowEls.forEach((a, i) => {
-          tl.to(a, { opacity: 0.85, duration: 0.5 }, 0.4 + i * 0.06);
-        });
-        tl.to('#ownerArrow', { opacity: 0.85, duration: 0.8 }, 1.0);
-        tl.to('#aiBlob2',    { opacity: 1,    duration: 0.6 }, 1.2);
+        tl.to('#ownerArrow', { opacity: 0.85, duration: 0.8 }, 0.7);
+        tl.to('#aiBlob2',    { opacity: 1,    duration: 0.6 }, 1.0);
       }
     });
 
-    // AI blob 2 — smooth orbit around the Context layer (working AI)
+    // AI blob 2 — smooth orbit around the Context layer
+    // Each node lights up green as the AI sweeps past its angle
+    const PILL_OFF = [242, 238, 229];   // #F2EEE5
+    const PILL_ON  = [14, 92, 59];      // #0E5C3B
+    const TEXT_OFF = [20, 17, 13];      // #14110D
+    const TEXT_ON  = [251, 248, 241];   // #FBF8F1
+    const ACTIVATION_RAD = 22 * Math.PI / 180;
+    const lerp = (a, b, t) => Math.round(a + (b - a) * t);
+    const rgb = (c1, c2, t) =>
+      `rgb(${lerp(c1[0], c2[0], t)},${lerp(c1[1], c2[1], t)},${lerp(c1[2], c2[2], t)})`;
+
     let ai2_t0 = performance.now();
     function orbit2(t) {
       const dt = (t - ai2_t0) / 1000;
       const angle = dt * 0.35;
       const r = 100;
-      const x = Math.cos(angle) * r;
-      const y = Math.sin(angle) * r;
       const blob = document.getElementById('aiBlob2');
-      if (blob) blob.setAttribute('transform', `translate(${x} ${y})`);
+      if (blob) blob.setAttribute('transform', `translate(${Math.cos(angle) * r} ${Math.sin(angle) * r})`);
+
+      cycleNodeGroups.forEach((n) => {
+        let d = Math.abs(angle - n.rad) % (2 * Math.PI);
+        if (d > Math.PI) d = 2 * Math.PI - d;
+        const a = Math.max(0, 1 - d / ACTIVATION_RAD);
+        n.rect.setAttribute('fill',   rgb(PILL_OFF, PILL_ON, a));
+        n.text.setAttribute('fill',   rgb(TEXT_OFF, TEXT_ON, a));
+        n.rect.setAttribute('stroke', a > 0.05 ? '#0E5C3B' : '#14111033');
+      });
+
       requestAnimationFrame(orbit2);
     }
     requestAnimationFrame(orbit2);
