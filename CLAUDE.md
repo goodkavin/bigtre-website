@@ -19,3 +19,7 @@
 
 - Vercel project is **not yet linked to GitHub** — pushing to `main` does not auto-deploy. Ship with `vercel deploy --prod`.
 - DNS lives in Google Domains / Squarespace. Don't suggest switching nameservers to Vercel — it would break the user's email.
+
+## Update together
+
+- Booking window: hero meta (`Now booking · Q3 2026`) and CTA tag (`Currently booking for Q3 2026 · N slots open`) must stay in sync. Update both when the window changes.
