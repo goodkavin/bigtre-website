@@ -1,0 +1,1693 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Big Tre · AI-Fused Company for Thai SMEs</title>
+<meta name="description" content="Big Tre builds the business context layer that lets AI actually work for Thai SMEs. Live dashboards, automation, and agentic teammates. From Bangkok." />
+<meta name="keywords" content="AI for Thai SMEs, AI consulting Thailand, business context layer, AI-Fused company, Shopee Lazada TikTok integration, multi-channel commerce Thailand, AI agent, Bangkok, ที่ปรึกษา AI, ระบบ AI สำหรับธุรกิจ, AI สำหรับ SME ไทย, รวมข้อมูล Shopee Lazada TikTok, AI Agent ภาษาไทย" />
+<meta name="author" content="Big Tre" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<link rel="canonical" href="https://bigtre.business/" />
+<link rel="alternate" hreflang="en" href="https://bigtre.business/" />
+<link rel="alternate" hreflang="th" href="https://bigtre.business/" />
+<link rel="alternate" hreflang="x-default" href="https://bigtre.business/" />
+<meta property="og:title" content="Big Tre · AI-Fused Company for Thai SMEs" />
+<meta property="og:description" content="Your tech and data, made to work. Live dashboards, automation, and agentic AI teammates for multi-channel Thai SMEs across Shopee, Lazada, TikTok Shop, and more." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://bigtre.business/" />
+<meta property="og:site_name" content="Big Tre" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="th_TH" />
+<meta property="og:image" content="https://bigtre.business/favicon.svg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Big Tre · AI-Fused Company for Thai SMEs" />
+<meta name="twitter:description" content="Multi-channel commerce, live dashboards, agentic AI teammates for growing Thai SMEs. From Bangkok." />
+<meta name="theme-color" content="#F2EEE5" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #F2EEE5;
+    --bg-soft: #ECE7DB;
+    --bg-deep: #E4DECF;
+    --ink: #14110D;
+    --ink-soft: #2A2620;
+    --ink-mute: #6B645A;
+    --line: #1411100D;
+    --line-strong: #14111022;
+    --accent: #0E5C3B;
+    --accent-deep: #0A4429;
+    --accent-soft: #D6E6DC;
+    --paper: #FBF8F1;
+    --display: "Bricolage Grotesque", "Söhne", system-ui, sans-serif;
+    --body: "Geist", "Inter", system-ui, sans-serif;
+    --mono: "Geist Mono", ui-monospace, "SF Mono", monospace;
+    --serif: "Instrument Serif", "Times New Roman", serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  @media (min-width: 720px) and (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-snap-type: y proximity;
+    }
+    section.s, .hero, .cta-section, footer.site {
+      scroll-snap-align: start;
+      scroll-snap-stop: normal;
+    }
+    .hero { scroll-snap-align: start; }
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    opacity: .28;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.08 0 0 0 0 0.07 0 0 0 0 0.05 0 0 0 0.22 0'/></filter><rect width='240' height='240' filter='url(%23n)'/></svg>");
+  }
+
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  @media (max-width: 720px) { .container { padding: 0 24px; } }
+
+  /* ---------- NAV ---------- */
+  nav.top {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(14px) saturate(1.2);
+    -webkit-backdrop-filter: blur(14px) saturate(1.2);
+    background: color-mix(in oklab, var(--bg) 78%, transparent);
+    border-bottom: 1px solid var(--line);
+  }
+  nav.top .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: baseline;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: -0.035em;
+    color: var(--ink);
+    text-decoration: none;
+    line-height: 1;
+  }
+  .brand .dot {
+    color: var(--accent);
+    margin-left: 1px;
+  }
+  .nav-links {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .nav-links a:not(.btn) {
+    color: var(--ink-soft);
+    text-decoration: none;
+    transition: color .15s ease;
+  }
+  .nav-links a:not(.btn):hover { color: var(--accent); }
+  @media (max-width: 820px) { .nav-links a:not(.btn) { display: none; } }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    background: var(--ink);
+    color: var(--bg);
+    border-radius: 999px;
+    font-size: 13.5px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid var(--ink);
+    transition: all .18s ease;
+    cursor: pointer;
+  }
+  .btn:hover { background: var(--accent); border-color: var(--accent); transform: translateY(-1px); }
+  .btn.lg { padding: 16px 28px; font-size: 15px; border-radius: 999px; }
+  .btn.ghost { background: transparent; color: var(--ink); }
+  .btn.ghost:hover { background: var(--ink); color: var(--bg); border-color: var(--ink); transform: none; }
+  .btn .arrow { display: inline-block; transition: transform .18s; }
+  .btn:hover .arrow { transform: translateX(3px); }
+
+  /* ---------- TYPE ---------- */
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-mute);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .eyebrow::before {
+    content: "";
+    width: 16px; height: 1px;
+    background: var(--ink-mute);
+  }
+  h1.display, h2.display, h3.display {
+    font-family: var(--display);
+    font-weight: 600;
+    letter-spacing: -0.035em;
+    line-height: 0.96;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+  h1.display { font-size: clamp(48px, 8.5vw, 132px); font-weight: 700; }
+  h2.display { font-size: clamp(38px, 5.5vw, 84px); }
+  h3.display { font-size: clamp(26px, 3vw, 44px); font-weight: 600; }
+  .serif-it { font-family: var(--serif); font-style: italic; font-weight: 400; letter-spacing: -0.01em; }
+  .accent-ink { color: var(--accent); }
+  .mute { color: var(--ink-mute); }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    padding: clamp(48px, 8vw, 120px) 0 clamp(60px, 8vw, 100px);
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+  }
+  .hero-orbs {
+    position: absolute;
+    inset: -10% -5%;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+  }
+  .orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.55;
+    will-change: transform;
+  }
+  .orb-1 {
+    width: 520px; height: 520px;
+    top: -120px; right: -100px;
+    background: radial-gradient(circle, color-mix(in oklab, var(--accent) 60%, transparent), transparent 65%);
+  }
+  .orb-2 {
+    width: 420px; height: 420px;
+    bottom: -160px; left: -80px;
+    background: radial-gradient(circle, color-mix(in oklab, var(--accent) 40%, transparent), transparent 70%);
+    opacity: 0.42;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .orb { opacity: 0.2; }
+  }
+
+  /* hero h1 — default visible; JS adds opacity:0 then animates in */
+  .hero-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: clamp(40px, 6vw, 80px);
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .hero-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--ink-mute);
+    text-align: right;
+  }
+  .hero-meta strong { color: var(--ink); font-weight: 500; }
+  .hero h1 { margin: 0; }
+  .hero h1 .crossed {
+    position: relative;
+    display: inline-block;
+    color: var(--ink-mute);
+  }
+  .hero h1 .crossed::after {
+    content: "";
+    position: absolute;
+    left: -2%; right: -2%;
+    top: 52%;
+    height: 0.08em;
+    background: var(--accent);
+    transform: rotate(-2deg);
+  }
+  .hero h1 .fused {
+    color: var(--accent);
+    font-style: italic;
+    font-family: var(--serif);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+  .hero-sub {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-top: clamp(40px, 6vw, 72px);
+    align-items: end;
+  }
+  @media (max-width: 820px) { .hero-sub { grid-template-columns: 1fr; gap: 32px; } }
+  .hero-tag {
+    font-family: var(--display);
+    font-weight: 500;
+    font-size: clamp(20px, 2.2vw, 28px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    max-width: 32ch;
+  }
+  .hero-cta {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  /* ---------- SECTION SCAFFOLD ---------- */
+  section.s {
+    padding: clamp(80px, 12vw, 160px) 0;
+    border-top: 1px solid var(--line);
+  }
+  section.s.deep { background: var(--bg-soft); }
+  section.s.ink { background: var(--ink); color: var(--paper); }
+  section.s.ink .mute { color: #B8B0A2; }
+  section.s.ink h2.display, section.s.ink h3.display { color: var(--paper); }
+  section.s.ink .eyebrow { color: #B8B0A2; }
+  section.s.ink .eyebrow::before { background: #B8B0A2; }
+
+  .s-head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-bottom: clamp(48px, 6vw, 80px);
+    align-items: end;
+  }
+  @media (max-width: 820px) { .s-head { grid-template-columns: 1fr; gap: 24px; } }
+  .s-head .lede {
+    font-size: clamp(17px, 1.4vw, 20px);
+    color: var(--ink-mute);
+    max-width: 48ch;
+    line-height: 1.5;
+  }
+  section.s.ink .s-head .lede { color: #B8B0A2; }
+
+  /* ---------- PROBLEM / CONTEXT DIAGRAM ---------- */
+  .problem {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: clamp(40px, 5vw, 80px);
+    align-items: center;
+  }
+  @media (max-width: 960px) { .problem { grid-template-columns: 1fr; } }
+  .quote {
+    font-family: var(--serif);
+    font-size: clamp(28px, 3vw, 44px);
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  .quote .em { font-style: italic; color: var(--accent); }
+
+  .diagram-wrap {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    max-width: 540px;
+    margin-left: auto;
+  }
+  .diagram-wrap svg {
+    width: 100%; height: 100%;
+    overflow: visible;
+  }
+
+  /* ---------- PILLARS ---------- */
+  .pillars {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--line-strong);
+    border-top: 1px solid var(--line-strong);
+    border-bottom: 1px solid var(--line-strong);
+  }
+  @media (max-width: 960px) { .pillars { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .pillars { grid-template-columns: 1fr; } }
+  .pillar {
+    background: var(--bg-soft);
+    padding: 36px 28px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    position: relative;
+    transition: background .2s;
+  }
+  .pillar:hover { background: var(--bg-deep); }
+  .pillar:hover .pill-num { color: var(--accent); }
+  .pill-num {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--ink-mute);
+    transition: color .2s;
+  }
+  .pill-title {
+    font-family: var(--display);
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1;
+  }
+  .pill-desc {
+    font-size: 15px;
+    color: var(--ink-mute);
+    line-height: 1.5;
+  }
+
+  /* ---------- TIMELINE / PHASES ---------- */
+  .phases {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 40px;
+  }
+  @media (max-width: 820px) { .phases { grid-template-columns: 1fr; } }
+  .phase {
+    background: var(--paper);
+    border: 1px solid var(--line-strong);
+    border-radius: 4px;
+    padding: 32px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+  section.s.ink .phase {
+    background: #1F1B16;
+    border-color: #2F2A23;
+  }
+  .phase-bar {
+    height: 4px;
+    background: #2F2A23;
+    border-radius: 999px;
+    margin-bottom: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  .phase-bar::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--accent);
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 1.2s cubic-bezier(.2,.8,.2,1);
+  }
+  .phase.in-view .phase-bar::before { transform: scaleX(var(--fill, 0.33)); }
+  .phase-when {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .phase-title {
+    font-family: var(--display);
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+  .phase-desc {
+    font-size: 14.5px;
+    color: var(--ink-mute);
+  }
+  section.s.ink .phase-desc { color: #B8B0A2; }
+
+  /* ---------- WHY US ---------- */
+  .why {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    border-top: 1px solid var(--line-strong);
+  }
+  @media (max-width: 820px) { .why { grid-template-columns: 1fr; } }
+  .why-card {
+    padding: 40px 32px;
+    border-right: 1px solid var(--line-strong);
+    border-bottom: 1px solid var(--line-strong);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-height: 280px;
+    transition: background .2s;
+  }
+  .why-card:last-child { border-right: none; }
+  @media (max-width: 820px) { .why-card { border-right: none; } }
+  .why-card:hover { background: var(--bg-soft); }
+  .why-tag {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .why-headline {
+    font-family: var(--display);
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+  }
+  .why-body {
+    font-size: 14.5px;
+    color: var(--ink-mute);
+    margin-top: auto;
+  }
+
+  /* ---------- CHANNELS ---------- */
+  .channels {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: clamp(40px, 6vw, 80px);
+    align-items: start;
+  }
+  @media (max-width: 960px) { .channels { grid-template-columns: 1fr; } }
+  .channel-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 28px;
+  }
+  .chip {
+    padding: 10px 18px;
+    background: var(--bg);
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all .18s;
+    cursor: default;
+  }
+  .chip:hover { border-color: var(--accent); color: var(--accent); }
+  .chip .dot {
+    width: 6px; height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+  }
+  .verticals {
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    font-family: var(--display);
+    font-size: clamp(28px, 3.5vw, 44px);
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: var(--ink-soft);
+  }
+  .verticals span { position: relative; }
+  .verticals span:not(:last-child)::after {
+    content: "·";
+    color: var(--accent);
+    margin-left: 32px;
+  }
+
+  .channel-aside {
+    border: 1px solid var(--line-strong);
+    border-radius: 4px;
+    padding: 28px;
+    background: var(--paper);
+  }
+  .channel-aside h4 {
+    font-family: var(--display);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin-bottom: 18px;
+  }
+  .signal {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 14px 0;
+    border-bottom: 1px dashed var(--line-strong);
+    font-size: 14px;
+  }
+  .signal:last-child { border-bottom: none; }
+  .signal .label { color: var(--ink-mute); font-family: var(--mono); font-size: 12px; }
+  .signal .val { font-family: var(--display); font-weight: 600; font-size: 17px; letter-spacing: -0.01em; }
+  .signal .val.up { color: var(--accent); }
+
+  /* ---------- OUTCOME BIG STATEMENT ---------- */
+  .outcome { text-align: center; }
+  .outcome h2 { margin-bottom: 60px; }
+  .outcome-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 60px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (max-width: 720px) { .outcome-list { grid-template-columns: 1fr; } }
+  .outcome-item { text-align: left; }
+  .outcome-num {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: #B8B0A2;
+    margin-bottom: 8px;
+  }
+  .outcome-text {
+    font-family: var(--display);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    line-height: 1.2;
+  }
+
+  /* ---------- CTA ---------- */
+  .cta-section {
+    padding: clamp(100px, 14vw, 180px) 0;
+    text-align: center;
+    border-top: 1px solid var(--line);
+  }
+  .cta-section h2 {
+    margin: 0 auto 32px;
+    max-width: 18ch;
+  }
+  .cta-section .lede {
+    font-size: 19px;
+    color: var(--ink-mute);
+    max-width: 56ch;
+    margin: 0 auto 48px;
+  }
+  .cta-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  .cta-tag {
+    margin-top: 32px;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--ink-mute);
+  }
+  .cta-tag .live {
+    display: inline-block;
+    width: 8px; height: 8px;
+    background: var(--accent);
+    border-radius: 50%;
+    margin-right: 8px;
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.85); }
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer.site {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 80px 0 40px;
+  }
+  footer.site .top-row {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 60px;
+  }
+  @media (max-width: 820px) {
+    footer.site .top-row { grid-template-columns: 1fr 1fr; }
+  }
+  footer.site h5 {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: #B8B0A2;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 18px;
+    font-weight: 500;
+  }
+  footer.site .footer-brand {
+    font-family: var(--display);
+    font-size: clamp(40px, 5vw, 64px);
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    line-height: 1;
+  }
+  footer.site .footer-brand .dot { color: var(--accent); }
+  footer.site .tagline-foot {
+    margin-top: 14px;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: #B8B0A2;
+    letter-spacing: 0.04em;
+  }
+  footer.site ul { list-style: none; }
+  footer.site li { margin-bottom: 10px; font-size: 14px; }
+  footer.site a {
+    color: #D8D1C2;
+    text-decoration: none;
+    transition: color .15s;
+  }
+  footer.site a:hover { color: var(--accent); }
+  footer.site .legal {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    border-top: 1px solid #2F2A23;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: #8A8174;
+    letter-spacing: 0.04em;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  /* ---------- AGENTIC PREVIEW CARDS ---------- */
+  .preview-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 60px;
+  }
+  @media (max-width: 960px) { .preview-row { grid-template-columns: 1fr; } }
+  .preview {
+    background: var(--paper);
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform .25s ease, box-shadow .25s ease;
+  }
+  .preview:hover { transform: translateY(-3px); box-shadow: 0 18px 40px -20px #14111033; }
+  .preview-head {
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--line-strong);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-mute);
+  }
+  .preview-head .dots { display: flex; gap: 5px; }
+  .preview-head .dots i {
+    width: 8px; height: 8px;
+    background: var(--line-strong);
+    border-radius: 50%;
+    display: block;
+  }
+  .preview-body { padding: 24px 20px; min-height: 220px; }
+  .preview-title {
+    font-family: var(--display);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+  }
+  .preview-desc {
+    font-size: 13.5px;
+    color: var(--ink-mute);
+    margin-bottom: 18px;
+    line-height: 1.45;
+  }
+
+  /* Dashboard preview */
+  .dash-rows { display: flex; flex-direction: column; gap: 8px; }
+  .dash-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px dotted var(--line-strong);
+    font-size: 12.5px;
+  }
+  .dash-row:last-child { border-bottom: none; }
+  .dash-row .chan { font-family: var(--mono); color: var(--ink-mute); }
+  .dash-row .num { font-family: var(--display); font-weight: 600; font-size: 15px; }
+  .dash-row .delta { font-family: var(--mono); font-size: 11px; color: var(--accent); }
+
+  /* Query preview */
+  .query-msg {
+    background: var(--bg-deep);
+    padding: 12px 14px;
+    border-radius: 10px 10px 10px 2px;
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 10px;
+    max-width: 90%;
+  }
+  .query-answer {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 12px 14px;
+    border-radius: 10px 10px 2px 10px;
+    font-size: 13px;
+    margin-left: auto;
+    max-width: 90%;
+    font-family: var(--mono);
+  }
+  .query-answer .hl { color: var(--accent); }
+
+  /* Agent preview */
+  .agent-list { display: flex; flex-direction: column; gap: 10px; }
+  .agent-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    padding: 8px 10px;
+    background: var(--bg);
+    border-radius: 4px;
+  }
+  .agent-item .tick {
+    width: 14px; height: 14px;
+    border-radius: 3px;
+    background: var(--accent);
+    color: white;
+    display: grid; place-items: center;
+    font-size: 10px;
+    flex-shrink: 0;
+  }
+  .agent-item.pending .tick { background: transparent; border: 1px dashed var(--ink-mute); }
+  .agent-item.pending { color: var(--ink-mute); }
+
+  /* ---------- TICKER STRIP ---------- */
+  .ticker {
+    overflow: hidden;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background: var(--paper);
+    padding: 18px 0;
+  }
+  .ticker-track {
+    display: flex;
+    gap: 60px;
+    white-space: nowrap;
+    animation: marquee 38s linear infinite;
+    font-family: var(--display);
+    font-size: clamp(20px, 2.2vw, 28px);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    width: max-content;
+  }
+  .ticker-track span { display: inline-flex; align-items: center; gap: 60px; }
+  .ticker-track .star { color: var(--accent); font-size: 0.7em; }
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* ---------- SR-ONLY (visually hidden, crawlable) ---------- */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>
+
+<!-- ========= STRUCTURED DATA (Schema.org JSON-LD) ========= -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Big Tre",
+  "alternateName": ["Big Tre Co.", "บริษัท บิ๊กเทร", "Big Tre AI"],
+  "description": "AI-Fused Company building business context layers for growing Thai SMEs. Multi-channel commerce, live dashboards, agentic AI teammates.",
+  "url": "https://bigtre.business/",
+  "logo": "https://bigtre.business/favicon.svg",
+  "image": "https://bigtre.business/favicon.svg",
+  "email": "hello@bigtre.business",
+  "telephone": "+66829256365",
+  "priceRange": "฿฿",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bangkok",
+    "addressCountry": "TH"
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "Thailand" },
+    { "@type": "AdministrativeArea", "name": "Bangkok" }
+  ],
+  "serviceType": [
+    "AI Consulting",
+    "Business Intelligence",
+    "Data Integration",
+    "Multi-channel Commerce Automation",
+    "AI Agent Development"
+  ],
+  "knowsLanguage": ["en", "th"],
+  "slogan": "Your tech and data, made to work.",
+  "sameAs": []
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the AI Readiness Health Check?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A free, one-week review where Big Tre learns your business and gives you an honest read on where you stand and what's worth doing first. No deck, no pitch, no commitment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is Big Tre built for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Multi-channel Thai SMEs with revenue of ฿20M to ฿500M per year, growing, with three or more sales channels and a small or no tech team. Strong fit for Fashion, CPG, Cosmetics, and D2C verticals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is Big Tre different from a typical AI consultant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Big Tre operates and analyzes as well as engineers. Top-tier engineering standards applied at Thai SME prices, built around how Thai businesses actually run."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What channels does Big Tre integrate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shopee, Lazada, TikTok Shop, Shopify, LINE OA, Facebook, offline POS, custom ERPs, accounting, inventory, logistics, marketing, and procurement systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "AI Readiness Health Check คืออะไร?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "บริการตรวจสอบความพร้อมของธุรกิจคุณในการนำ AI มาใช้งานจริง ฟรี ไม่มีค่าใช้จ่าย ใช้เวลาเรียนรู้ธุรกิจของคุณประมาณ 1 สัปดาห์ จบด้วยคำแนะนำที่ตรงไปตรงมาว่าควรเริ่มจากตรงไหน"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "บริการของ Big Tre ครอบคลุมอะไรบ้าง?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Executive Dashboard รวมยอดขาย, ระบบ Automation งานหลังบ้าน, AI Agent ที่เข้าใจธุรกิจของคุณ และที่ปรึกษากลยุทธ์ AI สำหรับ E-commerce หลายช่องทาง รวมถึง Shopee, Lazada, TikTok Shop, Shopify, LINE OA, Facebook"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Big Tre เหมาะกับธุรกิจแบบไหน?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ธุรกิจ SME ไทยที่มียอดขาย 20 ถึง 500 ล้านบาทต่อปี ขายผ่านสามช่องทางขึ้นไป และยังไม่มีทีม IT ขนาดใหญ่ เหมาะกับวงการแฟชั่น CPG เครื่องสำอาง และ D2C"
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Big Tre",
+  "url": "https://bigtre.business/",
+  "logo": "https://bigtre.business/favicon.svg",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+66829256365",
+    "contactType": "sales",
+    "email": "hello@bigtre.business",
+    "areaServed": "TH",
+    "availableLanguage": ["English", "Thai"]
+  }
+}
+</script>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="top">
+  <div class="container inner">
+    <a href="#" class="brand">Big&nbsp;Tre<span class="dot">↟</span></a>
+    <div class="nav-links">
+      <a href="#problem">The Problem</a>
+      <a href="#service">Service</a>
+      <a href="#phases">How it works</a>
+      <a href="#whyus">Why us</a>
+      <a href="#cta" class="btn">Free Health Check <span class="arrow">→</span></a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero-orbs" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+  </div>
+  <div class="container">
+    <div class="hero-top">
+      <span class="eyebrow">AI-Fused Company · v1.0 · 2026</span>
+      <div class="hero-meta">
+        <span><strong>Bangkok</strong> / Operating</span>
+        <span>Now booking · Q3 2026</span>
+      </div>
+    </div>
+
+    <h1 class="display">
+      From <span class="crossed">AI Confused</span><br>
+      to <span class="fused">AI Fused</span> Company.
+    </h1>
+
+    <div class="hero-sub">
+      <p class="hero-tag">
+        Your tech and data, made to work. We build the business context layer that finally lets AI deliver for growing Thai SMEs.
+      </p>
+      <div class="hero-cta">
+        <a href="#cta" class="btn lg">Start free Health Check <span class="arrow">→</span></a>
+        <a href="#service" class="btn lg ghost">See what we do</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ TICKER ============ -->
+<div class="ticker">
+  <div class="ticker-track">
+    <span>
+      Shopee <i class="star">✦</i> Lazada <i class="star">✦</i> TikTok Shop <i class="star">✦</i> Shopify <i class="star">✦</i> LINE OA <i class="star">✦</i> Facebook <i class="star">✦</i> Offline POS <i class="star">✦</i> Accounting <i class="star">✦</i> Inventory <i class="star">✦</i> Logistics <i class="star">✦</i> Marketing <i class="star">✦</i> Procurement <i class="star">✦</i>
+    </span>
+    <span>
+      Shopee <i class="star">✦</i> Lazada <i class="star">✦</i> TikTok Shop <i class="star">✦</i> Shopify <i class="star">✦</i> LINE OA <i class="star">✦</i> Facebook <i class="star">✦</i> Offline POS <i class="star">✦</i> Accounting <i class="star">✦</i> Inventory <i class="star">✦</i> Logistics <i class="star">✦</i> Marketing <i class="star">✦</i> Procurement <i class="star">✦</i>
+    </span>
+  </div>
+</div>
+
+<!-- ============ PROBLEM ============ -->
+<section class="s" id="problem">
+  <div class="container">
+    <div class="s-head">
+      <div>
+        <span class="eyebrow">01 / The Problem</span>
+        <h2 class="display" style="margin-top:24px;">AI is nothing<br>without <span class="serif-it">context.</span></h2>
+      </div>
+      <p class="lede">
+        Losers use AI like a chatbot. Winners build the data foundation first. The bottleneck isn't AI. It's the business context and integration nobody wants to organize.
+      </p>
+    </div>
+
+    <div class="problem">
+      <div>
+        <p class="quote">
+          You cannot be your<br>
+          company's <span class="em">context forever.</span>
+        </p>
+        <p class="mute" style="margin-top:28px; font-size:16px; max-width:42ch;">
+          Today, eight things you know about your business live in your head: how the storefront thinks, how returns work, why margins moved last month, which supplier is reliable. The moment AI needs any of that, it can't get there.
+        </p>
+        <div style="display:flex; gap:24px; margin-top:36px; flex-wrap:wrap;">
+          <div class="signal" style="border:none; padding:0; min-width:160px;">
+            <div>
+              <div class="label">Generic chatbots</div>
+              <div class="val">Not real AI</div>
+            </div>
+          </div>
+          <div class="signal" style="border:none; padding:0; min-width:160px;">
+            <div>
+              <div class="label">Three systems</div>
+              <div class="val">No source of truth</div>
+            </div>
+          </div>
+          <div class="signal" style="border:none; padding:0; min-width:160px;">
+            <div>
+              <div class="label">Rules in 5 heads</div>
+              <div class="val">Double entry</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- The diagram, animated -->
+      <div class="diagram-wrap" id="diagram">
+        <svg viewBox="-260 -260 520 520" aria-hidden="true">
+          <defs>
+            <radialGradient id="ownerGrad" cx="50%" cy="50%">
+              <stop offset="0%" stop-color="#0E5C3B" stop-opacity="0.9"/>
+              <stop offset="100%" stop-color="#0E5C3B" stop-opacity="0"/>
+            </radialGradient>
+            <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+              <circle cx="1" cy="1" r="1" fill="#14111022"/>
+            </pattern>
+          </defs>
+
+          <!-- outer business ring -->
+          <circle cx="0" cy="0" r="240" fill="none" stroke="#14111033" stroke-dasharray="4 6" stroke-width="1"/>
+          <circle cx="0" cy="0" r="180" fill="none" stroke="#14111022" stroke-width="1"/>
+
+          <!-- nodes around the ring -->
+          <g id="nodes" font-family="Geist Mono, monospace" font-size="11" fill="#14110D"></g>
+
+          <!-- connecting lines from each node to center -->
+          <g id="links" stroke="#0E5C3B" stroke-width="1.2" stroke-linecap="round" opacity="0.0"></g>
+
+          <!-- center: Owner / Context -->
+          <circle cx="0" cy="0" r="64" fill="url(#ownerGrad)" id="ownerHalo" opacity="0"/>
+          <circle cx="0" cy="0" r="46" fill="#14110D" id="ownerDot"/>
+          <text x="0" y="-4" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-weight="700" font-size="13" fill="#F2EEE5">OWNER</text>
+          <text x="0" y="12" text-anchor="middle" font-family="Geist Mono, monospace" font-size="9" fill="#F2EEE5" opacity="0.7">CONTEXT</text>
+
+          <!-- AI orbit -->
+          <circle cx="0" cy="0" r="100" fill="none" stroke="#0E5C3B" stroke-width="1" stroke-dasharray="2 4" opacity="0.6"/>
+          <g id="aiBlob" transform="translate(100 0)">
+            <circle r="14" fill="#0E5C3B"/>
+            <text x="0" y="3" text-anchor="middle" font-family="Geist Mono, monospace" font-size="9" font-weight="600" fill="#F2EEE5">AI</text>
+          </g>
+        </svg>
+        <div style="position:absolute; bottom:-40px; left:0; right:0; text-align:center; font-family:var(--mono); font-size:11px; color:var(--ink-mute);">
+          → To paint the picture, you have to get out of the frame.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICE / PILLARS ============ -->
+<section class="s deep" id="service">
+  <div class="container">
+    <div class="s-head">
+      <div>
+        <span class="eyebrow">02 / Our Service</span>
+        <h2 class="display" style="margin-top:24px;">Not a dashboard.<br>Not another SaaS.<br><span class="serif-it">A context layer.</span></h2>
+      </div>
+      <p class="lede">
+        One source of truth organized around your business, used by everyone: managers, teams, your AI. Four pillars, shipped in phases. Working output from week one.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="pillars">
+      <div class="pillar">
+        <div>
+          <div class="pill-num">01 / Strategy</div>
+          <div class="pill-title" style="margin-top:20px;">Know what you're optimizing.</div>
+        </div>
+        <div class="pill-desc">An operator-led read on your business: what actually moves the number, what's vanity, what's worth automating first.</div>
+      </div>
+      <div class="pillar">
+        <div>
+          <div class="pill-num">02 / Visibility</div>
+          <div class="pill-title" style="margin-top:20px;">Live numbers. One truth.</div>
+        </div>
+        <div class="pill-desc">Every channel talking to every other. Stock signals, margin alerts, and answers to questions you didn't know to ask.</div>
+      </div>
+      <div class="pillar">
+        <div>
+          <div class="pill-num">03 / Automation</div>
+          <div class="pill-title" style="margin-top:20px;">Daily flows run themselves.</div>
+        </div>
+        <div class="pill-desc">Double entry, manual exports, copy-paste reconciliation: all gone. The boring 60% of every team's day, automated.</div>
+      </div>
+      <div class="pillar">
+        <div>
+          <div class="pill-num">04 / AI Teammate</div>
+          <div class="pill-title" style="margin-top:20px;">An operator who reads everything.</div>
+        </div>
+        <div class="pill-desc">Drafts campaigns from your brand voice. Answers like a five-year veteran. Reviews proposals against your real margins.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Agentic Previews -->
+  <div class="container">
+    <div class="preview-row">
+      <div class="preview">
+        <div class="preview-head">
+          <span>EXECUTIVE / live</span>
+          <div class="dots"><i></i><i></i><i></i></div>
+        </div>
+        <div class="preview-body">
+          <div class="preview-title">Executive Dashboard</div>
+          <div class="preview-desc">Live numbers across every channel.</div>
+          <div class="dash-rows">
+            <div class="dash-row"><span class="chan">SHOPEE</span><span class="num">฿ 412,820</span><span class="delta">+18.2%</span></div>
+            <div class="dash-row"><span class="chan">LAZADA</span><span class="num">฿ 287,400</span><span class="delta">+6.4%</span></div>
+            <div class="dash-row"><span class="chan">TIKTOK</span><span class="num">฿ 198,210</span><span class="delta">+44.1%</span></div>
+            <div class="dash-row"><span class="chan">SHOPIFY</span><span class="num">฿ 94,500</span><span class="delta">+12.7%</span></div>
+            <div class="dash-row"><span class="chan">OFFLINE</span><span class="num">฿ 61,930</span><span class="delta">+3.1%</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div class="preview-head">
+          <span>QUERYABLE / company</span>
+          <div class="dots"><i></i><i></i><i></i></div>
+        </div>
+        <div class="preview-body">
+          <div class="preview-title">Queryable Company</div>
+          <div class="preview-desc">Anyone answers like a five-year veteran.</div>
+          <div class="query-msg">Why did margin drop on the new launch last week?</div>
+          <div class="query-answer">Returns spiked <span class="hl">+9.4%</span> on size M.<br>QC flagged stitching defect, batch <span class="hl">#A412</span>.<br>Margin recovers by Friday once cleared.</div>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div class="preview-head">
+          <span>AGENTIC / teammate</span>
+          <div class="dots"><i></i><i></i><i></i></div>
+        </div>
+        <div class="preview-body">
+          <div class="preview-title">Agentic Teammate</div>
+          <div class="preview-desc">Your content writer's new partner.</div>
+          <div class="agent-list">
+            <div class="agent-item"><span class="tick">✓</span> Pulled 7-day winners from TikTok</div>
+            <div class="agent-item"><span class="tick">✓</span> Matched to in-stock SKUs</div>
+            <div class="agent-item"><span class="tick">✓</span> Drafted 4 captions, your tone</div>
+            <div class="agent-item pending"><span class="tick"></span> Awaiting your review</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PHASES ============ -->
+<section class="s ink" id="phases">
+  <div class="container">
+    <div class="s-head">
+      <div>
+        <span class="eyebrow">03 / How it Ships</span>
+        <h2 class="display" style="margin-top:24px;">Built in phases.<br><span class="serif-it" style="color:var(--accent);">Value from week one.</span></h2>
+      </div>
+      <p class="lede">
+        Every phase ships working output. You don't pay for a six-month plan that ends in nothing. You see results before you commit to the next stage.
+      </p>
+    </div>
+
+    <div class="phases">
+      <div class="phase" style="--fill: 0.30;">
+        <div class="phase-bar"></div>
+        <div class="phase-when">Week 1–6 / Know your business</div>
+        <div class="phase-title">Live dashboards.<br>One source of truth.</div>
+        <div class="phase-desc">We integrate every channel and normalize every number. By week six you stop guessing, and you stop being the bottleneck.</div>
+      </div>
+      <div class="phase" style="--fill: 0.65;">
+        <div class="phase-bar"></div>
+        <div class="phase-when">Month 2–4 / Run it across teams</div>
+        <div class="phase-title">Daily flows run<br>themselves.</div>
+        <div class="phase-desc">Automate the boring 60%. Listings, reconciliation, stock alerts, fulfillment hand-offs. Your team works on judgment, not data entry.</div>
+      </div>
+      <div class="phase" style="--fill: 1.0;">
+        <div class="phase-bar"></div>
+        <div class="phase-when">Month 5–12 / AI as your teammate</div>
+        <div class="phase-title">Answers. Operate.<br>You review.</div>
+        <div class="phase-desc">Agentic teammates work inside your context. They draft, propose, summarize. You keep the final call where it counts.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section class="s" id="whyus">
+  <div class="container">
+    <div class="s-head">
+      <div>
+        <span class="eyebrow">04 / Why Us</span>
+        <h2 class="display" style="margin-top:24px;">Silicon Valley discipline.<br><span class="serif-it">Thai SME pricing.</span></h2>
+      </div>
+      <p class="lede">
+        Our founders have lived both sides, Thai SME operations and top-tier engineering, and watched owners pay for AI, SaaS, and consultants while still running the business on spreadsheets.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="why">
+      <div class="why-card">
+        <div class="why-tag">01 / Business Domain</div>
+        <div class="why-headline">Operators and analysts who also engineer.</div>
+        <div class="why-body">Every number we ship has been pressure-tested by someone who knows what it means for your P&L.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-tag">02 / Top Engineers</div>
+        <div class="why-headline">Top-tier engineering at Thai SME prices.</div>
+        <div class="why-body">Engineering standards from the world's top product teams, brought to Thai SME problems at Thai SME pricing.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-tag">03 / Thai SME Native</div>
+        <div class="why-headline">Speaks accounting, staff, and trade.</div>
+        <div class="why-body">Built around how Thai businesses actually run: owner-led culture, traditional trade, staff management, the real workflows.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BUILT FOR ============ -->
+<section class="s deep" id="built-for">
+  <div class="container">
+    <div class="s-head">
+      <div>
+        <span class="eyebrow">05 / Built For</span>
+        <h2 class="display" style="margin-top:24px;">E-commerce that<br>runs <span class="serif-it">everywhere.</span></h2>
+      </div>
+      <p class="lede">
+        Multi-channel sellers with revenue growing, margins squeezed, and no tech team. We do the integration work nobody wants to organize.
+      </p>
+    </div>
+
+    <div class="channels">
+      <div>
+        <div style="font-family: var(--mono); font-size: 12px; color: var(--ink-mute); margin-bottom: 4px; letter-spacing: 0.06em;">CHANNELS WE LIVE INSIDE</div>
+        <div class="channel-list">
+          <div class="chip"><span class="dot"></span>Shopee</div>
+          <div class="chip"><span class="dot"></span>Lazada</div>
+          <div class="chip"><span class="dot"></span>TikTok Shop</div>
+          <div class="chip"><span class="dot"></span>Shopify</div>
+          <div class="chip"><span class="dot"></span>LINE OA</div>
+          <div class="chip"><span class="dot"></span>Facebook</div>
+          <div class="chip"><span class="dot"></span>Offline POS</div>
+          <div class="chip"><span class="dot"></span>Custom ERP</div>
+        </div>
+
+        <div style="font-family: var(--mono); font-size: 12px; color: var(--ink-mute); margin: 40px 0 12px; letter-spacing: 0.06em;">VERTICALS WE KNOW DEEPLY</div>
+        <div class="verticals">
+          <span>Fashion</span>
+          <span>CPG</span>
+          <span>Cosmetics</span>
+          <span>D2C</span>
+        </div>
+      </div>
+
+      <div class="channel-aside">
+        <h4>The fit, in three lines</h4>
+        <div class="signal">
+          <div>
+            <div class="label">REVENUE</div>
+            <div class="val">฿20M–฿500M</div>
+          </div>
+          <div class="val up">growing</div>
+        </div>
+        <div class="signal">
+          <div>
+            <div class="label">CHANNELS</div>
+            <div class="val">3 or more</div>
+          </div>
+          <div class="val up">fragmented</div>
+        </div>
+        <div class="signal">
+          <div>
+            <div class="label">TECH TEAM</div>
+            <div class="val">None to small</div>
+          </div>
+          <div class="val up">stretched</div>
+        </div>
+        <div style="margin-top:24px; padding-top:20px; border-top:1px solid var(--line-strong); font-size:13.5px; color:var(--ink-mute); font-family:var(--mono); line-height:1.5;">
+          Sound like you?<br>
+          <a href="#cta" style="color:var(--accent); text-decoration:none; font-weight:500;">→ Start with a free Health Check</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OUTCOME ============ -->
+<section class="s ink">
+  <div class="container outcome">
+    <span class="eyebrow">06 / The Outcome</span>
+    <h2 class="display" style="margin: 32px auto 0; max-width: 18ch;">
+      From chaos<br>to clarity<br><span class="serif-it" style="color:var(--accent);">in weeks.</span>
+    </h2>
+
+    <div class="outcome-list">
+      <div class="outcome-item">
+        <div class="outcome-num">01</div>
+        <div class="outcome-text">Every system talking.</div>
+      </div>
+      <div class="outcome-item">
+        <div class="outcome-num">02</div>
+        <div class="outcome-text">Every number trusted.</div>
+      </div>
+      <div class="outcome-item">
+        <div class="outcome-num">03</div>
+        <div class="outcome-text">Every question answered.</div>
+      </div>
+    </div>
+
+    <p style="margin-top: 60px; font-family: var(--serif); font-size: clamp(20px, 2.2vw, 28px); font-style: italic; color: #B8B0A2; max-width: 30ch; margin-left: auto; margin-right: auto;">
+      A 50-person company. Operating like a 500-person one.
+    </p>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta-section" id="cta">
+  <div class="container">
+    <span class="eyebrow" style="display:inline-flex; justify-content:center;">Start Here · Free</span>
+    <h2 class="display" style="margin-top: 32px;">
+      AI Readiness<br><span class="serif-it">Health Check.</span>
+    </h2>
+    <p class="lede" style="margin: 32px auto 0;">
+      We spend a week learning your business. You get an honest read on where you stand, and what's worth doing first. No deck. No pitch. No commitment.
+    </p>
+    <div class="cta-row" style="margin-top: 48px;">
+      <a href="mailto:hello@bigtre.business" class="btn lg">Book the Health Check <span class="arrow">→</span></a>
+      <a href="tel:+66829256365" class="btn lg ghost">+66 82-925-6365</a>
+    </div>
+    <div class="cta-tag">
+      <span class="live"></span>Currently booking for Q3 2026 · 4 slots open
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site">
+  <div class="container">
+    <div class="top-row">
+      <div>
+        <div class="footer-brand">Big&nbsp;Tre<span class="dot">↟</span></div>
+        <div class="tagline-foot">YOUR TECH AND DATA. MADE TO WORK.</div>
+        <div style="margin-top: 28px; font-size: 14px; color: #B8B0A2; max-width: 36ch; line-height: 1.5;">
+          The AI-Fused company for growing Thai SMEs. Operating from Bangkok.
+        </div>
+      </div>
+      <div>
+        <h5>Service</h5>
+        <ul>
+          <li><a href="#service">Strategy</a></li>
+          <li><a href="#service">Visibility</a></li>
+          <li><a href="#service">Automation</a></li>
+          <li><a href="#service">AI Teammate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#whyus">Our Story</a></li>
+          <li><a href="#whyus">Team</a></li>
+          <li><a href="#built-for">Who it's for</a></li>
+          <li><a href="#phases">How it ships</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:hello@bigtre.business">hello@bigtre.business</a></li>
+          <li><a href="tel:+66829256365">+66 82-925-6365</a></li>
+          <li><a href="https://bigtre.business">www.bigtre.business</a></li>
+          <li><a href="#cta">Free Health Check</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© 2026 BIG TRE · AI-FUSED COMPANY</span>
+      <span>v1.0 · BANGKOK</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ========= THAI SEO / AEO / LLM CONTEXT (sr-only) ========= -->
+<section class="sr-only" lang="th" aria-label="ข้อมูลภาษาไทย">
+  <h2>Big Tre · บริษัทที่ปรึกษา AI สำหรับธุรกิจ SME ไทย</h2>
+  <p>
+    Big Tre (บิ๊กเทร) คือบริษัท AI-Fused Company สำหรับธุรกิจ SME ในประเทศไทยที่กำลังเติบโต เราออกแบบและติดตั้งระบบ Business Context Layer ที่เชื่อมต่อข้อมูลจากทุกช่องทางเข้าด้วยกัน Shopee, Lazada, TikTok Shop, Shopify, LINE OA, Facebook Shop และระบบ POS หน้าร้าน เพื่อให้ AI ทำงานร่วมกับธุรกิจของคุณได้จริง ไม่ใช่แค่ chatbot ทั่วไป
+  </p>
+
+  <h3>บริการของ Big Tre</h3>
+  <ul>
+    <li>Executive Dashboard รวมยอดขาย สต็อก และอัตรากำไรจากทุกช่องทางแบบ Real-time</li>
+    <li>ระบบ Automation อัตโนมัติงานหลังบ้าน ลดงานซ้ำซ้อนได้ถึง 60%</li>
+    <li>AI Agent และ Agentic Teammate ที่เข้าใจธุรกิจ ตอบคำถาม ร่างเนื้อหา และตัดสินใจตามข้อมูลของคุณ</li>
+    <li>บริการที่ปรึกษากลยุทธ์ AI สำหรับ E-commerce หลายช่องทาง (Multi-channel Commerce)</li>
+    <li>AI Readiness Health Check ตรวจสอบความพร้อมการใช้ AI ฟรี ใช้เวลา 1 สัปดาห์</li>
+    <li>Data Integration เชื่อมต่อระบบบัญชี สต็อก ขนส่ง และการตลาดให้คุยกัน</li>
+  </ul>
+
+  <h3>เหมาะกับธุรกิจแบบไหน</h3>
+  <p>
+    ธุรกิจ SME ไทยที่มีรายได้ 20 ล้านถึง 500 ล้านบาทต่อปี ขายผ่านสามช่องทางขึ้นไป และยังไม่มีทีม IT ขนาดใหญ่ เหมาะกับวงการแฟชั่น (Fashion), สินค้าอุปโภคบริโภค (CPG), เครื่องสำอาง (Cosmetics) และ Direct-to-Consumer (D2C)
+  </p>
+
+  <h3>คำถามที่พบบ่อย (FAQ)</h3>
+  <p><strong>AI Readiness Health Check คืออะไร?</strong> เป็นบริการตรวจสอบความพร้อมของธุรกิจคุณในการนำ AI มาใช้งานจริง ฟรี ไม่มีค่าใช้จ่าย ใช้เวลาเรียนรู้ธุรกิจของคุณประมาณ 1 สัปดาห์ จบด้วยคำแนะนำที่ตรงไปตรงมาว่าควรเริ่มจากตรงไหน ไม่มี deck ไม่มี pitch ไม่ผูกมัด</p>
+  <p><strong>Big Tre ตั้งอยู่ที่ไหน?</strong> สำนักงานในกรุงเทพมหานคร ประเทศไทย ให้บริการกับธุรกิจ SME ทั่วประเทศไทย</p>
+  <p><strong>Big Tre แตกต่างจากที่ปรึกษา AI อื่นอย่างไร?</strong> เราเป็นทั้งผู้ประกอบการ (Operator) นักวิเคราะห์ (Analyst) และวิศวกรซอฟต์แวร์ระดับโลก ไม่ใช่แค่บริษัท IT ทั่วไป เรานำมาตรฐานทางวิศวกรรมระดับ Silicon Valley มาให้ในราคาที่ SME ไทยเอื้อมถึงได้</p>
+  <p><strong>Big Tre รับงานเฟสไหนบ้าง?</strong> ทำงานเป็น 3 เฟส เฟสแรก (สัปดาห์ที่ 1-6) สร้าง Dashboard และ Data Foundation, เฟสสอง (เดือนที่ 2-4) ติดตั้ง Automation, เฟสสาม (เดือนที่ 5-12) ใส่ AI Agent ทำงานเหมือนทีมงาน</p>
+  <p><strong>เริ่มต้นใช้บริการอย่างไร?</strong> ติดต่อเราที่ hello@bigtre.business หรือโทร +66 82-925-6365 เพื่อขอ AI Readiness Health Check ฟรี เปิดรับ Q3 2026</p>
+
+  <h3>คำสำคัญที่เกี่ยวข้อง</h3>
+  <p>
+    ที่ปรึกษา AI สำหรับ SME, AI สำหรับธุรกิจไทย, ระบบ ERP สำหรับ SME ไทย, AI Agent ภาษาไทย, ระบบเชื่อมต่อ Shopee Lazada TikTok Shop, Business Intelligence ธุรกิจไทย, Multi-channel Commerce Thailand, AI-Fused Company, AI Confused vs AI Fused, Data Integration SME, Automation ธุรกิจไทย, AI Bangkok, AI Thailand, ที่ปรึกษาดิจิทัล SME, ระบบรวมข้อมูลขายออนไลน์, Dashboard ผู้บริหาร, Real-time Sales Dashboard, ระบบหลังบ้าน E-commerce, AI Agentic, LLM สำหรับธุรกิจ, ปรึกษา AI กรุงเทพ, Big Tre, บิ๊กเทร, บริษัท Big Tre
+  </p>
+</section>
+
+<!-- ===================== ANIMATIONS (GSAP) ===================== -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script>
+(() => {
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Force scroll to top on refresh (before paint)
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  window.scrollTo(0, 0);
+
+  // ------- Hero entrance choreography -------
+  const heroTl = gsap.timeline({ defaults: { ease: 'expo.out' } });
+  heroTl
+    .from('.hero-top > *', { y: 18, opacity: 0, duration: 0.8, stagger: 0.08 })
+    .from('.hero h1', { y: 40, opacity: 0, duration: 1.1 }, '-=0.4')
+    .from('.hero-tag', { y: 24, opacity: 0, duration: 0.9 }, '-=0.7')
+    .from('.hero-cta > *', { y: 18, opacity: 0, duration: 0.8, stagger: 0.08 }, '-=0.6');
+
+  // Hero orb parallax (scrub)
+  if (!reduceMotion) {
+    gsap.to('.orb-1', {
+      yPercent: 35, xPercent: -8, ease: 'none',
+      scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: 1.2 }
+    });
+    gsap.to('.orb-2', {
+      yPercent: -25, xPercent: 6, ease: 'none',
+      scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: 1.2 }
+    });
+    // Idle float
+    gsap.to('.orb-1', { x: 30, y: -20, duration: 9, yoyo: true, repeat: -1, ease: 'sine.inOut' });
+    gsap.to('.orb-2', { x: -25, y: 18, duration: 11, yoyo: true, repeat: -1, ease: 'sine.inOut' });
+  }
+
+  // ------- Section header reveals -------
+  gsap.utils.toArray('section.s, .cta-section').forEach(section => {
+    const items = section.querySelectorAll('.s-head .eyebrow, .s-head h2, .s-head .lede, .cta-section .eyebrow, .cta-section h2, .cta-section .lede, .cta-section .cta-row, .cta-section .cta-tag');
+    if (!items.length) return;
+    gsap.from(items, {
+      y: 30, opacity: 0,
+      duration: 0.95,
+      ease: 'expo.out',
+      stagger: 0.08,
+      scrollTrigger: { trigger: section, start: 'top 80%' }
+    });
+  });
+
+  // ------- Card grid reveals -------
+  const cardGroups = [
+    { trigger: '.pillars', items: '.pillar' },
+    { trigger: '.preview-row', items: '.preview' },
+    { trigger: '.phases', items: '.phase' },
+    { trigger: '.why', items: '.why-card' },
+    { trigger: '.outcome-list', items: '.outcome-item' },
+    { trigger: '.channel-list', items: '.chip' },
+  ];
+  cardGroups.forEach(({ trigger, items }) => {
+    const trg = document.querySelector(trigger);
+    if (!trg) return;
+    gsap.from(trg.querySelectorAll(items), {
+      y: 24, opacity: 0,
+      duration: 0.7,
+      ease: 'power3.out',
+      stagger: { each: 0.07, from: 'start' },
+      scrollTrigger: { trigger: trg, start: 'top 82%' }
+    });
+  });
+
+  // ------- Phase bars (animate fill on enter) -------
+  document.querySelectorAll('.phase').forEach(phase => {
+    ScrollTrigger.create({
+      trigger: phase, start: 'top 80%',
+      onEnter: () => phase.classList.add('in-view')
+    });
+  });
+
+  // ------- Number counters (dashboard) -------
+  document.querySelectorAll('.dash-row .num').forEach(el => {
+    const text = el.textContent;
+    const m = text.match(/[\d,]+/);
+    if (!m) return;
+    const target = parseInt(m[0].replace(/,/g, ''), 10);
+    if (isNaN(target)) return;
+    const prefix = text.substring(0, m.index);
+    const suffix = text.substring(m.index + m[0].length);
+    el.textContent = prefix + '0' + suffix;
+    ScrollTrigger.create({
+      trigger: el, start: 'top 92%', once: true,
+      onEnter: () => {
+        const obj = { v: 0 };
+        gsap.to(obj, {
+          v: target, duration: 1.6, ease: 'power3.out',
+          onUpdate: () => { el.textContent = prefix + Math.round(obj.v).toLocaleString() + suffix; }
+        });
+      }
+    });
+  });
+
+  // ------- Verticals subtle stagger -------
+  const verticals = document.querySelector('.verticals');
+  if (verticals) {
+    gsap.from(verticals.querySelectorAll('span'), {
+      y: 28, opacity: 0,
+      duration: 0.8,
+      ease: 'expo.out',
+      stagger: 0.1,
+      scrollTrigger: { trigger: verticals, start: 'top 85%' }
+    });
+  }
+
+  // ------- Magnetic CTAs -------
+  if (!reduceMotion && !window.matchMedia('(pointer: coarse)').matches) {
+    document.querySelectorAll('.btn.lg').forEach(btn => {
+      btn.addEventListener('mousemove', (e) => {
+        const r = btn.getBoundingClientRect();
+        const x = e.clientX - r.left - r.width / 2;
+        const y = e.clientY - r.top - r.height / 2;
+        gsap.to(btn, { x: x * 0.18, y: y * 0.22, duration: 0.5, ease: 'power3.out' });
+      });
+      btn.addEventListener('mouseleave', () => {
+        gsap.to(btn, { x: 0, y: 0, duration: 0.7, ease: 'elastic.out(1, 0.45)' });
+      });
+    });
+  }
+
+  // ===== DIAGRAM =====
+  const nodesEl = document.getElementById('nodes');
+  const linksEl = document.getElementById('links');
+  if (nodesEl && linksEl) {
+    const nodes = [
+      { label: 'Inventory',   angle: -90 },
+      { label: 'Analytics',   angle: -45 },
+      { label: 'Online',      angle:   0 },
+      { label: 'Accounting',  angle:  45 },
+      { label: 'Marketing',   angle:  90 },
+      { label: 'Logistics',   angle: 135 },
+      { label: 'Offline',     angle: 180 },
+      { label: 'Procurement', angle: 225 },
+    ];
+    const R = 200;
+    const nodeGroups = [];
+    const lineEls = [];
+
+    nodes.forEach((n, i) => {
+      const rad = (n.angle * Math.PI) / 180;
+      const x = Math.cos(rad) * R;
+      const y = Math.sin(rad) * R;
+
+      const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+      g.setAttribute('transform', `translate(${x*0.55} ${y*0.55})`);
+      g.setAttribute('opacity', '0');
+      g.dataset.x = x; g.dataset.y = y;
+
+      const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+      const w = n.label.length * 7 + 18;
+      rect.setAttribute('x', -w/2); rect.setAttribute('y', -11);
+      rect.setAttribute('width', w); rect.setAttribute('height', 22);
+      rect.setAttribute('rx', 11);
+      rect.setAttribute('fill', '#F2EEE5');
+      rect.setAttribute('stroke', '#14111033'); rect.setAttribute('stroke-width', '1');
+
+      const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      text.setAttribute('text-anchor', 'middle'); text.setAttribute('y', 3.5);
+      text.setAttribute('font-family', 'Geist Mono, monospace');
+      text.setAttribute('font-size', '10'); text.setAttribute('fill', '#14110D');
+      text.textContent = n.label;
+
+      g.appendChild(rect); g.appendChild(text);
+      nodesEl.appendChild(g);
+      nodeGroups.push({ g, x, y });
+
+      const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      line.setAttribute('x1', x * 0.78); line.setAttribute('y1', y * 0.78);
+      line.setAttribute('x2', 0); line.setAttribute('y2', 0);
+      line.setAttribute('stroke-dasharray', '2 4');
+      line.setAttribute('opacity', '0');
+      linksEl.appendChild(line);
+      lineEls.push(line);
+    });
+
+    ScrollTrigger.create({
+      trigger: '#diagram', start: 'top 75%', once: true,
+      onEnter: () => {
+        const tl = gsap.timeline({ defaults: { ease: 'expo.out' } });
+        nodeGroups.forEach((n, i) => {
+          tl.to(n.g, {
+            attr: { transform: `translate(${n.x} ${n.y})` },
+            opacity: 1, duration: 0.8,
+          }, i * 0.07);
+          tl.to(lineEls[i], { opacity: 1, duration: 0.6 }, i * 0.07 + 0.15);
+        });
+        tl.to('#ownerHalo', { opacity: 1, duration: 1.0 }, 0.3);
+      }
+    });
+
+    // AI blob orbit — kept as RAF, smooth enough
+    let t0 = performance.now();
+    function orbit(t) {
+      const dt = (t - t0) / 1000;
+      const angle = dt * 0.35;
+      const r = 110;
+      const x = Math.cos(angle) * r;
+      const y = Math.sin(angle) * r;
+      const blob = document.getElementById('aiBlob');
+      if (blob) blob.setAttribute('transform', `translate(${x} ${y})`);
+      requestAnimationFrame(orbit);
+    }
+    requestAnimationFrame(orbit);
+  }
+})();
+</script>
+
+</body>
+</html>
