@@ -32,13 +32,15 @@ open http://localhost:8765/
 
 Trunk-based. `main` is always shippable, and merging to `main` is what deploys to production.
 
+**Website changes** (anything that affects the live site — `index.html`, `favicon.svg`, `robots.txt`, `sitemap.xml`):
+
 1. Branch off `main`: `git checkout -b <topic>`
 2. Edit, commit, push.
 3. Open a PR against `main`. Vercel auto-builds a preview URL — verify there.
 4. **Squash-merge** to `main` (this auto-deploys to production).
 5. Delete the branch.
 
-Don't push directly to `main`. Don't merge without a preview.
+**Non-website edits** (README, CLAUDE.md, .gitignore, docs) — commit directly to `main`. No preview needed.
 
 ## Domain
 
