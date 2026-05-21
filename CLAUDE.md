@@ -17,9 +17,11 @@
 
 ## Workflow
 
-Trunk-based. Branch off `main`, push, open PR, verify Vercel preview, squash-merge, delete branch. Never push directly to `main`.
+**Website changes** (`index.html`, `favicon.svg`, `robots.txt`, `sitemap.xml`): trunk-based. Branch off `main`, push, open PR, verify Vercel preview, squash-merge, delete branch.
 
-**Agents:** work in a sibling git worktree, never in the user's main checkout.
+**Non-website edits** (README, CLAUDE.md, .gitignore, docs): commit directly to `main`. No PR, no preview.
+
+**Agents** — for website work, use a sibling git worktree, never the user's main checkout:
 
 ```bash
 git worktree add ../bigtre-website-<topic> -b <topic> main
@@ -27,7 +29,7 @@ cd ../bigtre-website-<topic>
 # edit, commit, push, open PR
 ```
 
-After the PR squash-merges and the branch is deleted, clean up:
+After the PR squash-merges:
 
 ```bash
 git worktree remove ../bigtre-website-<topic>
