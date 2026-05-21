@@ -1762,14 +1762,30 @@
       }
     });
 
-    // AI blob orbit — broken: slow wandering, irregular speed, drifting radius
-    let t0 = performance.now();
+    // AI blob orbit — broken: zigzag between waypoints inside the ring
+    let zzDir = 1;
+    let zzPrev = { x: 100, y: 0 };
+    function zzNext() {
+      const prevAngle = Math.atan2(zzPrev.y, zzPrev.x);
+      const stepAngle = (0.55 + Math.random() * 0.7) * zzDir;
+      if (Math.random() < 0.22) zzDir = -zzDir;
+      const angle = prevAngle + stepAngle;
+      const r = 70 + Math.random() * 60;
+      return { x: Math.cos(angle) * r, y: Math.sin(angle) * r };
+    }
+    let zzNextPt = zzNext();
+    let zzSegStart = performance.now();
+    let zzSegDur = 520;
     function orbit(t) {
-      const dt = (t - t0) / 1000;
-      const angle = dt * 0.28 + Math.sin(dt * 1.1) * 0.55;
-      const r = 108 + Math.sin(dt * 0.7) * 22;
-      const x = Math.cos(angle) * r;
-      const y = Math.sin(angle) * r;
+      if (t - zzSegStart > zzSegDur) {
+        zzPrev = zzNextPt;
+        zzNextPt = zzNext();
+        zzSegStart = t;
+        zzSegDur = 380 + Math.random() * 340;
+      }
+      const u = (t - zzSegStart) / zzSegDur;
+      const x = zzPrev.x + (zzNextPt.x - zzPrev.x) * u;
+      const y = zzPrev.y + (zzNextPt.y - zzPrev.y) * u;
       const blob = document.getElementById('aiBlob');
       if (blob) blob.setAttribute('transform', `translate(${x} ${y})`);
       requestAnimationFrame(orbit);
