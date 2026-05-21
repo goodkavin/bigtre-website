@@ -17,8 +17,9 @@
 
 ## Workflow gotcha
 
-- Vercel project is **not yet linked to GitHub** — pushing to `main` does not auto-deploy. Ship with `vercel deploy --prod`.
-- DNS lives in Google Domains / Squarespace. Don't suggest switching nameservers to Vercel — it would break the user's email.
+- Vercel is Git-linked to `goodkavin/bigtre-website`, which is **public**. Any push or merge to `main` auto-deploys to production, regardless of commit author. Public-repo status is what makes external contributor PRs (Polo / `Bigtrebusiness`) deploy on Hobby. Do not flip the repo back to private without upgrading to Vercel Pro first, or external-author commits will silently 401 and production will stall on the previous build.
+- DNS lives in Google Domains / Squarespace. Don't suggest switching nameservers to Vercel, it would break the user's email.
+- Strategic/positioning docs live in `../bigtre-hq/`, not here. Keep this repo to website code and reference material that's safe to be public.
 
 ## Update together
 
