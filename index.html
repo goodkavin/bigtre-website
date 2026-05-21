@@ -1762,14 +1762,14 @@
       }
     });
 
-    // AI blob orbit — broken: irregular speed, drifting radius, high-frequency jitter
+    // AI blob orbit — broken: slow wandering, irregular speed, drifting radius
     let t0 = performance.now();
     function orbit(t) {
       const dt = (t - t0) / 1000;
-      const angle = dt * 0.32 + Math.sin(dt * 2.3) * 0.55 + Math.sin(dt * 5.1) * 0.18;
-      const r = 108 + Math.sin(dt * 1.7) * 18 + Math.sin(dt * 4.3) * 6;
-      const x = Math.cos(angle) * r + (Math.random() - 0.5) * 5;
-      const y = Math.sin(angle) * r + (Math.random() - 0.5) * 5;
+      const angle = dt * 0.28 + Math.sin(dt * 1.1) * 0.55;
+      const r = 108 + Math.sin(dt * 0.7) * 22;
+      const x = Math.cos(angle) * r;
+      const y = Math.sin(angle) * r;
       const blob = document.getElementById('aiBlob');
       if (blob) blob.setAttribute('transform', `translate(${x} ${y})`);
       requestAnimationFrame(orbit);
