@@ -1161,9 +1161,6 @@
           <circle cx="0" cy="0" r="240" fill="none" stroke="#14111033" stroke-dasharray="4 6" stroke-width="1"/>
           <circle cx="0" cy="0" r="180" fill="none" stroke="#14111022" stroke-width="1"/>
 
-          <!-- Business label, bottom-left of frame -->
-          <text x="-228" y="234" font-family="Geist Mono, monospace" font-size="10" fill="#14110D" opacity="0.55" letter-spacing="1.2">BUSINESS</text>
-
           <!-- Green ring the eight nodes sit on -->
           <circle cx="0" cy="0" r="200" fill="none" stroke="#0E5C3B" stroke-width="1.4" opacity="0.45"/>
 
@@ -1875,7 +1872,7 @@
     let ai2_t0 = performance.now();
     function orbit2(t) {
       const dt = (t - ai2_t0) / 1000;
-      const angle = dt * 0.35;
+      const angle = dt * 0.85;
       const r = 100;
       const blob = document.getElementById('aiBlob2');
       if (blob) blob.setAttribute('transform', `translate(${Math.cos(angle) * r} ${Math.sin(angle) * r})`);
