@@ -15,10 +15,25 @@
 - `archive/` is the previous React/Vite site, kept for reference.
 - The `section.sr-only[lang="th"]` block after `</footer>` is the Thai SEO/AEO surface for LLM crawlers — not dead code.
 
-## Workflow gotcha
+## Workflow
 
-- Vercel project is **not yet linked to GitHub** — pushing to `main` does not auto-deploy. Ship with `vercel deploy --prod`.
-- DNS lives in Google Domains / Squarespace. Don't suggest switching nameservers to Vercel — it would break the user's email.
+Trunk-based. Branch off `main`, push, open PR, verify Vercel preview, squash-merge, delete branch. Never push directly to `main`.
+
+**Agents:** work in a sibling git worktree, never in the user's main checkout.
+
+```bash
+git worktree add ../bigtre-website-<topic> -b <topic> main
+cd ../bigtre-website-<topic>
+# edit, commit, push, open PR
+```
+
+After the PR squash-merges and the branch is deleted, clean up:
+
+```bash
+git worktree remove ../bigtre-website-<topic>
+```
+
+DNS lives in Google Domains / Squarespace. Don't suggest switching nameservers to Vercel — it would break the user's email.
 
 ## Update together
 
