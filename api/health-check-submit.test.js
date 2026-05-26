@@ -40,6 +40,7 @@ function makeReqRes(method = 'POST', body = validBody) {
 beforeEach(() => {
   vi.clearAllMocks();
   process.env.RESEND_API_KEY = 'test';
+  process.env.TURNSTILE_SECRET_KEY = 'test-secret';
   process.env.LEADS_TO_EMAIL = 'leads@bigtre.business';
   process.env.LEADS_FROM_EMAIL = 'leads@bigtre.business';
   process.env.ROADMAP_FROM_EMAIL = 'Big Tre <hello@bigtre.business>';
@@ -62,10 +63,19 @@ describe('health-check-submit handler', () => {
   });
 
   it('rejects when Turnstile fails with 400', async () => {
+    process.env.TURNSTILE_SECRET_KEY = 'test-secret';
     verifyTurnstileMock.mockResolvedValueOnce(false);
     const { req, res } = makeReqRes();
     await handler(req, res);
     expect(res.statusCode).toBe(400);
+  });
+
+  it('skips Turnstile verification when TURNSTILE_SECRET_KEY is not set (soft-launch mode)', async () => {
+    delete process.env.TURNSTILE_SECRET_KEY;
+    const { req, res } = makeReqRes();
+    await handler(req, res);
+    expect(res.statusCode).toBe(200);
+    expect(verifyTurnstileMock).not.toHaveBeenCalled();
   });
 
   it('sends both emails on success', async () => {
@@ -96,10 +106,18 @@ describe('health-check-submit handler', () => {
     expect(sendMock).toHaveBeenCalledTimes(2);
   });
 
-  it('returns 500 if email sending fails', async () => {
+  it('returns 200 even if email sending fails (lead logged for manual recovery)', async () => {
     sendMock.mockRejectedValueOnce(new Error('resend down'));
     const { req, res } = makeReqRes();
     await handler(req, res);
-    expect(res.statusCode).toBe(500);
+    expect(res.statusCode).toBe(200);
+  });
+
+  it('returns 200 and skips email when RESEND_API_KEY is not set (soft-launch mode)', async () => {
+    delete process.env.RESEND_API_KEY;
+    const { req, res } = makeReqRes();
+    await handler(req, res);
+    expect(res.statusCode).toBe(200);
+    expect(sendMock).not.toHaveBeenCalled();
   });
 });

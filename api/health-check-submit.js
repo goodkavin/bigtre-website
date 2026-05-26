@@ -19,9 +19,11 @@ export default async function handler(req, res) {
   }
 
   const ip = (req.headers['x-forwarded-for'] || '').split(',')[0].trim();
-  const turnstileOk = await verifyTurnstile(req.body.turnstileToken, ip);
-  if (!turnstileOk) {
-    return res.status(400).json({ error: 'turnstile verification failed' });
+  if (process.env.TURNSTILE_SECRET_KEY) {
+    const turnstileOk = await verifyTurnstile(req.body.turnstileToken, ip);
+    if (!turnstileOk) {
+      return res.status(400).json({ error: 'turnstile verification failed' });
+    }
   }
 
   const { answers, name, email, company, notes } = validation.data;
@@ -37,27 +39,31 @@ export default async function handler(req, res) {
     ip_country: req.headers['x-vercel-ip-country'] || '',
   };
 
-  const resend = new Resend(process.env.RESEND_API_KEY);
+  console.log('SUBMISSION_RECEIVED', JSON.stringify(submission));
 
-  try {
-    await Promise.all([
-      resend.emails.send({
-        from: process.env.ROADMAP_FROM_EMAIL,
-        to: email,
-        subject: `Your AI Readiness Roadmap — ${band}`,
-        html: renderRoadmap({ name, company, band, observations, answers }),
-        replyTo: process.env.LEADS_TO_EMAIL,
-      }),
-      resend.emails.send({
-        from: process.env.LEADS_FROM_EMAIL,
-        to: process.env.LEADS_TO_EMAIL,
-        subject: `[${tier}] ${company} — AI Readiness lead, band: ${band}`,
-        html: renderLeadAlert(submission),
-      }),
-    ]);
-  } catch (err) {
-    console.error('email send failed', err);
-    return res.status(500).json({ error: 'email send failed' });
+  if (process.env.RESEND_API_KEY) {
+    const resend = new Resend(process.env.RESEND_API_KEY);
+    try {
+      await Promise.all([
+        resend.emails.send({
+          from: process.env.ROADMAP_FROM_EMAIL,
+          to: email,
+          subject: `Your AI Readiness Roadmap — ${band}`,
+          html: renderRoadmap({ name, company, band, observations, answers }),
+          replyTo: process.env.LEADS_TO_EMAIL,
+        }),
+        resend.emails.send({
+          from: process.env.LEADS_FROM_EMAIL,
+          to: process.env.LEADS_TO_EMAIL,
+          subject: `[${tier}] ${company} — AI Readiness lead, band: ${band}`,
+          html: renderLeadAlert(submission),
+        }),
+      ]);
+    } catch (err) {
+      console.error('SUBMISSION_EMAIL_FAILED', submission.submission_id, err);
+    }
+  } else {
+    console.warn('SUBMISSION_NO_EMAIL_SENT (RESEND_API_KEY missing)', submission.submission_id);
   }
 
   try {
