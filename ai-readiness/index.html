@@ -554,7 +554,7 @@ document.getElementById('capture-form').addEventListener('submit', async (e) => 
     window.scrollTo({ top: 0, behavior: 'smooth' });
   } catch (err) {
     console.error(err);
-    errEl.textContent = err.message || 'Something went wrong. Please try again or email us at napat@bigtre.business.';
+    errEl.textContent = err.message || 'Something went wrong. Please try again or email us at hello@bigtre.business.';
     submitBtn.disabled = false;
     submitBtn.textContent = 'Send my roadmap →';
     if (window.turnstile) window.turnstile.reset('#turnstile-widget');

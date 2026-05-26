@@ -42,7 +42,7 @@ beforeEach(() => {
   process.env.RESEND_API_KEY = 'test';
   process.env.LEADS_TO_EMAIL = 'leads@bigtre.business';
   process.env.LEADS_FROM_EMAIL = 'leads@bigtre.business';
-  process.env.ROADMAP_FROM_EMAIL = 'Napat at Big Tre <napat@bigtre.business>';
+  process.env.ROADMAP_FROM_EMAIL = 'Big Tre <hello@bigtre.business>';
   verifyTurnstileMock.mockResolvedValue(true);
   sendMock.mockResolvedValue({ id: 'email-id' });
   appendLeadMock.mockResolvedValue();
