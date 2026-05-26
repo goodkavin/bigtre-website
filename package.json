@@ -1,0 +1,19 @@
+{
+  "name": "bigtre-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0",
+    "resend": "^4.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^39.0.0",
+    "vitest": "^2.1.0"
+  }
+}

@@ -41,3 +41,46 @@ Or — once this repo is linked to the Vercel project — any push to `main` aut
 - Apex: https://bigtre.business
 - WWW: https://www.bigtre.business (canonical)
 - DNS: Google Domains / Squarespace, pointing to Vercel (`A @ 216.198.79.1`, `CNAME www cname.vercel-dns.com`)
+
+## Backend (AI Readiness Health Check)
+
+The form at `/ai-readiness/` posts to a Vercel serverless function. The function validates input, verifies Cloudflare Turnstile, scores the responses, sends two emails via Resend (roadmap to prospect, alert to founder), and appends a row to a Google Sheet for lead tracking.
+
+### Local dev
+
+```bash
+npm install
+cp .env.example .env.local   # fill in real values
+npm run dev                  # boots vercel dev with /api/ functions
+```
+
+Then open `http://localhost:3000/ai-readiness/`.
+
+### Tests
+
+```bash
+npm test                # one-shot
+npm run test:watch      # watch mode
+```
+
+### Required environment variables
+
+See `.env.example`. All are required in Vercel for the function to work. The `TURNSTILE_SITE_KEY` is injected to the frontend at runtime via `/api/config.js`.
+
+### How it works
+
+| Step | What happens |
+|---|---|
+| 1 | User submits the capture modal in `/ai-readiness/` |
+| 2 | Frontend POSTs JSON to `/api/health-check-submit` with the answers, name/email/company, consent flag, and Turnstile token |
+| 3 | Function validates input shape, verifies the Turnstile token against Cloudflare |
+| 4 | Function re-scores server-side (does not trust client-computed band) |
+| 5 | Function renders two HTML emails (roadmap, lead-alert) and sends via Resend |
+| 6 | Function appends a row to the Google Sheet (failure is logged but non-fatal) |
+| 7 | Returns 200 to the frontend, which swaps to the done screen |
+
+### Spec and plan
+
+Design rationale, full questionnaire, and implementation plan live in the `bigtre-hq` repo:
+- `docs/superpowers/specs/2026-05-25-ai-readiness-health-check-design.md`
+- `docs/superpowers/plans/2026-05-25-ai-readiness-health-check.md`
