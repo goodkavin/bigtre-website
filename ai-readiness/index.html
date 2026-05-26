@@ -7,6 +7,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Geist:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<script src="/api/config.js"></script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <style>
 :root{
   /* Dark theme — deliberately heavier than the landing page */
@@ -319,8 +321,8 @@ footer{padding:60px 20px 20px;text-align:center;font-size:12px;color:var(--ink-m
     <h2>Your roadmap is on its way</h2>
     <p>Check your inbox in the next few minutes. A founder will personally reach out within 48 hours to walk through what we'd build for you.</p>
     <div class="done-meta">
-      <div><strong>Band:</strong> <span id="done-band"></span></div>
-      <div><strong>Routing tier:</strong> <span id="done-tier"></span> <span style="font-size:11px;opacity:0.6">(internal — shown for demo only)</span></div>
+      <div><strong>Your band:</strong> <span id="done-band"></span></div>
+      <div style="margin-top:6px;color:var(--ink-mute);font-size:12px;">A founder will personally follow up within 48 hours.</div>
     </div>
   </div>
 </div>
@@ -347,10 +349,12 @@ footer{padding:60px 20px 20px;text-align:center;font-size:12px;color:var(--ink-m
         <label>Anything we should know? <span style="opacity:0.6">(optional)</span></label>
         <textarea id="cap-notes" placeholder="A specific challenge, what you're hoping to fix first…"></textarea>
       </div>
+      <div id="turnstile-widget" style="margin:16px 0;"></div>
       <label class="consent">
         <input type="checkbox" required id="cap-consent">
-        <span>I agree to Big Tre processing my information per the <a href="#" onclick="event.preventDefault()">privacy notice</a>. (PDPA)</span>
+        <span>I agree to Big Tre processing my information per the <a href="/privacy/" target="_blank" rel="noopener">privacy notice</a>. (PDPA)</span>
       </label>
+      <div id="cap-error" style="color:#E0594A;font-size:13px;margin:4px 0 12px;min-height:18px;"></div>
       <div class="modal-actions">
         <button type="button" class="btn ghost" onclick="closeModal()">Cancel</button>
         <button type="submit" class="btn" id="cap-submit">Send my roadmap →</button>
@@ -481,14 +485,81 @@ document.getElementById('modal-bg').addEventListener('click', e => {
   if(e.target.id === 'modal-bg') closeModal();
 });
 
-document.getElementById('capture-form').addEventListener('submit', e => {
+window.addEventListener('load', () => {
+  const tryRender = () => {
+    if (window.turnstile && window.BIGTRE_CONFIG?.turnstileSiteKey) {
+      window.turnstile.render('#turnstile-widget', {
+        sitekey: window.BIGTRE_CONFIG.turnstileSiteKey,
+        theme: 'dark',
+        callback: (token) => { window._turnstileToken = token; },
+        'expired-callback': () => { window._turnstileToken = null; },
+        'error-callback': () => { window._turnstileToken = null; },
+      });
+    } else {
+      setTimeout(tryRender, 200);
+    }
+  };
+  tryRender();
+});
+
+document.getElementById('capture-form').addEventListener('submit', async (e) => {
   e.preventDefault();
-  closeModal();
-  document.getElementById('result-screen').style.display = 'none';
-  document.getElementById('done-screen').style.display = 'block';
-  document.getElementById('done-band').textContent = window._band;
-  document.getElementById('done-tier').textContent = window._tier;
-  window.scrollTo({top:0, behavior:'smooth'});
+  const submitBtn = document.getElementById('cap-submit');
+  const errEl = document.getElementById('cap-error');
+  errEl.textContent = '';
+  if (!window._turnstileToken) {
+    errEl.textContent = 'Please complete the security check above.';
+    return;
+  }
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Sending…';
+
+  const fd = new FormData(document.getElementById('form'));
+  const answers = {};
+  ['q1','q2','q3','q4','q5','q6','q7','q8','q9','q10'].forEach((q) => {
+    answers[q] = fd.get(q);
+  });
+
+  const urlParams = new URLSearchParams(window.location.search);
+
+  try {
+    const res = await fetch('/api/health-check-submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        answers,
+        name: document.getElementById('cap-name').value,
+        email: document.getElementById('cap-email').value,
+        company: document.getElementById('cap-company').value,
+        notes: document.getElementById('cap-notes').value,
+        consent: document.getElementById('cap-consent').checked,
+        turnstileToken: window._turnstileToken,
+        utm: {
+          source: urlParams.get('utm_source') || '',
+          medium: urlParams.get('utm_medium') || '',
+          campaign: urlParams.get('utm_campaign') || '',
+        },
+      }),
+    });
+
+    if (!res.ok) {
+      const data = await res.json().catch(() => ({}));
+      throw new Error(data.error || 'Submission failed');
+    }
+
+    closeModal();
+    document.getElementById('result-screen').style.display = 'none';
+    document.getElementById('done-screen').style.display = 'block';
+    document.getElementById('done-band').textContent = window._band;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  } catch (err) {
+    console.error(err);
+    errEl.textContent = err.message || 'Something went wrong. Please try again or email us at napat@bigtre.business.';
+    submitBtn.disabled = false;
+    submitBtn.textContent = 'Send my roadmap →';
+    if (window.turnstile) window.turnstile.reset('#turnstile-widget');
+    window._turnstileToken = null;
+  }
 });
 
 function restart(){
