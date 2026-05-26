@@ -13,8 +13,9 @@
 body{background:var(--bg);color:var(--ink);font-family:"Geist",system-ui,sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
 .wrap{max-width:680px;margin:0 auto;padding:60px 24px}
 header{padding-bottom:24px;border-bottom:1px solid var(--line);margin-bottom:32px}
-.logo{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:22px}
-.logo-dot{color:var(--accent)}
+.brand{display:inline-flex;align-items:baseline;font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:26px;letter-spacing:-0.035em;color:var(--ink);text-decoration:none;line-height:1}
+.brand .dot{color:var(--accent);margin-left:1px}
+.brand:hover{color:var(--ink)}
 h1{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:32px;letter-spacing:-0.02em;line-height:1.1;margin:0 0 10px}
 .meta{color:var(--ink-mute);font-size:13px;margin-bottom:28px}
 h2{font-family:"Bricolage Grotesque",sans-serif;font-weight:500;font-size:18px;letter-spacing:-0.01em;margin:24px 0 6px}
@@ -26,7 +27,7 @@ footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);font-si
 <body>
 <div class="wrap">
   <header>
-    <div class="logo">big<span class="logo-dot">·</span>tre</div>
+    <a href="/" class="brand">Big&nbsp;Tre<span class="dot">↟</span></a>
   </header>
 
   <h1>Privacy Notice</h1>
