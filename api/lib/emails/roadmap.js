@@ -36,19 +36,10 @@ const REVENUE_LABELS = {
   '30-80': '30–80M THB', '80-200': '80–200M THB', '200+': '200M+ THB',
 };
 
-const ANCHOR_BY_TYPE = {
-  brand: 'YVIS, a Thai fashion jewelry brand running on similar multi-channel infrastructure',
-  distributor: 'Dailypal, an imported-beauty distributor with exclusive Thailand rights to Oddtype and CLE Cosmetics',
-  importer: 'Dailypal, an imported-beauty distributor we work with',
-  retailer: 'YVIS, a multi-channel retailer + brand we work with',
-  other: 'our anchor clients YVIS (jewelry brand) and Dailypal (beauty distributor)',
-};
-
 export function renderRoadmap({ name, company, band, observations, answers }) {
   const tmpl = ROADMAPS[band];
   const channels = answers.q10;
   const revenue = REVENUE_LABELS[answers.q9] || 'your range';
-  const anchor = ANCHOR_BY_TYPE[answers.q8] || ANCHOR_BY_TYPE.other;
   const calendarUrl = process.env.CALENDAR_URL || 'https://cal.com/bigtre/health-check-followup';
 
   return `<!doctype html>
@@ -59,7 +50,7 @@ export function renderRoadmap({ name, company, band, observations, answers }) {
       <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;background:#FBF8F1;border-radius:12px;padding:40px;">
         <tr><td>
           <div style="font-size:11px;color:#0E5C3B;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:14px;">Your AI Readiness Roadmap</div>
-          <h1 style="font-family:'Bricolage Grotesque',Georgia,serif;font-size:30px;font-weight:600;line-height:1.15;letter-spacing:-0.02em;margin:0 0 8px;">${escapeHtml(company)} — ${band}</h1>
+          <h1 style="font-family:'Bricolage Grotesque',Georgia,serif;font-size:30px;font-weight:600;line-height:1.15;letter-spacing:-0.02em;margin:0 0 8px;">${escapeHtml(company)} - ${band} Stage</h1>
           <p style="font-size:13px;color:#6B645A;margin:0 0 32px;">Personalized from your answers · ${new Date().toISOString().slice(0,10)}</p>
 
           <h2 style="font-family:'Bricolage Grotesque',Georgia,serif;font-size:20px;font-weight:500;letter-spacing:-0.01em;margin:0 0 12px;">Where you are now</h2>
@@ -80,7 +71,7 @@ export function renderRoadmap({ name, company, band, observations, answers }) {
           <p style="font-size:15px;line-height:1.6;color:#2A2620;margin:0 0 24px;">${tmpl.after}</p>
 
           <h2 style="font-family:'Bricolage Grotesque',Georgia,serif;font-size:20px;font-weight:500;letter-spacing:-0.01em;margin:0 0 12px;">Why Big Tre</h2>
-          <p style="font-size:15px;line-height:1.6;color:#2A2620;margin:0 0 32px;">Four Thai founders with operator backgrounds — Thai ERP (MineERP), Accenture enterprise delivery, Silicon Valley engineering, and native Thai SMB operator experience. We've delivered exactly this for ${anchor}.</p>
+          <p style="font-size:15px;line-height:1.6;color:#2A2620;margin:0 0 32px;">Four Thai founders with operator backgrounds across enterprise ERP delivery, global consulting, Silicon Valley engineering, and Thai SMB operations. We've delivered exactly this for Thai businesses like yours.</p>
 
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
             <tr><td align="center" style="padding:8px 0 24px;">

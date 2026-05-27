@@ -18,6 +18,11 @@ describe('renderRoadmap', () => {
     expect(html).toContain('YVIS');
   });
 
+  it('renders the band heading with the "Stage" suffix', () => {
+    const html = renderRoadmap({ ...baseInput, band: 'Building' });
+    expect(html).toContain('YVIS - Building Stage');
+  });
+
   it('includes all observations verbatim', () => {
     const html = renderRoadmap(baseInput);
     baseInput.observations.forEach((o) => expect(html).toContain(o.text));
@@ -44,14 +49,12 @@ describe('renderRoadmap', () => {
     expect(html).toContain('Compound');
   });
 
-  it('references YVIS as anchor when business type is brand', () => {
-    const html = renderRoadmap({ ...baseInput, answers: { ...baseInput.answers, q8: 'brand' } });
-    expect(html).toContain('YVIS');
-  });
-
-  it('references Dailypal as anchor when business type is distributor', () => {
-    const html = renderRoadmap({ ...baseInput, answers: { ...baseInput.answers, q8: 'distributor' } });
-    expect(html).toContain('Dailypal');
+  it('keeps the "Why Big Tre" section generic — no client or partner names', () => {
+    const html = renderRoadmap(baseInput);
+    expect(html).not.toMatch(/MineERP|Accenture|Dailypal/);
+    const heading = html.indexOf('Why Big Tre');
+    const body = html.slice(heading);
+    expect(body).not.toContain('YVIS');
   });
 
   it('includes a CTA link to the calendar', () => {
