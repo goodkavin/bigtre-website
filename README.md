@@ -32,7 +32,7 @@ open http://localhost:8765/
 
 Trunk-based. `main` is always shippable, and merging to `main` is what deploys to production.
 
-**Website changes** (anything that affects the live site — `index.html`, `favicon.svg`, `robots.txt`, `sitemap.xml`):
+**Website changes** (anything that affects the live site — `index.html`, `ai-readiness/`, `privacy/`, the `api/` functions, `favicon.svg`, `robots.txt`, `sitemap.xml`):
 
 1. Branch off `main`: `git checkout -b <topic>`
 2. Edit, commit, push.

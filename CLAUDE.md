@@ -17,7 +17,7 @@
 
 ## Workflow
 
-**Website changes** (`index.html`, `favicon.svg`, `robots.txt`, `sitemap.xml`): trunk-based. Branch off `main`, push, open PR, verify Vercel preview, squash-merge, delete branch.
+**Website changes** (`index.html`, `ai-readiness/`, `privacy/`, `api/`, `favicon.svg`, `robots.txt`, `sitemap.xml`): trunk-based. Branch off `main`, push, open PR, verify Vercel preview, squash-merge, delete branch.
 
 **Non-website edits** (README, CLAUDE.md, .gitignore, docs): commit directly to `main`. No PR, no preview.
 
