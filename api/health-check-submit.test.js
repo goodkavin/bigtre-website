@@ -18,7 +18,7 @@ import handler from './health-check-submit.js';
 const validBody = {
   answers: { q1: '0', q2: '0', q3: '0', q4: '0', q5: '0', q6: '0', q7: 'interested', q8: 'brand', q9: '30-80', q10: '4-6' },
   name: 'Pat',
-  email: 'pat@yvis.co.th',
+  email: 'pat@example.com',
   company: 'YVIS',
   notes: '',
   consent: true,
@@ -84,7 +84,7 @@ describe('health-check-submit handler', () => {
     expect(res.statusCode).toBe(200);
     expect(sendMock).toHaveBeenCalledTimes(2);
     const calls = sendMock.mock.calls.map((c) => c[0]);
-    expect(calls.find((c) => c.to === 'pat@yvis.co.th')).toBeTruthy();
+    expect(calls.find((c) => c.to === 'pat@example.com')).toBeTruthy();
     expect(calls.find((c) => c.to === 'leads@bigtre.business')).toBeTruthy();
   });
 
@@ -94,7 +94,7 @@ describe('health-check-submit handler', () => {
     expect(appendLeadMock).toHaveBeenCalledOnce();
     const row = appendLeadMock.mock.calls[0][0];
     expect(row.name).toBe('Pat');
-    expect(row.email).toBe('pat@yvis.co.th');
+    expect(row.email).toBe('pat@example.com');
     expect(row.band).toBe('Foundation');
   });
 
