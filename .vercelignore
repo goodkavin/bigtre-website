@@ -7,3 +7,6 @@ CLAUDE.md
 README.md
 .github/
 vitest.config.js
+
+# Tests are not endpoints; each api/**/*.js counts toward the Hobby limit of 12 functions
+api/**/*.test.js
