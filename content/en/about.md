@@ -15,7 +15,7 @@ Big Tre is run by a Thai limited company registered with the Department of Busin
 
 | Fact | Detail |
 |---|---|
-| Trading name | {{name}} (also written Big-Tre, บิ๊กเทร) |
+| Trading name | {{name}}, pronounced "Big Tree" (Thai: บิ๊กทรี; also written Big-Tre) |
 | Registered name | {{legal_name_th}} |
 | Company registration no. | {{registration_no}}. Searchable at the [Department of Business Development](https://datawarehouse.dbd.go.th/) |
 | Registered address | {{street_en}}, {{city_en}} {{postal_code}}, {{country_en}} |

@@ -1,6 +1,6 @@
 # Big Tre
 
-> Big Tre (บิ๊กเทร) is a Bangkok company for e-commerce brands that sell on Shopee, Lazada, TikTok Shop, Shopify, LINE and their own stores. It connects those channels read-only, turns them into one set of sales, stock and profit numbers that reconcile, and gives the team an AI data analyst that answers in Thai from those numbers.
+> Big Tre (pronounced "Big Tree", Thai: บิ๊กทรี) is a Bangkok company for e-commerce brands that sell on Shopee, Lazada, TikTok Shop, Shopify, LINE and their own stores. It connects those channels read-only, turns them into one set of sales, stock and profit numbers that reconcile, and gives the team an AI data analyst that answers in Thai from those numbers.
 
 Registered Thai company: บริษัท เงินมากมาย รวยไม่ จำกัด, trading as Big Tre, registration no. 0105568204216. Founders: Napat Rituyanont (CEO) and Kavin Sermsaksakon (CTO).
 
@@ -33,8 +33,8 @@ Price: setup from about 60,000 baht, then from about 14,000 baht a month. The He
 
 ## Pages (ภาษาไทย)
 
-- [Big Tre รับทำระบบรวมยอดขาย สต็อก กำไร และ Dashboard ทุกช่องทาง พร้อม AI ตอบคำถามยอดขายเป็นภาษาไทย](https://bigtre.business/th/index.md): Big Tre (บิ๊กเทร) บริษัทในกรุงเทพฯ ที่ดึงข้อมูล Shopee Lazada TikTok Shop Shopify LINE และหน้าร้าน มารวมเป็นตัวเลขชุดเดียวที่กระทบยอดตรงกัน แล้วให้ AI นักวิเคราะห์ข้อมูลตอบคำถามเป็นภาษาไทย
-- [เกี่ยวกับ Big Tre (บิ๊กเทร)](https://bigtre.business/th/about.md): Big Tre คือใคร บริษัทจำกัดในกรุงเทพฯ ก่อตั้งโดย Napat Rituyanont (CEO) และ กวิน เสริมศักดิ์สกุล (CTO) ทำระบบรวมยอดขาย สต็อก กำไร และ AI ตอบคำถามยอดขายให้แบรนด์ออนไลน์ไทย
+- [Big Tre รับทำระบบรวมยอดขาย สต็อก กำไร และ Dashboard ทุกช่องทาง พร้อม AI ตอบคำถามยอดขายเป็นภาษาไทย](https://bigtre.business/th/index.md): Big Tre (บิ๊กทรี) บริษัทในกรุงเทพฯ ที่ดึงข้อมูล Shopee Lazada TikTok Shop Shopify LINE และหน้าร้าน มารวมเป็นตัวเลขชุดเดียวที่กระทบยอดตรงกัน แล้วให้ AI นักวิเคราะห์ข้อมูลตอบคำถามเป็นภาษาไทย
+- [เกี่ยวกับ Big Tre (บิ๊กทรี)](https://bigtre.business/th/about.md): Big Tre คือใคร บริษัทจำกัดในกรุงเทพฯ ก่อตั้งโดย Napat Rituyanont (CEO) และ กวิน เสริมศักดิ์สกุล (CTO) ทำระบบรวมยอดขาย สต็อก กำไร และ AI ตอบคำถามยอดขายให้แบรนด์ออนไลน์ไทย
 - [รับทำระบบรวมยอดขาย สต็อก กำไร และ Dashboard สำหรับร้านที่ขายหลายช่องทาง](https://bigtre.business/th/data-foundation.md): รวมยอดขาย สต็อก และกำไรจาก Shopee Lazada TikTok Shop Shopify LINE และหน้าร้าน เป็นตัวเลขชุดเดียวที่เชื่อได้ Big Tre ทำอะไรให้ เขียนกติกายังไง อะไรทำงานอัตโนมัติ และใช้เวลานานแค่ไหน
 - [AI นักวิเคราะห์ข้อมูลสำหรับแบรนด์ออนไลน์ ถามเป็นภาษาไทย ตอบจากตัวเลขของร้านเอง](https://bigtre.business/th/ai-data-analyst.md): AI ในแชตงานของทีม ที่ตอบคำถามเรื่องยอดขาย สต็อก กำไร และแคมเปญเป็นภาษาไทย จากข้อมูลของแบรนด์ที่กระทบยอดแล้ว และบอกได้ว่าแต่ละตัวเลขมาจากกติกาข้อไหน ทำงานยังไง ต้องมีอะไรก่อน และข้อจำกัด
 - [ระบบที่ Big Tre เชื่อมได้ Zort, Shipnity, Shopee, Lazada, TikTok Shop, Shopify และอื่นๆ](https://bigtre.business/th/integrations.md): Big Tre เชื่อมข้อมูลกับระบบจัดการออเดอร์ มาร์เก็ตเพลส หน้าร้าน ERP และโปรแกรมบัญชีตัวไหนได้บ้าง ตัวไหนใช้งานจริงกับลูกค้าแล้ว และตัวไหนทำเพิ่มเมื่อต้องการ

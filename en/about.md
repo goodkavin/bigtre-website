@@ -9,7 +9,7 @@ Big Tre is run by a Thai limited company registered with the Department of Busin
 
 | Fact | Detail |
 |---|---|
-| Trading name | Big Tre (also written Big-Tre, บิ๊กเทร) |
+| Trading name | Big Tre, pronounced "Big Tree" (Thai: บิ๊กทรี; also written Big-Tre) |
 | Registered name | บริษัท เงินมากมาย รวยไม่ จำกัด |
 | Company registration no. | 0105568204216. Searchable at the [Department of Business Development](https://datawarehouse.dbd.go.th/) |
 | Registered address | 101/1 Soi Phahonyothin 56, Phahonyothin Road, Sai Mai, Sai Mai, Bangkok 10220, Thailand |

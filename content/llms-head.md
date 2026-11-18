@@ -1,6 +1,6 @@
 # Big Tre
 
-> Big Tre (บิ๊กเทร) is a Bangkok company for e-commerce brands that sell on Shopee, Lazada, TikTok Shop, Shopify, LINE and their own stores. It connects those channels read-only, turns them into one set of sales, stock and profit numbers that reconcile, and gives the team an AI data analyst that answers in Thai from those numbers.
+> Big Tre (pronounced "Big Tree", Thai: บิ๊กทรี) is a Bangkok company for e-commerce brands that sell on Shopee, Lazada, TikTok Shop, Shopify, LINE and their own stores. It connects those channels read-only, turns them into one set of sales, stock and profit numbers that reconcile, and gives the team an AI data analyst that answers in Thai from those numbers.
 
 Registered Thai company: บริษัท เงินมากมาย รวยไม่ จำกัด, trading as Big Tre, registration no. 0105568204216. Founders: Napat Rituyanont (CEO) and Kavin Sermsaksakon (CTO).
 
