@@ -1,13 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bigtre.business/</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/ai-readiness/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bigtre.business/privacy/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://bigtre.business/en</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/en/about</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/about"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/about"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/en/data-foundation</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/data-foundation"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/data-foundation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/data-foundation"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/en/ai-data-analyst</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/ai-data-analyst"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/ai-data-analyst"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/ai-data-analyst"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/en/integrations</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/integrations"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/integrations"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/integrations"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/en/pricing</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/pricing"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/pricing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/pricing"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/en/ai-readiness-health-check</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/ai-readiness-health-check"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/ai-readiness-health-check"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/ai-readiness-health-check"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/en/marketplace-numbers-dont-match</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/marketplace-numbers-dont-match"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/marketplace-numbers-dont-match"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/marketplace-numbers-dont-match"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/en/profit-per-sku</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/profit-per-sku"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/profit-per-sku"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/profit-per-sku"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/en/work</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/work"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/work"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/work"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/en/compare</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/compare"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/compare"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/compare"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/en/why-big-tre</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/why-big-tre"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/why-big-tre"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/why-big-tre"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/en/faq</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/faq"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/faq"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/en/data-ownership-security</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/data-ownership-security"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/data-ownership-security"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/data-ownership-security"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/th</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/th/about</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/about"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/about"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/th/data-foundation</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/data-foundation"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/data-foundation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/data-foundation"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/th/ai-data-analyst</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/ai-data-analyst"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/ai-data-analyst"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/ai-data-analyst"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/th/integrations</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/integrations"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/integrations"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/integrations"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/th/pricing</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/pricing"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/pricing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/pricing"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/th/ai-readiness-health-check</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/ai-readiness-health-check"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/ai-readiness-health-check"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/ai-readiness-health-check"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/th/marketplace-numbers-dont-match</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/marketplace-numbers-dont-match"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/marketplace-numbers-dont-match"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/marketplace-numbers-dont-match"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/th/profit-per-sku</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/profit-per-sku"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/profit-per-sku"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/profit-per-sku"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/th/work</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/work"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/work"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/work"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/th/compare</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/compare"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/compare"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/compare"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/th/why-big-tre</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/why-big-tre"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/why-big-tre"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/why-big-tre"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/th/faq</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/faq"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/faq"/>
+  </url>
+  <url>
+    <loc>https://bigtre.business/th/data-ownership-security</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bigtre.business/en/data-ownership-security"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://bigtre.business/th/data-ownership-security"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bigtre.business/en/data-ownership-security"/>
   </url>
 </urlset>

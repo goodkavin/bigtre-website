@@ -1,0 +1,1529 @@
+https://bigtre.business/en
+
+# Big Tre: one set of numbers and an AI data analyst for Thai e-commerce brands
+
+Canonical: https://bigtre.business/en  
+Updated: 2026-11-18
+
+Big Tre is a company in Bangkok that works with e-commerce brands selling on Shopee, Lazada, TikTok Shop, Shopify, LINE and their own stores. It connects every channel read-only, writes down the rules for what counts as a sale, a cost and a unit of stock, and builds one set of sales, stock and profit numbers that reconcile with the platforms and the bank. On top of those numbers it gives the team dashboards, scheduled reports and an AI data analyst that answers questions in Thai.
+
+## In short
+
+| Question | Answer |
+|---|---|
+| Who it is for | Thai e-commerce brands with 20 to 500 million baht in yearly sales, three or more sales channels and little or no in-house tech team |
+| What it builds | A [data foundation](https://bigtre.business/en/data-foundation) for sales, stock and profit, and an [AI data analyst](https://bigtre.business/en/ai-data-analyst) in the team's work chat |
+| Systems it connects | Running for clients today: Zort, Shipnity, Shopee, Lazada and TikTok Shop settlement reports, Google Sheets, store POS. On request: BigSeller, Shopify, ERPs, accounting, ads, carriers. See [integrations](https://bigtre.business/en/integrations) |
+| Price | Setup from about 60,000 baht, then from about 14,000 baht a month. See [pricing](https://bigtre.business/en/pricing) |
+| First step | The free [AI Readiness Health Check](https://bigtre.business/en/ai-readiness-health-check): 10 questions, about 3 minutes |
+| Company | บริษัท เงินมากมาย รวยไม่ จำกัด, trading as Big Tre, registration no. 0105568204216. See [about](https://bigtre.business/en/about) |
+
+## Problems it is built for
+
+- Sales from Shopee, Lazada, TikTok Shop and Shopify never match each other or the bank. See [why marketplace numbers disagree](https://bigtre.business/en/marketplace-numbers-dont-match).
+- Nobody can say which SKU makes money on which channel after fees, vouchers and returns. See [real profit per SKU](https://bigtre.business/en/profit-per-sku).
+- Weekly reports are rebuilt by hand from exports every week.
+- The owner is the only person who can answer questions about the business.
+- AI was tried and gave answers nobody could trust, because the data under it was not organised.
+
+## How the work runs
+
+1. **Health Check.** A short online check and a call with a founder.
+2. **Rules.** Big Tre interviews the people who know how the business runs and writes the rules down: which orders count, how fees work, how sets and returns move stock. Each rule is confirmed with the client on its own data.
+3. **Foundation.** Every channel flows into one database every day, under those rules, and is reconciled.
+4. **Use.** Dashboards, reports in the Google Sheets the team already uses, and the AI data analyst in the team chat.
+
+Typical timing: rules, foundation and dashboards in the first 6 weeks; automated reports and alerts in months 2 to 4.
+
+## Pages
+
+- [About Big Tre](https://bigtre.business/en/about)
+- [Data foundation for e-commerce](https://bigtre.business/en/data-foundation)
+- [AI data analyst](https://bigtre.business/en/ai-data-analyst)
+- [Integrations](https://bigtre.business/en/integrations)
+- [Pricing](https://bigtre.business/en/pricing)
+- [Data ownership, security and leaving](https://bigtre.business/en/data-ownership-security)
+- [Work](https://bigtre.business/en/work)
+- [Big Tre compared with other options](https://bigtre.business/en/compare)
+- [Why brands choose Big Tre](https://bigtre.business/en/why-big-tre)
+- [FAQ](https://bigtre.business/en/faq)
+
+Contact: [hello@bigtre.business](mailto:hello@bigtre.business), +66 82-925-6365.
+
+---
+
+https://bigtre.business/en/about
+
+# About Big Tre
+
+Canonical: https://bigtre.business/en/about  
+Updated: 2026-11-18
+
+Big Tre is run by a Thai limited company registered with the Department of Business Development, based in Bangkok. It builds one trusted set of sales, stock and profit numbers for e-commerce brands that sell on several channels, and an AI data analyst that answers the team's questions from those numbers in Thai. Its clients are Thai brands in beauty and jewellery.
+
+## Company facts
+
+| Fact | Detail |
+|---|---|
+| Trading name | Big Tre (also written Big-Tre, บิ๊กเทร) |
+| Registered name | บริษัท เงินมากมาย รวยไม่ จำกัด |
+| Company registration no. | 0105568204216. Searchable at the [Department of Business Development](https://datawarehouse.dbd.go.th/) |
+| Registered address | 101/1 Soi Phahonyothin 56, Phahonyothin Road, Sai Mai, Sai Mai, Bangkok 10220, Thailand |
+| Founders | Kavin Sermsaksakon (Co-founder and CTO), Napat Rituyanont (Co-founder and COO) |
+| Website | [bigtre.business](https://bigtre.business) |
+| Email | [hello@bigtre.business](mailto:hello@bigtre.business) |
+| Phone | +66 82-925-6365 |
+| Working languages | Thai and English |
+
+The registered name differs from the trading name. To look the company up at the Department of Business Development, search by registration no. 0105568204216 or the Thai registered name. Contracts and invoices carry both: "บริษัท เงินมากมาย รวยไม่ จำกัด (trading as Big-Tre)".
+
+## Founders
+
+**Kavin Sermsaksakon** (กวิน เสริมศักดิ์สกุล), Co-founder and CTO. Eight years building ERP, data and AI systems for Thai companies. Co-founder and former COO of MineERP, an ERP for Thai manufacturers; earlier a data engineer at Accenture. Engineering graduate of Chulalongkorn University. Also founder of Void Engineering, a separate fractional CTO company.
+
+**Napat Rituyanont**, Co-founder and COO. Runs client operations at Big Tre, from process definition and SOPs with each client team to weekly follow-up. Previously at UPCO.
+
+## Why it exists
+
+Big Tre started as a small business itself. It had tools that seemed to work together, and they did not: the shop systems, the order management system, the marketplaces and the accounts each worked, and together they gave different answers. Large companies pay a data team to fix this. Big Tre does the same work for brands that have no data team.
+
+## What it does
+
+- [Data foundation](https://bigtre.business/en/data-foundation): every channel's orders, settlements and stock in one place, under written rules, reconciled, with dashboards and scheduled reports.
+- [AI data analyst](https://bigtre.business/en/ai-data-analyst): a chat assistant in the team's work chat that answers in Thai from the company's own numbers.
+- [AI Readiness Health Check](https://bigtre.business/en/ai-readiness-health-check): a free first check of where the business stands.
+
+## What it does not do
+
+- It does not replace the order management system, the accounting software or the ERP. It reads from them.
+- It does not write to a client's systems. Connections are read-only.
+- It does not file tax. It makes the numbers an accountant works from correct.
+
+## Big Tre and Void Engineering
+
+Kavin Sermsaksakon also founded [Void Engineering](https://voidengineer.ing), a separate company that works as a fractional CTO for companies with no technology leader. Big Tre focuses on data and AI analysts for multi-channel e-commerce brands. A company that needs a part-time CTO to plan and build across its whole operation is better served by Void Engineering.
+
+## Contact
+
+[hello@bigtre.business](mailto:hello@bigtre.business) or +66 82-925-6365. The [Health Check](https://bigtre.business/en/ai-readiness-health-check) is the usual first step.
+
+---
+
+https://bigtre.business/en/data-foundation
+
+# Data foundation for multi-channel e-commerce brands
+
+Canonical: https://bigtre.business/en/data-foundation  
+Updated: 2026-11-18
+
+A data foundation is one database that holds every order, settlement and stock movement from every sales channel, under rules the business has agreed, so that every report gives the same number. Big Tre builds it for Thai e-commerce brands that sell on Shopee, Lazada, TikTok Shop, Shopify, LINE and in stores. It connects read-only to the systems the brand already uses and refreshes every day.
+
+## What it includes
+
+| Part | What the brand gets |
+|---|---|
+| Written rules | A rulebook of how the business counts: which order statuses are sales, how cancelled and returned orders are treated, how sets and bundles split into items, which discounts the seller pays and which the platform pays. Each rule is confirmed with the team on real orders |
+| Sales | Orders from every channel, de-duplicated, one row per item, daily |
+| Settlements and fees | What each platform paid out, with commission, service, transaction and payment fees itemised, matched to the bank |
+| Stock | One stock figure per SKU across channels, with returns, transfers, free gifts and set deductions handled the same way every time |
+| Profit | Margin per SKU and per channel after fees, vouchers and returns. Cost of goods comes from the brand's own cost sheet or ERP |
+| Dashboards | Sales, margin, stock cover and campaign results by channel |
+| Reports | The weekly and monthly reports the team builds by hand, produced in the Google Sheets layout the team already uses |
+| Alerts | Low stock before an oversell, counts that drift between channels, platform fee changes |
+
+## Why the rules come first
+
+Most reporting projects fail on definitions, not software. When one report counts paid orders and another counts placed orders, both are correct and neither agrees. Big Tre writes each definition down once and applies it to every channel. A number that looks wrong can be traced to the rule that produced it.
+
+## How long it takes
+
+| Phase | What is done | Typical timing |
+|---|---|---|
+| Rules and foundation | Systems connected, rules written and confirmed, first month reconciled | Weeks 1 to 6 |
+| Dashboards and reports | Dashboards and the team's recurring reports, first produced by Big Tre | Weeks 1 to 6 |
+| Automation | Alerts, reports sent on a schedule, every new payout matched automatically | Months 2 to 4 |
+
+Each phase ends with something the team uses. The [AI data analyst](https://bigtre.business/en/ai-data-analyst) reads from the same foundation.
+
+## What it connects to
+
+Order management systems (Zort and Shipnity today, BigSeller on request), marketplace settlement reports, Shopify, Google Sheets and Drive, and store POS. ERPs (Odoo, ERPNext, SAP Business One), accounting software (Express, PEAK, FlowAccount), ad accounts and carriers are connected when needed. Status of each is on [integrations](https://bigtre.business/en/integrations).
+
+## Where the data is kept
+
+In Google Cloud (BigQuery) in the Singapore region, in a separate dataset per client. Big Tre reads from the client's systems and never writes to them.
+
+## Price
+
+Setup from about 60,000 baht, then from about 14,000 baht a month to run it. See [pricing](https://bigtre.business/en/pricing).
+
+Start with the free [AI Readiness Health Check](https://bigtre.business/en/ai-readiness-health-check) or write to [hello@bigtre.business](mailto:hello@bigtre.business).
+
+---
+
+https://bigtre.business/en/ai-data-analyst
+
+# AI data analyst for e-commerce brands
+
+Canonical: https://bigtre.business/en/ai-data-analyst  
+Updated: 2026-11-18
+
+Big Tre's AI data analyst is a chat assistant that sits in the team's work chat and answers questions about the business in Thai or English, from the brand's own sales, stock and profit data. It reads the [data foundation](https://bigtre.business/en/data-foundation) Big Tre builds and the written rules behind it, so its answers match the dashboards and reports. It runs on Anthropic's Claude model and has read-only access to that one client's data.
+
+## What the team asks it
+
+| Question | What it does |
+|---|---|
+| "ยอดขายเมื่อวานแต่ละช่องทางเท่าไหร่" (yesterday's sales by channel) | Reads the day's figures under the agreed definition of a sale |
+| "SKU ไหนขาดทุนเดือนที่แล้วหลังหักโวเชอร์" (which SKUs lost money last month after vouchers) | Computes margin per SKU after fees and seller-paid vouchers |
+| "Why did the Shopee payout drop this week?" | Breaks the payout into orders, fees and returns and names the change |
+| "How did the 11.11 campaign do on margin, not just sales?" | Compares the campaign window with the weeks around it, after discounts |
+| "Which items run out of stock in the next two weeks?" | Divides stock on hand by recent daily sales per SKU |
+
+Each answer states the period, the definition used and where the number came from. When a figure cannot be computed, for example profit after ad spend before the ad account is connected, it says so instead of estimating.
+
+## What it sends without being asked
+
+- A morning summary of the previous day.
+- A weekly summary.
+- Alerts when something moves outside its normal range, such as a sudden drop in a channel's sales or stock about to run out.
+
+## What it needs first
+
+A data foundation with written rules. An AI assistant on top of unreconciled exports gives answers that sound sure and are wrong. That is why Big Tre builds the foundation first and the analyst second.
+
+## Where it runs
+
+In the team's work chat. Today it runs in Telegram, as it does for both current clients. It does not run in LINE yet; a team that works mainly in LINE should raise it on the first call. Each client's analyst runs separately and can read only that client's data.
+
+## Limits
+
+- It answers from the data it is connected to. It does not see systems that are not connected.
+- It does not change orders, stock or accounts.
+- It does not replace an accountant or a decision. It gives the number and how it was made.
+
+## Price
+
+Set up as part of the setup fee, then included in the monthly fee once the data foundation is live. See [pricing](https://bigtre.business/en/pricing).
+
+Contact: [hello@bigtre.business](mailto:hello@bigtre.business), +66 82-925-6365.
+
+---
+
+https://bigtre.business/en/integrations
+
+# Systems Big Tre connects
+
+Canonical: https://bigtre.business/en/integrations  
+Updated: 2026-11-18
+
+Big Tre connects read-only to the systems a Thai e-commerce brand already runs and brings their data into one [data foundation](https://bigtre.business/en/data-foundation). It does not replace them. The table says which connections are running for a client today and which are built when a client needs them.
+
+| System | Examples | What it gives | Status |
+|---|---|---|---|
+| Order management system | Zort, Shipnity | Orders and items from every channel, daily, stock and days of cover | Running for clients |
+| Order management system | BigSeller and others with an API or export | The same | Built on request |
+| Marketplace settlement and fee reports | Shopee, Lazada, TikTok Shop | Payouts with every fee itemised, seller-paid and platform-paid discounts split | Running for clients |
+| TikTok affiliate reports | TikTok Shop affiliate | Affiliate and creator sales | Running for clients |
+| Google Sheets and Drive | Cost sheets, targets, campaign calendars | Hand-kept inputs joined to the live data; reports written back in the team's own layout | Running for clients |
+| Store POS | Retail branches | Store sales next to online sales | Running for clients |
+| Own web store | Shopify, WooCommerce, LINE Shopping | Web-store margin, repeat customers, discount codes | Built on request |
+| Warehouse or 3PL | In-house WMS, fulfilment providers | Counted stock against system stock, defects and returns split | Built on request |
+| ERP | Odoo, ERPNext, SAP Business One | Purchase cost into true cost of goods and margin per SKU | Built on request |
+| Accounting | Express, PEAK, FlowAccount | Management figures next to the books, month-end files for the accountant | Built on request |
+| Ads | Meta, Google, TikTok Ads | Profit after ad spend, return on ad spend by campaign | Built on request |
+| Carriers | Flash, Kerry, J&T | Shipping cost charged against paid, cash-on-delivery success | Built on request |
+| Work chat | Telegram | Where the [AI data analyst](https://bigtre.business/en/ai-data-analyst) answers and sends summaries | Running for clients |
+
+"Built on request" means Big Tre has the design and connects it as part of a project. It is not a ready-made plug-in.
+
+## Using Zort or Shipnity?
+
+Zort and Shipnity already collect orders from every channel and show sales and stock reports. Big Tre reads from them through their APIs or exports and adds what they do not hold: settlement fees and payouts per order, cost of goods, margin per SKU and channel, the brand's own definitions, reports in the team's Google Sheets layout, and the [AI data analyst](https://bigtre.business/en/ai-data-analyst) that answers questions in Thai. Both are running for current clients.
+
+## How a connection is made
+
+- Through the system's API where it has one, with a key the client issues and can revoke.
+- Through scheduled exports or files in a shared Drive folder where it has none.
+- Read-only. Big Tre does not change orders, stock, prices or accounts.
+
+## Common questions
+
+**Do we have to change our order management system?** No. Big Tre reads from the one in use.
+
+**Our product codes differ between Shopee, Lazada and our OMS.** This is the most common problem. Big Tre keeps a mapping of every channel's code to one product, and updates it as new SKUs appear.
+
+**We still keep some numbers in spreadsheets.** That is fine. Costs, targets and campaign dates often live in Google Sheets and are read from there.
+
+Contact: [hello@bigtre.business](mailto:hello@bigtre.business).
+
+---
+
+https://bigtre.business/en/pricing
+
+# Big Tre pricing
+
+Canonical: https://bigtre.business/en/pricing  
+Updated: 2026-11-18
+
+Big Tre charges a one-time setup fee and a monthly fee. Setup starts from about 60,000 baht. The monthly fee starts from about 14,000 baht a month. The first step, the [AI Readiness Health Check](https://bigtre.business/en/ai-readiness-health-check), is free. The exact price is set in a written quotation after the Health Check call and about a week of learning the business.
+
+## What each fee covers
+
+| Fee | Covers |
+|---|---|
+| Setup, from about 60,000 baht | Connecting the brand's systems, writing and confirming the business rules, reconciling the first month, dashboards and reports, setting up the [AI data analyst](https://bigtre.business/en/ai-data-analyst) |
+| Monthly, from about 14,000 baht a month | Daily data refresh, keeping rules and product mappings current as SKUs and channels change, the AI data analyst, scheduled reports and alerts, fixes |
+
+## What moves the price
+
+- The number of systems and channels to connect.
+- How many product codes need mapping, and how many sets and bundles there are.
+- Whether cost of goods, settlements and ads are in scope or only sales and stock.
+- How many reports need to be produced in the team's own layout.
+
+## Common questions
+
+### Is VAT added?
+
+Big Tre is not registered for VAT at the time of writing, so no VAT is added. For a VAT-registered buyer this also means there is no input VAT to claim. The quotation states the terms.
+
+### Is there a minimum term?
+
+The term is set in each quotation. Current contracts start with a short pilot that either side can stop by written notice before the next service month, then move to a longer agreement. See [data ownership and exit](https://bigtre.business/en/data-ownership-security).
+
+### Why not a fixed software subscription?
+
+Most of the work is fitting the numbers to how each brand runs: its rules, codes and reports. A packaged dashboard skips that step, which is why its numbers often disagree with the accounts.
+
+### What does the Health Check cost?
+
+Nothing. It is 10 questions online, an emailed one-page roadmap and a call with a founder.
+
+Contact: [hello@bigtre.business](mailto:hello@bigtre.business), +66 82-925-6365.
+
+---
+
+https://bigtre.business/en/ai-readiness-health-check
+
+# Free AI Readiness Health Check
+
+Canonical: https://bigtre.business/en/ai-readiness-health-check  
+Updated: 2026-11-18
+
+The AI Readiness Health Check is Big Tre's free first step for e-commerce brands and retailers that want to use AI. It is a 10-question online form that takes about 3 minutes. It places the business in one of three readiness bands, emails a one-page roadmap, and a founder follows up within 48 hours. [Start the Health Check](https://bigtre.business/ai-readiness/).
+
+## Where to start with AI, in three steps
+
+1. **Put the numbers in one place, under one definition.** Sales, stock and margin from every channel, reconciled. AI on top of mismatched exports gives confident wrong answers.
+2. **Automate the recurring reports.** The weekly and monthly reports the team rebuilds by hand.
+3. **Add AI that answers from those numbers.** Questions in Thai, in the team's chat, with the source of each figure.
+
+The Health Check shows which step a business is on.
+
+## What it asks
+
+| Area | Example question |
+|---|---|
+| Operations | Can you answer "how did we do last month?" in under 5 minutes? |
+| Operations | How much of how the business runs is only in the owner's head? |
+| Visibility | Can you see profit per channel after fees, discounts and shipping? |
+| Visibility | After a campaign, do you know what it cost in margin, not only spend? |
+| Trust in numbers | Does reported revenue match bank deposits each month? |
+| Data sources | How many places do you pull numbers from? |
+| AI | Has AI been tried in the business, and did it stick? |
+| About the business | Type of business, yearly sales and number of sales channels |
+
+## The three bands
+
+| Band | What it means |
+|---|---|
+| Foundation | The numbers are not yet in one place or not trusted. AI on top would give unreliable answers. Start with the [data foundation](https://bigtre.business/en/data-foundation) |
+| Building | Some numbers are trusted and some are not. Fix the gaps the check names, then add AI on the parts that are ready |
+| AI-Ready | The numbers are in one place and trusted. An [AI data analyst](https://bigtre.business/en/ai-data-analyst) and automated reports can start now |
+
+## What happens after
+
+1. The band and the three biggest gaps are shown on screen.
+2. A one-page roadmap arrives by email within minutes: what to build, in what order, on what timeline.
+3. A Big Tre founder contacts the business within 48 hours to talk it through.
+4. If there is a fit, Big Tre spends about a week learning the business and gives a written plan and quotation. No commitment is required at any step.
+
+## A self-check before starting
+
+If two of these are true, the business is in the Foundation band and AI tools will struggle:
+
+- Two reports of last month's sales give different totals.
+- Profit per channel after fees takes days to work out.
+- Revenue and bank deposits are not reconciled each month.
+- The same product has a different code on each marketplace.
+
+## Privacy
+
+The form collects the answers, name, work email and company. They are used to send the roadmap and follow up, kept for 24 months, and not sold. See the [privacy notice](https://bigtre.business/privacy/).
+
+[Start the Health Check](https://bigtre.business/ai-readiness/) or write to [hello@bigtre.business](mailto:hello@bigtre.business).
+
+---
+
+https://bigtre.business/en/marketplace-numbers-dont-match
+
+# Shopee, Lazada and TikTok Shop payouts don't match sales or the bank
+
+Canonical: https://bigtre.business/en/marketplace-numbers-dont-match  
+Updated: 2026-11-18
+
+Sales on Shopee, Lazada, TikTok Shop, Shopify and the order management system rarely match each other, the payouts or the bank, because each counts a sale differently: on a different date, at a different order status, before or after vouchers, returns and fees. The gap closes when every channel's orders and settlements go into one database and one written definition is applied to all of them. Big Tre, a company in Bangkok, does this for Thai e-commerce brands.
+
+## Three numbers that are never equal
+
+| Number | Where it comes from | Why it differs |
+|---|---|---|
+| Sales | Seller Center reports, the OMS | Counts orders placed or paid, at list price or after discount |
+| Payout | The platform's settlement report | Sales minus commission, service, transaction and payment fees, minus returns, on the payout date |
+| Bank deposit | The bank statement | Payouts grouped by transfer date, sometimes several periods in one transfer |
+
+Matching sales to the bank means walking through all three, not comparing the first and last.
+
+## The usual causes
+
+- **Date.** Order date, payment date, shipped date or completed date. An order on the last night of the month lands in either month.
+- **Order status.** Placed, paid, shipped, completed, cancelled, failed delivery. Reports include different sets.
+- **Returns and refunds.** Deducted in the month of sale, the month of return, or not at all.
+- **Vouchers.** Platform-funded vouchers are paid back to the seller; seller-funded ones are a cost. Reports show price before or after either.
+- **Free gifts.** A gift with purchase looks like a sale at zero, or vanishes, depending on the report.
+- **Sets and bundles.** A set counts as one item in one place and as its parts in another, which also breaks stock.
+- **Product codes.** The same product has a different SKU on each marketplace and in the OMS, so totals per product cannot be added up.
+- **Fees.** Commission, service, transaction and payment fees differ per platform and per category, and change during the year.
+- **Duplicates.** The same order arrives from the OMS and from a manual upload.
+
+## How to fix it
+
+1. **Write one definition** of a sale, a return and a cost, agreed by sales and accounting.
+2. **Map product codes** from every channel to one product list.
+3. **Load every order and settlement** into one database every day.
+4. **Reconcile one closed month** against each platform's report and the bank until every gap has a reason.
+5. **Point every report at that database**, so the dashboard, the weekly report and the [AI data analyst](https://bigtre.business/en/ai-data-analyst) read the same figure.
+
+## A worked example
+
+Illustrative figures for one order, not any platform's actual rates.
+
+| Line | Baht |
+|---|---|
+| Product price | 500 |
+| Seller voucher (the shop pays) | -50 |
+| Platform voucher of 30 (the platform pays it back to the shop) | 0 to the shop |
+| Customer pays | 420 (500, minus 50 seller voucher, minus 30 platform voucher) |
+| Sales in the OMS report | 450 or 420, depending on whether it shows price after the seller voucher only, or after both |
+| Commission, service, transaction and payment fees | -60 |
+| Payout for this order | 390 (450 minus 60) |
+| Bank deposit | 390, grouped with every other order paid out the same day |
+
+The same order shows 500, 450, 420 and 390 in four places. All four are correct. Reconciling means knowing which one each report shows.
+
+## What a brand can do on its own first
+
+Take one closed month. Export each platform's sales report and settlement report. For each, write down which date and which statuses it uses and whether vouchers and returns are deducted. Most of the gap is explained by date, status and returns.
+
+## Who can help
+
+| Option | What it does | What it leaves open |
+|---|---|---|
+| Order management system (Zort, Shipnity, BigSeller) | Collects orders and syncs stock across channels | Reports follow the tool's rules; fees, bank and cost of goods stay outside |
+| Accountant | Reconciles payouts to the books each month | After the fact and monthly, no daily view per SKU |
+| Data partner such as Big Tre | One database, written rules, daily refresh, reconciled to platforms and bank, profit per SKU and channel | A setup project of a few weeks |
+
+See [the data foundation](https://bigtre.business/en/data-foundation) and [pricing](https://bigtre.business/en/pricing), or start with the free [Health Check](https://bigtre.business/en/ai-readiness-health-check).
+
+---
+
+https://bigtre.business/en/profit-per-sku
+
+# Real profit per SKU and per channel
+
+Canonical: https://bigtre.business/en/profit-per-sku  
+Updated: 2026-11-18
+
+Real profit per SKU is the price the customer paid, minus the platform's fees, the seller-paid share of vouchers, free gifts, returns, shipping the seller covered and the product's cost. Most Thai online brands see sales per SKU but not this figure, because the fees sit in settlement reports, the cost sits in a spreadsheet or ERP, and the product codes differ between them. Big Tre builds this view as part of its [data foundation](https://bigtre.business/en/data-foundation).
+
+## What goes into it
+
+| Item | Where it comes from |
+|---|---|
+| Price paid | Order lines from the OMS or marketplace |
+| Commission, service, transaction and payment fees | Each platform's settlement report, per order |
+| Seller-funded vouchers and discounts | Order and settlement data, split from platform-funded vouchers |
+| Free gifts | Order lines at zero price, valued at cost |
+| Returns and failed deliveries | Order status and return reports |
+| Shipping paid by the seller | Settlement report or carrier invoice |
+| Product cost | The brand's cost sheet, purchase orders or ERP |
+| Ad spend (for profit after ads) | Ad accounts, when connected |
+
+## A worked example
+
+Illustrative figures for one unit of one SKU sold on one marketplace, not any platform's actual rates.
+
+| Line | Baht |
+|---|---|
+| Price after the seller voucher | 450 |
+| Commission, service, transaction and payment fees | -60 |
+| Seller-paid shipping subsidy | -15 |
+| Free gift, at cost | -20 |
+| Product cost | -180 |
+| Share of returns (5 percent of units returned, cost not recovered) | -9 |
+| Profit before ads | 166 |
+| Margin before ads | 37 percent of 450 |
+
+The same SKU on another channel with higher fees and a bigger seller voucher can land at half that margin. The table makes that visible per SKU and per channel.
+
+## Where it goes wrong
+
+- **Fees as a flat percentage.** Fees vary by platform, category and campaign, and platforms change them. A flat rate hides which products lose money.
+- **Platform vouchers counted as discounts.** Platform-funded vouchers come back in the payout. Counting them as a cost understates margin.
+- **Sets counted as one product.** A set must be split into its items, both for cost and for stock.
+- **Different product codes.** Without one mapping, the same product's sales on Shopee and TikTok cannot be added up.
+- **Cost of goods from last year.** Margin is only as good as the cost behind it.
+
+## What the result looks like
+
+A table of every SKU by channel with units, sales, fees, discounts, cost and margin, refreshed daily. The same product's margin on Shopee, Lazada, TikTok Shop and the web store side by side shows where to spend and where to raise prices. Profit after ad spend is shown only once ad accounts are connected, and shown as blocked until then.
+
+## Questions the team can then ask
+
+Through the [AI data analyst](https://bigtre.business/en/ai-data-analyst): "which SKUs lost money last month after vouchers", "what did the 11.11 campaign earn after discounts", "if the seller voucher drops from 10 to 5 percent, where is break-even".
+
+Start with the free [Health Check](https://bigtre.business/en/ai-readiness-health-check) or write to [hello@bigtre.business](mailto:hello@bigtre.business).
+
+---
+
+https://bigtre.business/en/work
+
+# Big Tre work
+
+Canonical: https://bigtre.business/en/work  
+Updated: 2026-11-18
+
+Big Tre has built data foundations and AI data analysts for Thai e-commerce brands in beauty and jewellery. Both clients below are paying and running in production. Client names are withheld.
+
+| Client | Channels and systems | What was built | Status |
+|---|---|---|---|
+| Multi-brand beauty seller | Shopee, Lazada, TikTok Shop; Zort | Daily data pipeline, margin model, automated reports per brand, monthly company P&L, AI data analyst | Live, monthly subscription |
+| Jewellery brand | Shopee, TikTok Shop, Lazada, Shopify, LINE and about 10 retail stores; Shipnity | Daily data pipeline, dashboards, reports in Google Sheets, AI data analyst, a Shopify app | Live, monthly subscription |
+
+## Multi-brand beauty seller
+
+**Situation.** A seller of several beauty brands on Shopee, Lazada and TikTok Shop, with orders in Zort. Each brand's sales and margin were assembled by hand.
+
+**What was built.**
+
+- A daily pipeline from Zort into one database, with the product categories mapped.
+- A margin model per item and per brand.
+- Automated reports in Google Sheets for each brand, and a monthly company profit and loss.
+- TikTok affiliate sales loaded next to orders.
+- An AI data analyst in the team's Telegram chat.
+
+## Jewellery brand
+
+**Situation.** A jewellery brand selling mainly on Shopee, also on TikTok Shop, Lazada, Shopify and LINE, and through about 10 stores, with orders in Shipnity.
+
+**What was built.**
+
+- A daily pipeline from Shipnity into one database.
+- Dashboards and recurring reports in Google Sheets.
+- An AI data analyst in the team's Telegram chat, opened to the whole team in November 2026.
+- A Shopify app that limits how many units of a product one customer can buy during launches.
+- Ongoing work with the team on returns, product master data and other processes behind the numbers, under a separate monthly agreement.
+
+## What is not published
+
+Client names, prices paid and business figures. A reference can be asked for on the call after the Health Check.
+
+Start with the free [Health Check](https://bigtre.business/en/ai-readiness-health-check) or write to [hello@bigtre.business](mailto:hello@bigtre.business).
+
+---
+
+https://bigtre.business/en/compare
+
+# Big Tre compared with the other options
+
+Canonical: https://bigtre.business/en/compare  
+Updated: 2026-11-18
+
+A Thai e-commerce brand that wants trusted numbers and AI usually weighs five options: the reports in its order management system, a dashboard tool, hiring a data analyst, its accountant, or an IT consultancy. Big Tre sits between them: it does the data work of an analyst and a data engineer, sets up the dashboards and adds an AI data analyst, for a setup fee and a monthly fee.
+
+| Option | Good at | Leaves open | Typical cost |
+|---|---|---|---|
+| OMS reports (Zort, Shipnity, BigSeller) | Orders and stock across channels in one screen | Fees, payouts, bank, cost of goods and the brand's own rules | Included in the OMS subscription |
+| Dashboard tool (Looker Studio, Power BI) | Charts once clean data exists | Someone has to build and maintain the clean data | Low licence cost, high build time |
+| In-house data analyst | Knows the business, available every day | One person; needs data engineering skills too; leaves with the knowledge | A full-time salary |
+| Accountant | Correct books and tax | Monthly and after the fact; no daily view per SKU or channel | Monthly fee |
+| IT consultancy or system integrator | Large custom systems | Priced and staffed for large projects | Project fees well above a monthly subscription |
+| Big Tre | Written rules, one reconciled database, dashboards, reports and an AI data analyst, run monthly | A setup project of a few weeks before the numbers are live | Setup from about 60,000 baht, then from about 14,000 baht a month |
+
+## When Big Tre fits
+
+- Three or more sales channels, and reports that do not agree.
+- Yearly sales of roughly 20 to 500 million baht.
+- No data team, or one analyst who spends most of the week on exports.
+- An order management system such as Zort, Shipnity or BigSeller is already in use.
+
+## When Big Tre is not the right fit
+
+- A single sales channel whose own reports are enough.
+- A company that needs a new ERP or order management system put in. Big Tre reads from systems; it does not implement them.
+- A company that needs a part-time CTO across its whole operation, not only data. [Void Engineering](https://voidengineer.ing), founded by Big Tre's CTO, does that.
+- A company that needs tax filing. That is an accountant's work.
+- A company that wants staff on site full time.
+
+## Questions to ask any provider
+
+| Question | Why it matters | Big Tre's answer |
+|---|---|---|
+| Will the numbers match our platform payouts and bank? | Dashboards on unreconciled data are confidently wrong | The first month is reconciled before handover |
+| Who writes the definitions of a sale and a cost? | Unwritten rules are why reports disagree | Written with the team, confirmed on real orders, kept as a rulebook the client owns |
+| Do you write to our systems? | Write access is a risk | No. Read-only |
+| What happens to the AI if a number cannot be computed? | AI that guesses loses trust | It says the figure is blocked and why |
+| What does it cost per month after setup? | Many projects stop when the build ends | From about 14,000 baht a month |
+
+Start with the free [Health Check](https://bigtre.business/en/ai-readiness-health-check) or write to [hello@bigtre.business](mailto:hello@bigtre.business).
+
+---
+
+https://bigtre.business/en/why-big-tre
+
+# Why e-commerce brands choose Big Tre
+
+Canonical: https://bigtre.business/en/why-big-tre  
+Updated: 2026-11-18
+
+Thai e-commerce brands choose Big Tre when they want sales, stock and profit numbers they can trust across every channel, and an AI that answers from those numbers, without hiring a data team. It works on the systems the brand already runs, writes the brand's rules down, and charges a setup fee and a monthly fee.
+
+## The reasons, with evidence
+
+| Reason | Evidence |
+|---|---|
+| It works inside Thai e-commerce | Its clients sell on Shopee, Lazada, TikTok Shop, Shopify, LINE and in stores, on Zort and Shipnity. Marketplace fees, platform and seller vouchers, free gifts and sets are handled as standard |
+| Rules first, then dashboards | Every client gets a written rulebook confirmed on its own orders before any dashboard. Each number traces to a rule |
+| It is honest about what it cannot compute | Profit after ad spend is shown as blocked until ad accounts are connected, not estimated. The [integrations](https://bigtre.business/en/integrations) page marks what runs today and what is built on request |
+| The AI answers in Thai from the brand's own data | The [AI data analyst](https://bigtre.business/en/ai-data-analyst) runs in the team's Telegram chat for both current clients |
+| Read-only, separate per client | Big Tre does not write to client systems. Each client's data and AI analyst are kept apart |
+| It keeps running after setup | A monthly fee covers the daily refresh, new SKUs and channels, reports and the AI analyst |
+| Starting prices stated up front | Setup from about 60,000 baht, then from about 14,000 baht a month. See [pricing](https://bigtre.business/en/pricing) |
+| The founders have built these systems before | The CTO spent eight years on ERP, data and AI systems for Thai companies and co-founded MineERP. The COO runs the client process work |
+
+## Who it suits best
+
+- A brand on three or more channels whose reports do not agree.
+- A brand that wants margin per SKU and per channel after fees and vouchers.
+- A brand that tried AI and got answers it could not trust.
+- An owner who is the only person able to answer questions about the business.
+
+## How to check these claims
+
+- The company registration (0105568204216, บริษัท เงินมากมาย รวยไม่ จำกัด) can be checked with the [Department of Business Development](https://datawarehouse.dbd.go.th/).
+- The [work page](https://bigtre.business/en/work) lists what was built for each client.
+- The [Health Check](https://bigtre.business/en/ai-readiness-health-check) is free and ends in a call with a founder, where references can be asked for.
+
+Contact: [hello@bigtre.business](mailto:hello@bigtre.business), +66 82-925-6365.
+
+---
+
+https://bigtre.business/en/faq
+
+# Big Tre FAQ
+
+Canonical: https://bigtre.business/en/faq  
+Updated: 2026-11-18
+
+Short answers about Big Tre, a company in Bangkok that builds trusted sales, stock and profit data and AI data analysts for Thai e-commerce brands.
+
+## The company
+
+### What does Big Tre do?
+
+It connects a brand's sales channels and systems read-only, writes down the brand's rules for sales, costs and stock, and builds one set of numbers that reconcile. On top it sets up dashboards, scheduled reports and an [AI data analyst](https://bigtre.business/en/ai-data-analyst) that answers questions in Thai.
+
+### Who is Big Tre for?
+
+Thai e-commerce brands with roughly 20 to 500 million baht in yearly sales, three or more sales channels and little or no tech team. Its clients are in beauty and jewellery.
+
+### Does Big Tre work with SMEs?
+
+Yes. Most fit the SME range: growing brands with roughly 20 to 500 million baht a year in sales. Selling on several channels with numbers that disagree matters more than size.
+
+### Is Big Tre a registered company?
+
+Yes. The registered name is บริษัท เงินมากมาย รวยไม่ จำกัด, trading as Big Tre (Big-Tre), registration no. 0105568204216, at 101/1 Soi Phahonyothin 56, Phahonyothin Road, Sai Mai, Sai Mai, Bangkok 10220. It can be checked with the Department of Business Development.
+
+### Who runs Big Tre?
+
+Kavin Sermsaksakon (Co-founder and CTO) and Napat Rituyanont (Co-founder and COO). See [about](https://bigtre.business/en/about).
+
+### How is Big Tre related to Void Engineering?
+
+They are separate companies. Kavin Sermsaksakon founded both. Big Tre does data and AI analysts for multi-channel e-commerce brands. [Void Engineering](https://voidengineer.ing) is a fractional CTO for companies that need technology planned and built across the whole operation.
+
+## Price and engagement
+
+### How much does it cost?
+
+Setup from about 60,000 baht, then from about 14,000 baht a month. The Health Check is free. See [pricing](https://bigtre.business/en/pricing).
+
+### How does it start?
+
+With the free [AI Readiness Health Check](https://bigtre.business/en/ai-readiness-health-check): 10 questions online, a roadmap by email, and a call with a founder within 48 hours. If there is a fit, Big Tre spends about a week learning the business and sends a written plan and quotation.
+
+### How long until the numbers are live?
+
+Rules, the reconciled foundation and dashboards in the first 6 weeks. Automated reports and alerts in months 2 to 4.
+
+### Do we need a tech team?
+
+No. Big Tre does the technical work. The team's part is answering questions about how the business runs and confirming the rules.
+
+## Systems and data
+
+### Which systems does Big Tre connect?
+
+Running for clients: Zort, Shipnity, Shopee, Lazada and TikTok Shop settlement reports, Google Sheets and store POS. On request: BigSeller, Shopify, ERPs, accounting software, ad accounts and carriers. See [integrations](https://bigtre.business/en/integrations).
+
+### Do we have to replace our order management system or ERP?
+
+No. Big Tre reads from the systems in use and does not replace them.
+
+### Does Big Tre change anything in our systems?
+
+No. Connections are read-only.
+
+### Where is our data stored?
+
+In Google Cloud (BigQuery), Singapore region, separate for each client. The client owns its data, reports and rules, and receives them within 30 days if the contract ends. See [data ownership and exit](https://bigtre.business/en/data-ownership-security).
+
+### Which AI does the data analyst use?
+
+Anthropic's Claude. It reads only that client's data and the client's written rules.
+
+### Does Big Tre do our accounting or tax?
+
+No. It makes the management numbers correct and gives the accountant clean files. Filing stays with the accountant.
+
+## Contact
+
+[hello@bigtre.business](mailto:hello@bigtre.business), +66 82-925-6365. Work is done in Thai and English, in Bangkok and remotely.
+
+---
+
+https://bigtre.business/en/data-ownership-security
+
+# Data ownership, security and leaving Big Tre
+
+Canonical: https://bigtre.business/en/data-ownership-security  
+Updated: 2026-11-18
+
+The client owns its data and everything built specifically for it: reports, business rules, SOPs and the setup of its own accounts. Big Tre connects with read-only access the client can revoke, keeps each client's data separate, and on termination hands over the client's data, documents and rules in a reusable form within 30 days. These are the terms in Big Tre's current client contracts.
+
+## Who owns what
+
+| Item | Owner |
+|---|---|
+| The client's data | The client |
+| Reports, dashboards, business rules, SOPs and playbooks built for the client | The client |
+| Configuration of the client's own systems and accounts | The client |
+| Big Tre's own tools, code, methods and infrastructure shared across clients | Big Tre. The client may use them for as long as the agreement runs |
+
+A client's data and business rules are never shared with other clients.
+
+## Access
+
+- Read-only. Big Tre does not change orders, stock, prices or accounts in the client's systems.
+- Through API keys or exports the client issues, and can revoke at any time.
+- Confidentiality is covered by a non-disclosure agreement signed before any access is granted.
+
+## Where the data is kept
+
+In Google Cloud (BigQuery), Singapore region, in a separate dataset for each client. Each client's AI data analyst runs separately and can read only that client's data.
+
+## The AI data analyst
+
+- It runs on Anthropic's Claude model. A question and the figures needed to answer it are processed by that model.
+- Its answers and automated reports are decision aids built on the client's own data. Big Tre checks them with reasonable professional care; they are not guaranteed to be free of error, and business decisions stay with the client.
+
+## Term and leaving
+
+- Current contracts start with a pilot of about three months. Either side can stop by written notice before the next service month starts, with no penalty.
+- After the pilot, the parties agree a longer term.
+- When the contract ends, Big Tre hands over the client's data, documents and the rules and definitions in a reusable form within 30 days.
+- The rulebook is written in plain language, so it remains usable without Big Tre.
+
+## What Big Tre does not have
+
+No third-party security certification such as ISO 27001. Buyers who need one should raise it on the first call.
+
+Questions: [hello@bigtre.business](mailto:hello@bigtre.business), +66 82-925-6365.
+
+---
+
+https://bigtre.business/th
+
+# Big Tre รับทำระบบรวมยอดขาย สต็อก กำไร และ Dashboard สำหรับแบรนด์ออนไลน์ไทย
+
+Canonical: https://bigtre.business/th  
+Updated: 2026-11-18
+
+Big Tre (บิ๊กเทร) เป็นบริษัทในกรุงเทพฯ ทำงานกับแบรนด์ที่ขายผ่าน Shopee, Lazada, TikTok Shop, Shopify, LINE และหน้าร้าน เราดึงออเดอร์จากระบบหลังบ้านและทุกช่องทางมารวมกัน (ดึงข้อมูลอย่างเดียว ไม่แก้อะไรในระบบของร้าน) ตกลงกับทีมก่อนว่าอะไรนับเป็นยอดขาย ต้นทุน และสต็อก แล้วทำให้ยอดขาย สต็อก และกำไร ตรงกับเงินที่แพลตฟอร์มโอนให้และเงินเข้าบัญชีจริง จากนั้นทีมจะได้ Dashboard รายงานที่ออกเองตามรอบ และ AI ที่ถามเรื่องยอดขายเป็นภาษาไทยในแชตทีมได้
+
+## สรุปสั้นๆ
+
+| คำถาม | คำตอบ |
+|---|---|
+| เหมาะกับใคร | แบรนด์ออนไลน์ไทยยอดขาย 20 ถึง 500 ล้านบาทต่อปี ขายสามช่องทางขึ้นไป และไม่มีทีม IT หรือมีน้อย |
+| ทำอะไรให้ | [ระบบข้อมูลยอดขาย สต็อก กำไร](https://bigtre.business/th/data-foundation) และ [AI นักวิเคราะห์ข้อมูล](https://bigtre.business/th/ai-data-analyst) ในแชตงานของทีม |
+| เชื่อมกับระบบไหน | ใช้งานจริงกับลูกค้าแล้ว: Zort, Shipnity, รายงานยอดโอนของ Shopee, Lazada และ TikTok Shop, Google Sheets, POS หน้าร้าน ทำเพิ่มได้: BigSeller, Shopify, ERP, โปรแกรมบัญชี, โฆษณา, ขนส่ง ดู[ระบบที่เชื่อมได้](https://bigtre.business/th/integrations) |
+| ราคา | ค่าวางระบบเริ่มต้นประมาณ 60,000 บาท ค่าบริการรายเดือนเริ่มต้นประมาณ 14,000 บาทต่อเดือน ดู [ราคา](https://bigtre.business/th/pricing) |
+| เริ่มยังไง | [ตรวจความพร้อม AI ฟรี](https://bigtre.business/th/ai-readiness-health-check) 10 ข้อ ประมาณ 3 นาที |
+| บริษัท | บริษัทจำกัด จดทะเบียนนิติบุคคลกับกรมพัฒนาธุรกิจการค้า ชื่อ บริษัท เงินมากมาย รวยไม่ จำกัด ชื่อทางการค้า Big Tre เลขทะเบียน 0105568204216 ดู [เกี่ยวกับเรา](https://bigtre.business/th/about) |
+
+## ปัญหาที่ Big Tre แก้
+
+- ยอดขาย Shopee, Lazada, TikTok Shop และ Shopify ไม่ตรงกัน และไม่ตรงกับเงินเข้าบัญชี ดู [ทำไมยอดขายแต่ละแพลตฟอร์มไม่ตรงกัน](https://bigtre.business/th/marketplace-numbers-dont-match)
+- ไม่มีใครตอบได้ว่า SKU ไหนกำไรจริงในช่องทางไหน หลังหักค่าธรรมเนียม โวเชอร์ และของคืน ดู [กำไรจริงต่อ SKU](https://bigtre.business/th/profit-per-sku)
+- รายงานประจำสัปดาห์ต้อง export แล้วทำใหม่ด้วยมือทุกสัปดาห์
+- เจ้าของเป็นคนเดียวที่ตอบคำถามเรื่องตัวเลขของธุรกิจได้
+- เคยลองใช้ AI แล้วได้คำตอบที่ไม่มีใครเชื่อ เพราะข้อมูลข้างใต้ยังไม่เป็นระบบ
+
+## ขั้นตอนการทำงาน
+
+1. **ตรวจความพร้อม** แบบฟอร์มออนไลน์สั้นๆ แล้วคุยกับผู้ก่อตั้ง
+2. **เขียนกติกา** สัมภาษณ์คนที่รู้งานจริง แล้วเขียนกติกาออกมา เช่น ออเดอร์สถานะไหนนับเป็นยอดขาย ค่าธรรมเนียมคิดยังไง เซ็ตและของคืนตัดสต็อกยังไง ทุกข้อยืนยันกับทีมบนออเดอร์จริง
+3. **วางระบบข้อมูล** ข้อมูลทุกช่องทางไหลเข้าฐานข้อมูลเดียวทุกวันตามกติกานั้น และกระทบยอดแล้ว
+4. **ใช้งาน** Dashboard รายงานใน Google Sheets แบบที่ทีมใช้อยู่ และ AI นักวิเคราะห์ข้อมูลในแชตทีม
+
+ระยะเวลาโดยทั่วไป: กติกา ระบบข้อมูล และ Dashboard ภายใน 6 สัปดาห์แรก รายงานอัตโนมัติและการแจ้งเตือนในเดือนที่ 2 ถึง 4
+
+## หน้าทั้งหมด
+
+- [เกี่ยวกับ Big Tre](https://bigtre.business/th/about)
+- [ระบบข้อมูลสำหรับแบรนด์ออนไลน์](https://bigtre.business/th/data-foundation)
+- [AI นักวิเคราะห์ข้อมูล](https://bigtre.business/th/ai-data-analyst)
+- [ระบบที่เชื่อมได้](https://bigtre.business/th/integrations)
+- [ราคา](https://bigtre.business/th/pricing)
+- [ข้อมูลเป็นของใคร และการเลิกใช้](https://bigtre.business/th/data-ownership-security)
+- [ผลงาน](https://bigtre.business/th/work)
+- [เทียบ Big Tre กับทางเลือกอื่น](https://bigtre.business/th/compare)
+- [ทำไมแบรนด์เลือก Big Tre](https://bigtre.business/th/why-big-tre)
+- [คำถามที่พบบ่อย](https://bigtre.business/th/faq)
+
+ติดต่อ: [hello@bigtre.business](mailto:hello@bigtre.business) โทร 082-925-6365
+
+---
+
+https://bigtre.business/th/about
+
+# เกี่ยวกับ Big Tre
+
+Canonical: https://bigtre.business/th/about  
+Updated: 2026-11-18
+
+Big Tre (บิ๊กเทร) ดำเนินงานโดยบริษัทจำกัดที่จดทะเบียนนิติบุคคลกับกรมพัฒนาธุรกิจการค้า (ไม่ใช่บริษัทในตลาดหลักทรัพย์) ตั้งอยู่ในกรุงเทพฯ ทำตัวเลขยอดขาย สต็อก และกำไรชุดเดียวที่เชื่อถือได้ให้แบรนด์ที่ขายหลายช่องทาง และทำ AI นักวิเคราะห์ข้อมูลที่ตอบคำถามของทีมเป็นภาษาไทยจากตัวเลขชุดนั้น ลูกค้าปัจจุบันเป็นแบรนด์ไทยในกลุ่มความงามและเครื่องประดับ
+
+## ข้อมูลบริษัท
+
+| หัวข้อ | รายละเอียด |
+|---|---|
+| ชื่อทางการค้า | Big Tre (เขียนว่า Big-Tre หรือ บิ๊กเทร ก็ได้) |
+| ชื่อนิติบุคคล | บริษัท เงินมากมาย รวยไม่ จำกัด |
+| เลขทะเบียนนิติบุคคล | 0105568204216 ตรวจสอบได้ที่ [กรมพัฒนาธุรกิจการค้า](https://datawarehouse.dbd.go.th/) |
+| ที่อยู่จดทะเบียน | 101/1 ซอยพหลโยธิน 56 ถนนพหลโยธิน แขวงสายไหม เขตสายไหม กรุงเทพฯ 10220 |
+| ผู้ก่อตั้ง | กวิน เสริมศักดิ์สกุล (ผู้ร่วมก่อตั้งและ CTO), Napat Rituyanont (ผู้ร่วมก่อตั้งและ COO) |
+| เว็บไซต์ | [bigtre.business](https://bigtre.business) |
+| อีเมล | [hello@bigtre.business](mailto:hello@bigtre.business) |
+| โทร | 082-925-6365 |
+| ภาษาที่ใช้ทำงาน | ไทย และอังกฤษ |
+
+ชื่อนิติบุคคลไม่ตรงกับชื่อทางการค้า ถ้าค้นที่กรมพัฒนาธุรกิจการค้า ให้ค้นด้วยเลขทะเบียน 0105568204216 หรือชื่อ บริษัท เงินมากมาย รวยไม่ จำกัด สัญญาและใบแจ้งหนี้ระบุทั้งสองชื่อ คือ "บริษัท เงินมากมาย รวยไม่ จำกัด (ชื่อทางการค้า Big-Tre)"
+
+## ผู้ก่อตั้ง
+
+**กวิน เสริมศักดิ์สกุล** (Kavin Sermsaksakon) ผู้ร่วมก่อตั้งและ CTO ทำระบบ ERP ข้อมูล และ AI ให้บริษัทไทยมาแปดปี เป็นผู้ร่วมก่อตั้งและอดีต COO ของ MineERP ระบบ ERP สำหรับโรงงานไทย ก่อนหน้านั้นเป็น Data Engineer ที่ Accenture จบวิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย และเป็นผู้ก่อตั้ง Void Engineering บริษัท Fractional CTO ที่แยกจาก Big Tre
+
+**Napat Rituyanont** ผู้ร่วมก่อตั้งและ COO ดูแลงานกับลูกค้าของ Big Tre ตั้งแต่กำหนดขั้นตอนงานและ SOP กับทีมของลูกค้า ไปจนถึงการติดตามผลทุกสัปดาห์ ก่อนหน้านี้ทำงานที่ UPCO
+
+## ทำไมถึงตั้ง Big Tre
+
+Big Tre เริ่มจากการเป็นธุรกิจเล็กเอง มีเครื่องมือหลายตัวที่ดูเหมือนจะทำงานร่วมกันได้ แต่ไม่ได้ ระบบหน้าร้าน ระบบหลังบ้าน มาร์เก็ตเพลส และบัญชี แต่ละตัวก็ใช้ได้ พอเอามาดูด้วยกันกลับได้ตัวเลขคนละชุด บริษัทใหญ่จ้างทีมข้อมูลมาแก้เรื่องนี้ Big Tre ทำงานเดียวกันให้แบรนด์ที่ไม่มีทีมข้อมูล
+
+## สิ่งที่ทำ
+
+- [ระบบข้อมูล](https://bigtre.business/th/data-foundation): ออเดอร์ ยอดโอน และสต็อกจากทุกช่องทางอยู่ที่เดียว ตามกติกาที่เขียนไว้ กระทบยอดแล้ว พร้อม Dashboard และรายงานที่ออกเองตามรอบ
+- [AI นักวิเคราะห์ข้อมูล](https://bigtre.business/th/ai-data-analyst): ผู้ช่วยในแชตงานของทีม ตอบเป็นภาษาไทยจากตัวเลขของบริษัทเอง
+- [ตรวจความพร้อม AI ฟรี](https://bigtre.business/th/ai-readiness-health-check): ดูก่อนว่าธุรกิจพร้อมแค่ไหน
+
+## สิ่งที่ไม่ทำ
+
+- ไม่เปลี่ยนระบบจัดการออเดอร์ โปรแกรมบัญชี หรือ ERP ที่ใช้อยู่ แค่อ่านข้อมูลจากระบบเหล่านั้น
+- ไม่แก้อะไรในระบบของลูกค้า ดึงข้อมูลอย่างเดียว
+- ไม่ยื่นภาษี แต่ทำให้ตัวเลขที่นักบัญชีใช้ถูกต้อง
+
+## Big Tre กับ Void Engineering
+
+กวิน เสริมศักดิ์สกุล เป็นผู้ก่อตั้ง [Void Engineering](https://voidengineer.ing) ด้วย ซึ่งเป็นอีกบริษัทหนึ่ง ทำหน้าที่ Fractional CTO ให้บริษัทที่ไม่มีผู้นำด้านเทคโนโลยี Big Tre เน้นเรื่องข้อมูลและ AI นักวิเคราะห์ข้อมูลสำหรับแบรนด์ที่ขายหลายช่องทาง ถ้าบริษัทต้องการ CTO แบบพาร์ทไทม์มาวางและสร้างระบบทั้งองค์กร Void Engineering จะเหมาะกว่า
+
+## ติดต่อ
+
+[hello@bigtre.business](mailto:hello@bigtre.business) หรือโทร 082-925-6365 ส่วนใหญ่เริ่มจาก[ตรวจความพร้อม AI ฟรี](https://bigtre.business/th/ai-readiness-health-check)
+
+---
+
+https://bigtre.business/th/data-foundation
+
+# ระบบรวมยอดขาย สต็อก กำไร และ Dashboard สำหรับร้านที่ขายหลายช่องทาง
+
+Canonical: https://bigtre.business/th/data-foundation  
+Updated: 2026-11-18
+
+ระบบรวมข้อมูล (Data Foundation) คือฐานข้อมูลเดียวที่เก็บทุกออเดอร์ ยอดที่แพลตฟอร์มโอนให้ (ยอดโอน) และการเคลื่อนไหวของสต็อกจากทุกช่องทาง ตามที่ร้านตกลงกันไว้ รายงานทุกฉบับจึงได้ตัวเลขเดียวกัน Big Tre ทำระบบนี้ให้แบรนด์ไทยที่ขายบน Shopee, Lazada, TikTok Shop, Shopify, LINE และหน้าร้าน โดยดึงข้อมูลอย่างเดียวจากระบบหลังบ้านที่ร้านใช้อยู่ ไม่แก้อะไรในระบบ และอัปเดตทุกวัน
+
+## สิ่งที่ได้
+
+| ส่วน | สิ่งที่แบรนด์ได้ |
+|---|---|
+| กติกาที่เขียนไว้ | คู่มือว่าธุรกิจนับตัวเลขยังไง ออเดอร์สถานะไหนเป็นยอดขาย ออเดอร์ยกเลิกและของคืนคิดยังไง เซ็ตแตกเป็นสินค้าแต่ละชิ้นยังไง ส่วนลดไหนร้านจ่ายเอง ส่วนไหนแพลตฟอร์มจ่าย ทุกข้อยืนยันกับทีมบนออเดอร์จริง |
+| ยอดขาย | ออเดอร์จากทุกช่องทาง ตัดรายการซ้ำแล้ว แยกรายสินค้า อัปเดตทุกวัน |
+| ยอดโอนและค่าธรรมเนียม | ยอดที่แต่ละแพลตฟอร์มโอนให้ แยกค่าคอมมิชชั่น ค่าบริการ ค่าธุรกรรม และค่าชำระเงิน แล้วกระทบกับยอดเงินเข้าบัญชี |
+| สต็อก | สต็อกตัวเลขเดียวต่อ SKU ทุกช่องทาง ของคืน การโอนย้าย ของแถม และการตัดเซ็ต คิดแบบเดียวกันทุกครั้ง |
+| กำไร | กำไรต่อ SKU และต่อช่องทาง หลังหักค่าธรรมเนียม โวเชอร์ และของคืน ต้นทุนสินค้ามาจากไฟล์ต้นทุนหรือ ERP ของแบรนด์ |
+| Dashboard | ยอดขาย กำไร สต็อกพอขายกี่วัน และผลแคมเปญ แยกตามช่องทาง |
+| รายงาน | รายงานรายสัปดาห์และรายเดือนที่ทีมเคยทำมือ ออกเองใน Google Sheets หน้าตาเดิมที่ทีมใช้ |
+| แจ้งเตือน | สต็อกใกล้หมดก่อนขายเกิน ตัวเลขสต็อกเพี้ยนระหว่างช่องทาง แพลตฟอร์มเปลี่ยนค่าธรรมเนียม |
+
+## ทำไมต้องเขียนกติกาก่อน
+
+โปรเจกต์รายงานส่วนใหญ่พังที่นิยาม ไม่ใช่ที่โปรแกรม รายงานหนึ่งนับออเดอร์ที่จ่ายแล้ว อีกรายงานนับออเดอร์ที่สั่ง ทั้งคู่ถูก แต่ไม่ตรงกัน Big Tre เขียนนิยามแต่ละข้อไว้ครั้งเดียวแล้วใช้กับทุกช่องทาง ตัวเลขไหนดูแปลก ก็ย้อนดูได้ว่ามาจากกติกาข้อไหน
+
+## ใช้เวลานานแค่ไหน
+
+| ช่วง | ทำอะไร | ระยะเวลาโดยทั่วไป |
+|---|---|---|
+| กติกาและระบบข้อมูล | เชื่อมระบบ เขียนและยืนยันกติกา กระทบยอดเดือนแรก | สัปดาห์ที่ 1 ถึง 6 |
+| Dashboard และรายงาน | Dashboard และรายงานประจำของทีม | สัปดาห์ที่ 1 ถึง 6 |
+| ระบบอัตโนมัติ | แจ้งเตือน รายงานที่ส่งเองตามรอบ เทียบยอดโอนทุกรอบโดยอัตโนมัติ | เดือนที่ 2 ถึง 4 |
+
+ทุกช่วงมีของให้ทีมใช้ได้เลย [AI นักวิเคราะห์ข้อมูล](https://bigtre.business/th/ai-data-analyst) ก็อ่านจากระบบข้อมูลเดียวกันนี้
+
+## เชื่อมกับอะไรได้บ้าง
+
+ระบบหลังบ้าน (Zort และ Shipnity ใช้งานอยู่แล้ว BigSeller ทำเพิ่มได้) รายงานยอดโอนของมาร์เก็ตเพลส Shopify, Google Sheets และ Drive และ POS หน้าร้าน ส่วน ERP (Odoo, ERPNext, SAP Business One) โปรแกรมบัญชี (Express, PEAK, FlowAccount) บัญชีโฆษณา และขนส่ง เชื่อมเพิ่มได้เมื่อต้องใช้ สถานะของแต่ละระบบอยู่ที่ [ระบบที่เชื่อมได้](https://bigtre.business/th/integrations)
+
+## ข้อมูลเก็บที่ไหน
+
+เก็บใน Google Cloud (BigQuery) ภูมิภาคสิงคโปร์ แยกชุดข้อมูลของแต่ละลูกค้า Big Tre อ่านจากระบบของลูกค้าอย่างเดียว ไม่เขียนกลับ
+
+## ราคา
+
+ค่าวางระบบเริ่มต้นประมาณ 60,000 บาท และค่าบริการรายเดือนเริ่มต้นประมาณ 14,000 บาทต่อเดือน ดู [ราคา](https://bigtre.business/th/pricing)
+
+เริ่มจาก[ตรวจความพร้อม AI ฟรี](https://bigtre.business/th/ai-readiness-health-check) หรือเขียนมาที่ [hello@bigtre.business](mailto:hello@bigtre.business)
+
+---
+
+https://bigtre.business/th/ai-data-analyst
+
+# AI นักวิเคราะห์ข้อมูลสำหรับแบรนด์ออนไลน์
+
+Canonical: https://bigtre.business/th/ai-data-analyst  
+Updated: 2026-11-18
+
+AI นักวิเคราะห์ข้อมูลของ Big Tre เป็นผู้ช่วยที่อยู่ในแชตงานของทีม ถามเรื่องธุรกิจเป็นภาษาไทยหรืออังกฤษก็ได้ มันตอบจากข้อมูลยอดขาย สต็อก และกำไรของแบรนด์เอง โดยอ่านจาก[ระบบข้อมูล](https://bigtre.business/th/data-foundation)ที่ Big Tre วางไว้และกติกาที่เขียนไว้ คำตอบจึงตรงกับ Dashboard และรายงาน ใช้โมเดล Claude ของ Anthropic และอ่านได้เฉพาะข้อมูลของลูกค้ารายนั้น
+
+## ทีมถามอะไรได้บ้าง
+
+| คำถาม | สิ่งที่มันทำ |
+|---|---|
+| "ยอดขายเมื่อวานแต่ละช่องทางเท่าไหร่" | ดึงตัวเลขของวันนั้นตามนิยามยอดขายที่ตกลงกันไว้ |
+| "SKU ไหนขาดทุนเดือนที่แล้วหลังหักโวเชอร์" | คำนวณกำไรต่อ SKU หลังหักค่าธรรมเนียมและโวเชอร์ที่ร้านออกเอง |
+| "ทำไมยอดโอน Shopee สัปดาห์นี้ลดลง" | แตกยอดโอนเป็นออเดอร์ ค่าธรรมเนียม และของคืน แล้วบอกว่าเปลี่ยนตรงไหน |
+| "แคมเปญ 11.11 ได้กำไรเท่าไหร่ ไม่ใช่แค่ยอดขาย" | เทียบช่วงแคมเปญกับสัปดาห์ก่อนหลัง หลังหักส่วนลด |
+| "สินค้าตัวไหนจะหมดในสองสัปดาห์" | เอาสต็อกคงเหลือหารยอดขายต่อวันล่าสุดของแต่ละ SKU |
+
+ทุกคำตอบบอกช่วงเวลา นิยามที่ใช้ และที่มาของตัวเลข ถ้าตัวเลขไหนยังคำนวณไม่ได้ เช่น กำไรหลังหักค่าโฆษณาในตอนที่ยังไม่ได้เชื่อมบัญชีโฆษณา มันจะบอกตรงๆ ไม่เดา
+
+## สิ่งที่ส่งมาเองโดยไม่ต้องถาม
+
+- สรุปยอดเมื่อวานทุกเช้า
+- สรุปรายสัปดาห์
+- แจ้งเตือนเมื่อมีอะไรผิดปกติ เช่น ยอดขายช่องทางหนึ่งตกแรง หรือสต็อกใกล้หมด
+
+## ต้องมีอะไรก่อน
+
+ต้องมีระบบข้อมูลที่เขียนกติกาไว้แล้ว ถ้าเอา AI ไปวางบนไฟล์ export ที่ยังไม่ได้กระทบยอด คำตอบจะฟังดูมั่นใจแต่ผิด Big Tre จึงวางระบบข้อมูลก่อน แล้วค่อยเพิ่ม AI
+
+## ใช้งานที่ไหน
+
+ในแชตงานของทีม ตอนนี้ใช้ผ่าน Telegram เหมือนที่ลูกค้าทั้งสองรายใช้ ยังไม่รองรับ LINE ถ้าทีมคุยงานใน LINE เป็นหลัก บอกเราได้ตั้งแต่คุยครั้งแรก AI ของลูกค้าแต่ละรายแยกกัน และอ่านได้เฉพาะข้อมูลของรายนั้น
+
+## ข้อจำกัด
+
+- ตอบได้เฉพาะจากข้อมูลที่เชื่อมไว้ ระบบที่ยังไม่ได้เชื่อม มันมองไม่เห็น
+- ไม่แก้ออเดอร์ สต็อก หรือบัญชี
+- ไม่ได้มาแทนนักบัญชีหรือแทนการตัดสินใจ มันให้ตัวเลขและบอกว่าคิดมายังไง
+
+## ราคา
+
+ตั้งค่าตอนวางระบบ และรวมอยู่ในค่าบริการรายเดือนเมื่อระบบข้อมูลใช้งานแล้ว ดู [ราคา](https://bigtre.business/th/pricing)
+
+ติดต่อ: [hello@bigtre.business](mailto:hello@bigtre.business) โทร 082-925-6365
+
+---
+
+https://bigtre.business/th/integrations
+
+# ระบบที่ Big Tre เชื่อมได้
+
+Canonical: https://bigtre.business/th/integrations  
+Updated: 2026-11-18
+
+Big Tre เชื่อมแบบอ่านอย่างเดียวกับระบบที่แบรนด์ใช้อยู่ แล้วรวมข้อมูลเข้า[ระบบข้อมูล](https://bigtre.business/th/data-foundation)ที่เดียว ไม่ได้เข้าไปแทนระบบเดิม ตารางด้านล่างบอกว่าระบบไหนใช้งานจริงกับลูกค้าแล้ว และระบบไหนทำเพิ่มเมื่อลูกค้าต้องการ
+
+| ระบบ | ตัวอย่าง | ได้อะไร | สถานะ |
+|---|---|---|---|
+| ระบบหลังบ้าน (OMS) | Zort, Shipnity | ออเดอร์และรายการสินค้าจากทุกช่องทางทุกวัน สต็อก และสต็อกพอขายกี่วัน | ใช้งานจริงกับลูกค้า |
+| ระบบหลังบ้าน (OMS) | BigSeller และระบบอื่นที่มี API หรือ export ได้ | เหมือนข้างบน | ทำเพิ่มเมื่อต้องการ |
+| รายงานยอดโอนและค่าธรรมเนียม | Shopee, Lazada, TikTok Shop | ยอดโอนแยกค่าธรรมเนียมทุกตัว แยกส่วนลดที่ร้านจ่ายกับที่แพลตฟอร์มจ่าย | ใช้งานจริงกับลูกค้า |
+| รายงาน Affiliate ของ TikTok | TikTok Shop Affiliate | ยอดขายผ่าน Affiliate และครีเอเตอร์ | ใช้งานจริงกับลูกค้า |
+| Google Sheets และ Drive | ไฟล์ต้นทุน เป้ายอดขาย ปฏิทินแคมเปญ | ข้อมูลที่ทีมกรอกเองต่อเข้ากับข้อมูลจริง และส่งรายงานกลับในหน้าตาที่ทีมใช้ | ใช้งานจริงกับลูกค้า |
+| POS หน้าร้าน | สาขาหน้าร้าน | ยอดหน้าร้านเทียบกับออนไลน์ | ใช้งานจริงกับลูกค้า |
+| เว็บไซต์ร้านเอง | Shopify, WooCommerce, LINE Shopping | กำไรจากหน้าเว็บ ลูกค้าซื้อซ้ำ โค้ดส่วนลด | ทำเพิ่มเมื่อต้องการ |
+| คลังสินค้าหรือ Fulfillment | WMS ของร้าน ผู้ให้บริการ Fulfillment | สต็อกที่นับจริงเทียบกับในระบบ แยกของเสียกับของคืน | ทำเพิ่มเมื่อต้องการ |
+| ERP | Odoo, ERPNext, SAP Business One | ต้นทุนซื้อเข้า ไปเป็นต้นทุนขายและกำไรจริงต่อ SKU | ทำเพิ่มเมื่อต้องการ |
+| โปรแกรมบัญชี | Express, PEAK, FlowAccount | ตัวเลขบริหารเทียบกับตัวเลขในบัญชี ไฟล์ปิดงบสำหรับนักบัญชี | ทำเพิ่มเมื่อต้องการ |
+| โฆษณา | Meta, Google, TikTok Ads | กำไรหลังหักค่าโฆษณา ROAS ต่อแคมเปญ | ทำเพิ่มเมื่อต้องการ |
+| ขนส่ง | Flash, Kerry, J&T | ค่าส่งที่เก็บเทียบกับที่จ่าย อัตราสำเร็จของ COD | ทำเพิ่มเมื่อต้องการ |
+| แชตงาน | Telegram | ที่ที่ [AI นักวิเคราะห์ข้อมูล](https://bigtre.business/th/ai-data-analyst) ตอบคำถามและส่งสรุป | ใช้งานจริงกับลูกค้า |
+
+"ทำเพิ่มเมื่อต้องการ" หมายถึง Big Tre มีแบบอยู่แล้วและเชื่อมให้เป็นส่วนหนึ่งของโปรเจกต์ ไม่ใช่ปลั๊กอินสำเร็จรูป
+
+## ใช้ Zort หรือ Shipnity อยู่?
+
+Zort และ Shipnity รวมออเดอร์จากทุกช่องทาง และมีรายงานยอดขายกับสต็อกอยู่แล้ว Big Tre ดึงข้อมูลผ่าน API หรือไฟล์ export ของทั้งสองระบบ แล้วเพิ่มสิ่งที่ระบบหลังบ้านไม่มี คือ ค่าธรรมเนียมและยอดโอนรายออเดอร์ ต้นทุนสินค้า กำไรต่อ SKU และต่อช่องทาง วิธีนับตัวเลขของร้านเอง รายงานใน Google Sheets หน้าตาเดิมของทีม และ[AI ที่ถามเรื่องยอดขายเป็นภาษาไทยได้](https://bigtre.business/th/ai-data-analyst) ทั้งสองระบบใช้งานจริงกับลูกค้าปัจจุบัน
+
+## เชื่อมยังไง
+
+- ผ่าน API ของระบบ ถ้ามี โดยใช้คีย์ที่ลูกค้าออกให้และยกเลิกได้เอง
+- ถ้าไม่มี API ใช้ไฟล์ export ตามรอบ หรือไฟล์ในโฟลเดอร์ Drive ที่แชร์ไว้
+- อ่านอย่างเดียว Big Tre ไม่แก้ออเดอร์ สต็อก ราคา หรือบัญชี
+
+## คำถามที่เจอบ่อย
+
+**ต้องเปลี่ยนระบบจัดการออเดอร์ไหม** ไม่ต้อง Big Tre อ่านจากตัวที่ใช้อยู่
+
+**รหัสสินค้าใน Shopee, Lazada และ OMS ไม่ตรงกัน** เป็นปัญหาที่เจอบ่อยที่สุด Big Tre ทำตารางจับคู่รหัสของทุกช่องทางให้เป็นสินค้าตัวเดียว และอัปเดตเมื่อมี SKU ใหม่
+
+**ยังเก็บตัวเลขบางอย่างใน Excel หรือ Google Sheets** ไม่เป็นไร ต้นทุน เป้า และวันแคมเปญ มักอยู่ใน Google Sheets อยู่แล้ว ก็อ่านจากตรงนั้น
+
+ติดต่อ: [hello@bigtre.business](mailto:hello@bigtre.business)
+
+---
+
+https://bigtre.business/th/pricing
+
+# ราคา Big Tre
+
+Canonical: https://bigtre.business/th/pricing  
+Updated: 2026-11-18
+
+Big Tre คิดค่าวางระบบครั้งเดียว และค่าบริการรายเดือน ค่าวางระบบเริ่มต้นประมาณ 60,000 บาท ค่าบริการรายเดือนเริ่มต้นประมาณ 14,000 บาทต่อเดือน ขั้นแรกคือ[ตรวจความพร้อม AI](https://bigtre.business/th/ai-readiness-health-check) ซึ่งฟรี ราคาจริงระบุในใบเสนอราคา หลังคุยกันจากผลตรวจความพร้อม และใช้เวลาประมาณหนึ่งสัปดาห์ทำความเข้าใจธุรกิจ
+
+## แต่ละส่วนครอบคลุมอะไร
+
+| ค่าบริการ | ครอบคลุม |
+|---|---|
+| ค่าวางระบบ เริ่มต้นประมาณ 60,000 บาท | เชื่อมระบบของแบรนด์ เขียนและยืนยันกติกา กระทบยอดเดือนแรก ทำ Dashboard และรายงาน ตั้งค่า [AI นักวิเคราะห์ข้อมูล](https://bigtre.business/th/ai-data-analyst) |
+| ค่าบริการรายเดือน เริ่มต้นประมาณ 14,000 บาทต่อเดือน | อัปเดตข้อมูลทุกวัน ปรับกติกาและตารางจับคู่รหัสสินค้าเมื่อมี SKU หรือช่องทางใหม่ AI นักวิเคราะห์ข้อมูล รายงานตามรอบ การแจ้งเตือน และแก้ปัญหา |
+
+## อะไรทำให้ราคาเปลี่ยน
+
+- จำนวนระบบและช่องทางที่ต้องเชื่อม
+- จำนวนรหัสสินค้าที่ต้องจับคู่ และจำนวนเซ็ตหรือบันเดิล
+- ต้องการแค่ยอดขายกับสต็อก หรือรวมต้นทุนสินค้า ยอดโอน และค่าโฆษณาด้วย
+- จำนวนรายงานที่ต้องทำในหน้าตาของทีมเอง
+
+## คำถามที่พบบ่อย
+
+### มี VAT ไหม
+
+ตอนนี้ Big Tre ยังไม่ได้จดทะเบียนภาษีมูลค่าเพิ่ม จึงไม่มี VAT บวกเพิ่ม และไม่มีใบกำกับภาษี บริษัทที่จด VAT จึงขอคืนภาษีซื้อจากส่วนนี้ไม่ได้ เงื่อนไขระบุในใบเสนอราคา
+
+### มีสัญญาขั้นต่ำไหม
+
+ระยะสัญญากำหนดในใบเสนอราคา สัญญาปัจจุบันเริ่มจากช่วงทดลองสั้นๆ ที่ทั้งสองฝ่ายแจ้งหยุดเป็นลายลักษณ์อักษรได้ก่อนเริ่มเดือนถัดไป แล้วค่อยต่อเป็นสัญญาระยะยาว ดู[ความเป็นเจ้าของข้อมูลและการยกเลิก](https://bigtre.business/th/data-ownership-security)
+
+### ทำไมไม่ขายเป็นซอฟต์แวร์รายเดือนราคาตายตัว
+
+งานส่วนใหญ่คือทำให้ตัวเลขเข้ากับวิธีทำงานของแต่ละแบรนด์ ทั้งกติกา รหัสสินค้า และรายงาน Dashboard สำเร็จรูปข้ามขั้นนี้ไป ตัวเลขจึงมักไม่ตรงกับบัญชี
+
+### ตรวจความพร้อม AI เสียเงินไหม
+
+ไม่เสีย ตอบ 10 ข้อออนไลน์ ได้แผนหนึ่งหน้าทางอีเมล และคุยกับผู้ก่อตั้ง
+
+ติดต่อ: [hello@bigtre.business](mailto:hello@bigtre.business) โทร 082-925-6365
+
+---
+
+https://bigtre.business/th/ai-readiness-health-check
+
+# ตรวจความพร้อม AI ฟรี (AI Readiness Health Check)
+
+Canonical: https://bigtre.business/th/ai-readiness-health-check  
+Updated: 2026-11-18
+
+ตรวจความพร้อม AI คือขั้นแรกของ Big Tre สำหรับแบรนด์ออนไลน์และร้านค้าปลีกที่อยากเริ่มใช้ AI ไม่มีค่าใช้จ่าย เป็นแบบฟอร์มออนไลน์ 10 ข้อ ใช้เวลาประมาณ 3 นาที ผลจะบอกว่าธุรกิจอยู่ระดับไหนในสามระดับ ส่งแผนหนึ่งหน้าให้ทางอีเมล และผู้ก่อตั้งจะติดต่อกลับภายใน 48 ชั่วโมง [เริ่มตรวจความพร้อม](https://bigtre.business/ai-readiness/)
+
+## เริ่มใช้ AI ยังไง สามขั้น
+
+1. **รวมตัวเลขไว้ที่เดียว และนับแบบเดียวกัน** ยอดขาย สต็อก และกำไรจากทุกช่องทาง เทียบยอดแล้ว ถ้าเอา AI ไปใช้กับไฟล์ export ที่ตัวเลขไม่ตรงกัน จะได้คำตอบที่ผิดแต่ดูน่าเชื่อ
+2. **ให้รายงานประจำออกเอง** รายงานรายสัปดาห์และรายเดือนที่ทีมทำมือ
+3. **เพิ่ม AI ที่ตอบจากตัวเลขชุดนั้น** ถามเป็นภาษาไทยในแชตทีม บอกที่มาของทุกตัวเลข
+
+ผลตรวจความพร้อมจะบอกว่าธุรกิจอยู่ขั้นไหน
+
+## ถามอะไรบ้าง
+
+| ด้าน | ตัวอย่างคำถาม |
+|---|---|
+| การทำงาน | ตอบได้ไหมว่า "เดือนที่แล้วเป็นยังไง" ภายใน 5 นาที |
+| การทำงาน | วิธีทำงานของธุรกิจอยู่ในหัวเจ้าของคนเดียวมากแค่ไหน |
+| การมองเห็น | เห็นกำไรต่อช่องทางหลังหักค่าธรรมเนียม ส่วนลด และค่าส่งไหม |
+| การมองเห็น | จบแคมเปญแล้ว รู้ไหมว่าได้กำไรจริงเท่าไหร่ ไม่ใช่แค่ยอดขายกับค่าแอด |
+| ตัวเลขเชื่อได้ไหม | ยอดขายที่รายงานตรงกับเงินเข้าบัญชีทุกเดือนไหม |
+| แหล่งข้อมูล | ต้องดึงตัวเลขจากกี่ที่ |
+| AI | เคยลองใช้ AI ในธุรกิจไหม และใช้ต่อหรือเปล่า |
+| เกี่ยวกับธุรกิจ | ประเภทธุรกิจ ยอดขายต่อปี และจำนวนช่องทางขาย |
+
+## สามระดับ
+
+| ระดับ | หมายความว่า |
+|---|---|
+| Foundation | ตัวเลขยังไม่อยู่ที่เดียวหรือยังไม่น่าเชื่อ ถ้าใส่ AI ตอนนี้จะได้คำตอบที่เชื่อไม่ได้ เริ่มจาก[ระบบข้อมูล](https://bigtre.business/th/data-foundation) |
+| Building | ตัวเลขบางส่วนเชื่อได้ บางส่วนยังไม่ได้ แก้จุดที่ผลตรวจบอก แล้วเริ่มใช้ AI กับส่วนที่พร้อม |
+| AI-Ready | ตัวเลขอยู่ที่เดียวและเชื่อได้ เริ่ม[AI นักวิเคราะห์ข้อมูล](https://bigtre.business/th/ai-data-analyst)และรายงานอัตโนมัติได้เลย |
+
+## หลังจากตอบแล้ว
+
+1. ระดับความพร้อมและจุดอ่อนสามข้อใหญ่ขึ้นบนหน้าจอ
+2. แผนหนึ่งหน้าส่งเข้าอีเมลภายในไม่กี่นาที บอกว่าควรทำอะไร ก่อนหลังยังไง ใช้เวลาเท่าไหร่
+3. ผู้ก่อตั้ง Big Tre ติดต่อกลับภายใน 48 ชั่วโมง
+4. ถ้าเหมาะกัน Big Tre ใช้เวลาประมาณหนึ่งสัปดาห์ทำความเข้าใจธุรกิจ แล้วส่งแผนและใบเสนอราคา ทุกขั้นไม่มีข้อผูกมัด
+
+## เช็กตัวเองก่อนเริ่ม
+
+ถ้ามีสองข้อขึ้นไปที่ตรงกับธุรกิจ แปลว่ายังอยู่ระดับ Foundation และเครื่องมือ AI จะใช้ได้ไม่เต็มที่
+
+- รายงานยอดขายเดือนที่แล้วสองฉบับ ได้ยอดรวมไม่เท่ากัน
+- กำไรต่อช่องทางหลังหักค่าธรรมเนียม ต้องใช้เวลาหลายวันกว่าจะคิดออก
+- ไม่ได้กระทบยอดขายกับเงินเข้าบัญชีทุกเดือน
+- สินค้าตัวเดียวกันมีรหัสคนละแบบในแต่ละมาร์เก็ตเพลส
+
+## ข้อมูลส่วนบุคคล
+
+แบบฟอร์มเก็บคำตอบ ชื่อ อีเมลที่ทำงาน และชื่อบริษัท ใช้เพื่อส่งแผนและติดต่อกลับ เก็บไว้ 24 เดือน ไม่ขายหรือแชร์ให้ใคร ดู[นโยบายความเป็นส่วนตัว](https://bigtre.business/privacy/) (PDPA)
+
+[เริ่มตรวจความพร้อม](https://bigtre.business/ai-readiness/) หรือเขียนมาที่ [hello@bigtre.business](mailto:hello@bigtre.business)
+
+---
+
+https://bigtre.business/th/marketplace-numbers-dont-match
+
+# ยอดขาย Shopee Lazada TikTok ไม่ตรงกับเงินเข้าบัญชี
+
+Canonical: https://bigtre.business/th/marketplace-numbers-dont-match  
+Updated: 2026-11-18
+
+ยอดขายใน Shopee, Lazada, TikTok Shop, Shopify และระบบจัดการออเดอร์ แทบไม่เคยตรงกัน ไม่ตรงกับยอดโอน และไม่ตรงกับเงินเข้าบัญชี เพราะแต่ละที่นับยอดขายคนละแบบ ใช้วันที่ต่างกัน นับออเดอร์คนละสถานะ และหักโวเชอร์ ของคืน และค่าธรรมเนียมไม่เหมือนกัน วิธีแก้คือเอาออเดอร์และยอดโอนของทุกช่องทางเข้าฐานข้อมูลเดียว แล้วใช้นิยามที่เขียนไว้ชุดเดียวกับทุกช่องทาง Big Tre บริษัทในกรุงเทพฯ รับทำเรื่องนี้ให้แบรนด์ออนไลน์ไทย
+
+## ตัวเลขสามตัวที่ไม่มีวันเท่ากัน
+
+| ตัวเลข | มาจากไหน | ทำไมต่างกัน |
+|---|---|---|
+| ยอดขาย | รายงานใน Seller Center หรือ OMS | นับออเดอร์ที่สั่งหรือที่จ่ายแล้ว ใช้ราคาก่อนหรือหลังส่วนลด |
+| ยอดโอน (เงินที่แพลตฟอร์มโอนให้ร้าน) | รายงานการเงินของแพลตฟอร์มใน Seller Center | ยอดขายหักค่าคอมมิชชั่น ค่าบริการ ค่าธุรกรรม ค่าชำระเงิน และของคืน ตามวันที่โอน |
+| เงินเข้าบัญชี | Statement ธนาคาร | ยอดโอนรวมตามวันที่เงินเข้า บางครั้งหลายรอบรวมเป็นก้อนเดียว |
+
+จะกระทบยอดขายกับเงินเข้าบัญชีได้ ต้องไล่ทีละขั้นผ่านทั้งสามตัว ไม่ใช่เอาตัวแรกไปเทียบตัวสุดท้าย
+
+## สาเหตุที่เจอบ่อย
+
+- **วันที่** วันสั่ง วันจ่าย วันส่ง หรือวันที่ออเดอร์สำเร็จ ออเดอร์คืนวันสิ้นเดือนตกได้ทั้งสองเดือน
+- **สถานะออเดอร์** สั่งแล้ว จ่ายแล้ว ส่งแล้ว สำเร็จ ยกเลิก ส่งไม่สำเร็จ แต่ละรายงานนับไม่เหมือนกัน
+- **ของคืน สินค้าตีกลับ และคืนเงิน** หักในเดือนที่ขาย เดือนที่คืน หรือไม่หักเลย
+- **โวเชอร์** โวเชอร์ที่แพลตฟอร์มออก แพลตฟอร์มจ่ายคืนให้ร้าน โวเชอร์ที่ร้านออกเองเป็นต้นทุนของร้าน รายงานแต่ละตัวแสดงราคาก่อนหรือหลังหักไม่เหมือนกัน
+- **ของแถม** บางรายงานเห็นเป็นยอดขายศูนย์บาท บางรายงานไม่เห็นเลย
+- **ขายเป็นเซ็ตหรือชุดโปร** ที่หนึ่งนับเป็นหนึ่งชิ้น อีกที่นับแยกเป็นสินค้าข้างใน ทำให้สต็อกเพี้ยนไปด้วย
+- **รหัสสินค้า** สินค้าตัวเดียวกันมี SKU ไม่เหมือนกันในแต่ละมาร์เก็ตเพลสและใน OMS รวมยอดต่อสินค้าไม่ได้
+- **ค่าธรรมเนียม** ค่าคอมมิชชั่น ค่าบริการ ค่าธุรกรรม และค่าชำระเงิน ต่างกันตามแพลตฟอร์มและหมวดสินค้า และเปลี่ยนระหว่างปี
+- **รายการซ้ำ** ออเดอร์เดียวกันเข้ามาทั้งจาก OMS และจากไฟล์ที่อัปโหลดเอง
+
+## วิธีแก้
+
+1. **เขียนนิยามชุดเดียว** ว่ายอดขาย ของคืน และต้นทุนคืออะไร ให้ฝ่ายขายและฝ่ายบัญชีตกลงร่วมกัน
+2. **จับคู่รหัสสินค้า** ของทุกช่องทางให้เป็นรายการสินค้าเดียว
+3. **ดึงทุกออเดอร์และยอดโอน** เข้าฐานข้อมูลเดียวทุกวัน
+4. **กระทบยอดหนึ่งเดือนที่ปิดแล้ว** กับรายงานของแต่ละแพลตฟอร์มและกับธนาคาร จนทุกส่วนต่างมีเหตุผลอธิบายได้
+5. **ให้ทุกรายงานอ่านจากฐานข้อมูลนี้** Dashboard รายงานประจำสัปดาห์ และ[AI นักวิเคราะห์ข้อมูล](https://bigtre.business/th/ai-data-analyst) จะได้ตัวเลขเดียวกัน
+
+## ตัวอย่าง
+
+ตัวเลขสมมติของออเดอร์เดียว ไม่ใช่อัตราจริงของแพลตฟอร์มไหน
+
+| รายการ | บาท |
+|---|---|
+| ราคาสินค้า | 500 |
+| โค้ดส่วนลดของร้าน (ร้านจ่ายเอง) | -50 |
+| โวเชอร์แพลตฟอร์ม 30 บาท (แพลตฟอร์มจ่ายคืนให้ร้าน) | ร้านไม่เสีย |
+| ลูกค้าจ่าย | 420 (500 หักส่วนลดร้าน 50 หักโวเชอร์แพลตฟอร์ม 30) |
+| ยอดขายในระบบหลังบ้าน | 450 หรือ 420 แล้วแต่ว่ารายงานหักแค่ส่วนลดร้าน หรือหักทั้งสองอย่าง |
+| ค่าคอมมิชชั่น ค่าบริการ ค่าธุรกรรม ค่าชำระเงิน | -60 |
+| ยอดโอนของออเดอร์นี้ | 390 (450 หัก 60) |
+| เงินเข้าบัญชี | 390 รวมกับออเดอร์อื่นที่โอนวันเดียวกัน |
+
+ออเดอร์เดียวกันขึ้นเป็น 500, 450, 420 และ 390 ในสี่ที่ ถูกทั้งหมด การเทียบยอดคือรู้ว่ารายงานแต่ละตัวแสดงตัวไหน
+
+## ทำเองได้ก่อนตรงไหน
+
+เลือกหนึ่งเดือนที่ปิดแล้ว export รายงานยอดขายและรายงานยอดโอนของแต่ละแพลตฟอร์ม จดว่าแต่ละรายงานใช้วันที่แบบไหน นับสถานะอะไร และหักโวเชอร์กับของคืนหรือเปล่า ส่วนต่างส่วนใหญ่มักมาจากวันที่ สถานะ และของคืน
+
+## ใครช่วยได้บ้าง
+
+| ทางเลือก | ทำอะไรได้ | อะไรยังค้าง |
+|---|---|---|
+| ระบบจัดการออเดอร์ (Zort, Shipnity, BigSeller) | รวมออเดอร์และซิงก์สต็อกทุกช่องทาง | รายงานเป็นไปตามกติกาของโปรแกรม ค่าธรรมเนียม ธนาคาร และต้นทุนสินค้ายังอยู่ข้างนอก |
+| นักบัญชี | กระทบยอดโอนกับบัญชีทุกเดือน | ดูย้อนหลังเป็นรายเดือน ไม่มีภาพรายวันต่อ SKU |
+| บริษัทวางระบบข้อมูลอย่าง Big Tre | ฐานข้อมูลเดียว กติกาที่เขียนไว้ อัปเดตทุกวัน กระทบยอดกับแพลตฟอร์มและธนาคาร กำไรต่อ SKU และต่อช่องทาง | ต้องใช้เวลาวางระบบไม่กี่สัปดาห์ |
+
+ดู[ระบบข้อมูล](https://bigtre.business/th/data-foundation) และ[ราคา](https://bigtre.business/th/pricing) หรือเริ่มจาก[ตรวจความพร้อม AI ฟรี](https://bigtre.business/th/ai-readiness-health-check)
+
+---
+
+https://bigtre.business/th/profit-per-sku
+
+# กำไรจริงต่อ SKU และต่อช่องทาง
+
+Canonical: https://bigtre.business/th/profit-per-sku  
+Updated: 2026-11-18
+
+กำไรจริงต่อ SKU คือราคาที่ลูกค้าจ่าย หักค่าธรรมเนียมแพลตฟอร์ม โวเชอร์ส่วนที่ร้านออกเอง ของแถม ของคืน ค่าส่งที่ร้านออก และต้นทุนสินค้า แบรนด์ออนไลน์ไทยส่วนใหญ่เห็นยอดขายต่อ SKU แต่ไม่เห็นตัวเลขนี้ เพราะค่าธรรมเนียมอยู่ในรายงานยอดโอน ต้นทุนอยู่ใน Excel หรือ ERP และรหัสสินค้าในแต่ละที่ไม่ตรงกัน Big Tre ทำตัวเลขนี้เป็นส่วนหนึ่งของ[ระบบข้อมูล](https://bigtre.business/th/data-foundation)
+
+## ต้องใช้อะไรบ้าง
+
+| รายการ | มาจากไหน |
+|---|---|
+| ราคาที่ลูกค้าจ่าย | รายการในออเดอร์จาก OMS หรือมาร์เก็ตเพลส |
+| ค่าคอมมิชชั่น ค่าบริการ ค่าธุรกรรม ค่าชำระเงิน | รายงานยอดโอนของแต่ละแพลตฟอร์ม รายออเดอร์ |
+| โวเชอร์และส่วนลดที่ร้านออกเอง | ข้อมูลออเดอร์และยอดโอน แยกจากโวเชอร์ที่แพลตฟอร์มออก |
+| ของแถม | รายการราคาศูนย์บาทในออเดอร์ คิดที่ต้นทุน |
+| ของคืนและส่งไม่สำเร็จ | สถานะออเดอร์และรายงานของคืน |
+| ค่าส่งที่ร้านออก | รายงานยอดโอน หรือใบแจ้งหนี้ขนส่ง |
+| ต้นทุนสินค้า | ไฟล์ต้นทุน ใบสั่งซื้อ หรือ ERP ของแบรนด์ |
+| ค่าโฆษณา (ถ้าจะดูกำไรหลังโฆษณา) | บัญชีโฆษณา เมื่อเชื่อมแล้ว |
+
+## ตัวอย่าง
+
+ตัวเลขสมมติของสินค้าหนึ่งชิ้นที่ขายในมาร์เก็ตเพลสหนึ่งที่ ไม่ใช่อัตราจริงของแพลตฟอร์มไหน
+
+| รายการ | บาท |
+|---|---|
+| ราคาหลังหักโค้ดส่วนลดของร้าน | 450 |
+| ค่าคอมมิชชั่น ค่าบริการ ค่าธุรกรรม ค่าชำระเงิน | -60 |
+| ค่าส่งที่ร้านช่วยออก | -15 |
+| ของแถม คิดที่ต้นทุน | -20 |
+| ต้นทุนสินค้า | -180 |
+| ส่วนของสินค้าตีกลับ (คืน 5% ของจำนวนที่ขาย และไม่ได้ต้นทุนคืน) | -9 |
+| กำไรก่อนค่าโฆษณา | 166 |
+| อัตรากำไรก่อนค่าโฆษณา | 37% ของ 450 |
+
+สินค้าตัวเดียวกันในอีกช่องทางที่ค่าธรรมเนียมสูงกว่าและโค้ดส่วนลดใหญ่กว่า อาจเหลือกำไรแค่ครึ่งเดียว ตารางนี้ทำให้เห็นเรื่องนี้ทุก SKU ทุกช่องทาง
+
+## มักผิดตรงไหน
+
+- **คิดค่าธรรมเนียมเป็นเปอร์เซ็นต์เดียวทั้งร้าน** ค่าธรรมเนียมต่างกันตามแพลตฟอร์ม หมวดสินค้า และแคมเปญ และแพลตฟอร์มก็เปลี่ยนบ่อย ใช้อัตราเดียวจะไม่เห็นว่าตัวไหนขาดทุน
+- **นับโวเชอร์แพลตฟอร์มเป็นส่วนลดของร้าน** โวเชอร์ที่แพลตฟอร์มออกจะได้เงินคืนในยอดโอน ถ้านับเป็นต้นทุน กำไรจะต่ำกว่าความจริง
+- **นับเซ็ตเป็นสินค้าตัวเดียว** ต้องแตกเซ็ตเป็นสินค้าข้างใน ทั้งเรื่องต้นทุนและสต็อก
+- **รหัสสินค้าไม่ตรงกัน** ถ้าไม่มีตารางจับคู่ รวมยอดสินค้าตัวเดียวกันจาก Shopee กับ TikTok ไม่ได้
+- **ใช้ต้นทุนเก่า** กำไรจะแม่นได้แค่เท่ากับต้นทุนที่ใช้คิด
+
+## ผลที่ได้หน้าตาเป็นยังไง
+
+ตารางทุก SKU แยกตามช่องทาง มีจำนวนชิ้น ยอดขาย ค่าธรรมเนียม ส่วนลด ต้นทุน และกำไร อัปเดตทุกวัน เห็นกำไรของสินค้าตัวเดียวกันบน Shopee, Lazada, TikTok Shop และเว็บไซต์ร้านเองเทียบกัน รู้ว่าควรทุ่มงบตรงไหนและควรขึ้นราคาตัวไหน กำไรหลังหักค่าโฆษณาจะแสดงเมื่อเชื่อมบัญชีโฆษณาแล้วเท่านั้น ก่อนหน้านั้นแสดงว่ายังคำนวณไม่ได้
+
+## ทีมถามต่อได้เลย
+
+ผ่าน[AI นักวิเคราะห์ข้อมูล](https://bigtre.business/th/ai-data-analyst) เช่น "SKU ไหนขาดทุนเดือนที่แล้วหลังหักโวเชอร์" "แคมเปญ 11.11 ได้กำไรเท่าไหร่หลังหักส่วนลด" "ถ้าลดโวเชอร์ร้านจาก 10% เหลือ 5% จุดคุ้มทุนอยู่ตรงไหน"
+
+เริ่มจาก[ตรวจความพร้อม AI ฟรี](https://bigtre.business/th/ai-readiness-health-check) หรือเขียนมาที่ [hello@bigtre.business](mailto:hello@bigtre.business)
+
+---
+
+https://bigtre.business/th/work
+
+# ผลงาน Big Tre
+
+Canonical: https://bigtre.business/th/work  
+Updated: 2026-11-18
+
+Big Tre ทำระบบข้อมูลและ AI นักวิเคราะห์ข้อมูลให้แบรนด์ออนไลน์ไทยในกลุ่มความงามและเครื่องประดับ ลูกค้าทั้งสองรายด้านล่างจ่ายค่าบริการและใช้งานจริงอยู่ ไม่เปิดเผยชื่อลูกค้า
+
+| ลูกค้า | ช่องทางและระบบ | สิ่งที่ทำ | สถานะ |
+|---|---|---|---|
+| ร้านขายเครื่องสำอางหลายแบรนด์ | Shopee, Lazada, TikTok Shop; Zort | ดึงข้อมูลอัตโนมัติทุกวัน โมเดลกำไร รายงานแยกแต่ละแบรนด์ งบกำไรขาดทุนรายเดือนของบริษัท AI นักวิเคราะห์ข้อมูล | ใช้งานจริง ค่าบริการรายเดือน |
+| แบรนด์เครื่องประดับ | Shopee, TikTok Shop, Lazada, Shopify, LINE และหน้าร้านประมาณ 10 สาขา; Shipnity | ดึงข้อมูลอัตโนมัติทุกวัน Dashboard รายงานใน Google Sheets AI นักวิเคราะห์ข้อมูล แอปบน Shopify | ใช้งานจริง ค่าบริการรายเดือน |
+
+## ร้านขายเครื่องสำอางหลายแบรนด์
+
+**โจทย์** ร้านที่ขายเครื่องสำอางหลายแบรนด์บน Shopee, Lazada และ TikTok Shop ออเดอร์อยู่ใน Zort ยอดขายและกำไรของแต่ละแบรนด์ต้องรวมเองด้วยมือ
+
+**สิ่งที่ทำ**
+
+- ดึงข้อมูลจาก Zort เข้าฐานข้อมูลเดียวทุกวัน และจัดหมวดสินค้าให้
+- โมเดลกำไรรายสินค้าและรายแบรนด์
+- รายงานอัตโนมัติใน Google Sheets แยกแต่ละแบรนด์ และงบกำไรขาดทุนรายเดือนของบริษัท
+- ยอดขายผ่าน TikTok Affiliate ต่อเข้ากับออเดอร์
+- AI นักวิเคราะห์ข้อมูลในกลุ่ม Telegram ของทีม
+
+## แบรนด์เครื่องประดับ
+
+**โจทย์** แบรนด์เครื่องประดับที่ขายหลักบน Shopee และขายบน TikTok Shop, Lazada, Shopify, LINE และหน้าร้านประมาณ 10 สาขา ออเดอร์อยู่ใน Shipnity
+
+**สิ่งที่ทำ**
+
+- ดึงข้อมูลจาก Shipnity เข้าฐานข้อมูลเดียวทุกวัน
+- Dashboard และรายงานประจำใน Google Sheets
+- AI นักวิเคราะห์ข้อมูลในกลุ่ม Telegram ของทีม เปิดให้ทั้งทีมใช้เมื่อพฤศจิกายน 2569
+- แอปบน Shopify ที่จำกัดจำนวนชิ้นต่อลูกค้าหนึ่งคนช่วงเปิดตัวสินค้า
+- ทำงานต่อเนื่องกับทีมเรื่องขั้นตอนของคืน ข้อมูลสินค้าหลัก และขั้นตอนงานอื่นที่อยู่เบื้องหลังตัวเลข ภายใต้สัญญารายเดือนแยกต่างหาก
+
+## สิ่งที่ไม่เปิดเผย
+
+ชื่อลูกค้า ราคาที่ลูกค้าจ่าย และตัวเลขธุรกิจของลูกค้า ขอลูกค้าอ้างอิงได้ตอนคุยกันหลังตรวจความพร้อม AI
+
+เริ่มจาก[ตรวจความพร้อม AI ฟรี](https://bigtre.business/th/ai-readiness-health-check) หรือเขียนมาที่ [hello@bigtre.business](mailto:hello@bigtre.business)
+
+---
+
+https://bigtre.business/th/compare
+
+# เทียบ Big Tre กับทางเลือกอื่น
+
+Canonical: https://bigtre.business/th/compare  
+Updated: 2026-11-18
+
+แบรนด์ออนไลน์ไทยที่อยากได้ตัวเลขที่เชื่อได้และอยากใช้ AI มักเลือกระหว่างห้าทาง คือ ใช้รายงานในระบบจัดการออเดอร์ ซื้อโปรแกรม Dashboard จ้าง Data Analyst ให้นักบัญชีช่วย หรือจ้างบริษัทที่ปรึกษาไอที Big Tre อยู่ตรงกลาง ทำงานข้อมูลแบบที่ Data Analyst และ Data Engineer ทำ ตั้ง Dashboard ให้ และเพิ่ม AI นักวิเคราะห์ข้อมูล คิดค่าวางระบบครั้งเดียวกับค่าบริการรายเดือน
+
+| ทางเลือก | เก่งเรื่อง | อะไรยังค้าง | ค่าใช้จ่ายโดยทั่วไป |
+|---|---|---|---|
+| รายงานใน OMS (Zort, Shipnity, BigSeller) | เห็นออเดอร์และสต็อกทุกช่องทางในหน้าเดียว | ค่าธรรมเนียม ยอดโอน ธนาคาร ต้นทุนสินค้า และกติกาของแบรนด์เอง | รวมอยู่ในค่า OMS |
+| โปรแกรม Dashboard (Looker Studio, Power BI) | ทำกราฟเมื่อมีข้อมูลที่สะอาดแล้ว | ต้องมีคนทำและดูแลข้อมูลให้สะอาด | ค่าโปรแกรมถูก แต่ใช้เวลาทำนาน |
+| จ้าง Data Analyst ประจำ | รู้จักธุรกิจ อยู่ทุกวัน | มีคนเดียว ต้องเขียนระบบข้อมูลเป็นด้วย ถ้าลาออกความรู้ก็ไปด้วย | เงินเดือนพนักงานประจำ |
+| นักบัญชี | บัญชีและภาษีถูกต้อง | ดูย้อนหลังรายเดือน ไม่มีภาพรายวันต่อ SKU หรือต่อช่องทาง | ค่าทำบัญชีรายเดือน |
+| บริษัทที่ปรึกษาไอทีหรือ System Integrator | ระบบใหญ่ที่ทำเฉพาะ | ราคาและทีมออกแบบมาสำหรับโปรเจกต์ใหญ่ | ค่าโปรเจกต์สูงกว่าค่าบริการรายเดือนมาก |
+| Big Tre | กติกาที่เขียนไว้ ฐานข้อมูลเดียวที่กระทบยอดแล้ว Dashboard รายงาน และ AI นักวิเคราะห์ข้อมูล ดูแลรายเดือน | ต้องวางระบบไม่กี่สัปดาห์ก่อนตัวเลขพร้อมใช้ | ค่าวางระบบเริ่มต้นประมาณ 60,000 บาท รายเดือนเริ่มต้นประมาณ 14,000 บาทต่อเดือน |
+
+## Big Tre เหมาะเมื่อ
+
+- ขายสามช่องทางขึ้นไป และรายงานแต่ละฉบับไม่ตรงกัน
+- ยอดขายประมาณ 20 ถึง 500 ล้านบาทต่อปี
+- ไม่มีทีมข้อมูล หรือมีแอดมินหรือ Analyst หนึ่งคนที่หมดเวลาไปกับการ export ไฟล์
+- ใช้ระบบจัดการออเดอร์อย่าง Zort, Shipnity หรือ BigSeller อยู่แล้ว
+
+## Big Tre ไม่เหมาะเมื่อ
+
+- ขายช่องทางเดียว และรายงานของช่องทางนั้นพอแล้ว
+- ต้องการติดตั้ง ERP หรือระบบจัดการออเดอร์ใหม่ Big Tre ดึงข้อมูลจากระบบ ไม่ได้รับติดตั้งระบบ
+- ต้องการ CTO แบบพาร์ทไทม์ดูเทคโนโลยีทั้งองค์กร ไม่ใช่แค่ข้อมูล [Void Engineering](https://voidengineer.ing) ที่ CTO ของ Big Tre ก่อตั้ง ทำเรื่องนี้
+- ต้องการคนยื่นภาษี ซึ่งเป็นงานของนักบัญชี
+- ต้องการทีมประจำที่บริษัทเต็มเวลา
+
+## คำถามที่ควรถามทุกเจ้า
+
+| คำถาม | ทำไมสำคัญ | คำตอบของ Big Tre |
+|---|---|---|
+| ตัวเลขจะตรงกับยอดโอนของแพลตฟอร์มและเงินเข้าบัญชีไหม | Dashboard บนข้อมูลที่ยังไม่ได้เทียบยอด ผิดแต่ดูน่าเชื่อ | กระทบยอดเดือนแรกก่อนส่งมอบ |
+| ใครเป็นคนกำหนดนิยามยอดขายและต้นทุน | กติกาที่ไม่ได้เขียนไว้คือเหตุที่รายงานไม่ตรงกัน | เขียนร่วมกับทีม ยืนยันบนออเดอร์จริง เก็บเป็นคู่มือที่ลูกค้าเป็นเจ้าของ |
+| เข้าไปแก้ข้อมูลในระบบเราไหม | สิทธิ์แก้ข้อมูลคือความเสี่ยง | ไม่ ดึงข้อมูลอย่างเดียว |
+| ถ้าคำนวณตัวเลขไหนไม่ได้ AI จะทำยังไง | AI ที่เดาจะไม่มีใครเชื่อ | บอกว่ายังคำนวณไม่ได้และบอกเหตุผล |
+| หลังวางระบบแล้วจ่ายเดือนละเท่าไหร่ | หลายโปรเจกต์หยุดตอนส่งมอบ | เริ่มต้นประมาณ 14,000 บาทต่อเดือน |
+
+เริ่มจาก[ตรวจความพร้อม AI ฟรี](https://bigtre.business/th/ai-readiness-health-check) หรือเขียนมาที่ [hello@bigtre.business](mailto:hello@bigtre.business)
+
+---
+
+https://bigtre.business/th/why-big-tre
+
+# ทำไมแบรนด์ออนไลน์เลือก Big Tre
+
+Canonical: https://bigtre.business/th/why-big-tre  
+Updated: 2026-11-18
+
+แบรนด์ออนไลน์ไทยเลือก Big Tre เมื่ออยากได้ยอดขาย สต็อก และกำไรที่เชื่อได้ในทุกช่องทาง และอยากได้ AI ที่ตอบจากตัวเลขชุดนั้น โดยไม่ต้องตั้งทีมข้อมูลเอง Big Tre ทำงานบนระบบที่แบรนด์ใช้อยู่ เขียนกติกาของแบรนด์ไว้เป็นลายลักษณ์อักษร และคิดค่าวางระบบกับค่าบริการรายเดือน
+
+## เหตุผลและหลักฐาน
+
+| เหตุผล | หลักฐาน |
+|---|---|
+| ทำงานกับอีคอมเมิร์ซไทยโดยตรง | ลูกค้าขายบน Shopee, Lazada, TikTok Shop, Shopify, LINE และหน้าร้าน ใช้ Zort และ Shipnity เรื่องค่าธรรมเนียม โวเชอร์ร้านกับโวเชอร์แพลตฟอร์ม ของแถม และเซ็ต เป็นงานปกติ |
+| เขียนกติกาก่อน แล้วค่อยทำ Dashboard | ลูกค้าทุกรายได้คู่มือกติกาที่ยืนยันบนออเดอร์ของตัวเองก่อนมี Dashboard ทุกตัวเลขย้อนดูได้ว่ามาจากกติกาข้อไหน |
+| บอกตรงๆ ว่าอะไรยังคำนวณไม่ได้ | กำไรหลังหักค่าโฆษณาแสดงว่ายังคำนวณไม่ได้ จนกว่าจะเชื่อมบัญชีโฆษณา ไม่เดาตัวเลข หน้า[ระบบที่เชื่อมได้](https://bigtre.business/th/integrations) บอกว่าอะไรใช้งานจริงแล้ว อะไรทำเพิ่มเมื่อต้องการ |
+| AI ตอบเป็นภาษาไทยจากข้อมูลของแบรนด์เอง | [AI นักวิเคราะห์ข้อมูล](https://bigtre.business/th/ai-data-analyst) ใช้งานอยู่ในกลุ่ม Telegram ของลูกค้าทั้งสองราย |
+| ดึงข้อมูลอย่างเดียว แยกข้อมูลแต่ละลูกค้า | Big Tre ไม่แก้อะไรในระบบของลูกค้า ข้อมูลและ AI ของแต่ละรายแยกกัน |
+| ดูแลต่อหลังวางระบบ | ค่าบริการรายเดือนครอบคลุมการอัปเดตทุกวัน SKU และช่องทางใหม่ รายงาน และ AI |
+| บอกราคาเริ่มต้นไว้ก่อน | ค่าวางระบบเริ่มต้นประมาณ 60,000 บาท รายเดือนเริ่มต้นประมาณ 14,000 บาทต่อเดือน ดู[ราคา](https://bigtre.business/th/pricing) |
+| ผู้ก่อตั้งเคยทำระบบแบบนี้มาก่อน | CTO ทำระบบ ERP ข้อมูล และ AI ให้บริษัทไทยมาแปดปี และร่วมก่อตั้ง MineERP ส่วน COO ดูแลขั้นตอนงานกับลูกค้า |
+
+## เหมาะกับใครที่สุด
+
+- แบรนด์ที่ขายสามช่องทางขึ้นไป และรายงานไม่ตรงกัน
+- แบรนด์ที่อยากรู้กำไรต่อ SKU และต่อช่องทาง หลังหักค่าธรรมเนียมและโวเชอร์
+- แบรนด์ที่เคยลองใช้ AI แล้วได้คำตอบที่เชื่อไม่ได้
+- เจ้าของที่เป็นคนเดียวที่ตอบคำถามเรื่องตัวเลขของธุรกิจได้
+
+## ตรวจสอบได้ยังไง
+
+- ตรวจทะเบียนบริษัท (0105568204216 บริษัท เงินมากมาย รวยไม่ จำกัด) ได้ที่[กรมพัฒนาธุรกิจการค้า](https://datawarehouse.dbd.go.th/)
+- หน้า[ผลงาน](https://bigtre.business/th/work) บอกว่าทำอะไรให้ลูกค้าแต่ละราย
+- [ตรวจความพร้อม AI](https://bigtre.business/th/ai-readiness-health-check) ฟรี และจบด้วยการคุยกับผู้ก่อตั้ง ขอลูกค้าอ้างอิงได้ในตอนนั้น
+
+ติดต่อ: [hello@bigtre.business](mailto:hello@bigtre.business) โทร 082-925-6365
+
+---
+
+https://bigtre.business/th/faq
+
+# คำถามที่พบบ่อยเกี่ยวกับ Big Tre
+
+Canonical: https://bigtre.business/th/faq  
+Updated: 2026-11-18
+
+คำตอบสั้นๆ เกี่ยวกับ Big Tre บริษัทในกรุงเทพฯ ที่ทำระบบข้อมูลยอดขาย สต็อก กำไร และ AI นักวิเคราะห์ข้อมูลให้แบรนด์ออนไลน์ไทย
+
+## เกี่ยวกับบริษัท
+
+### Big Tre ทำอะไร
+
+เชื่อมช่องทางขายและระบบของแบรนด์แบบอ่านอย่างเดียว เขียนกติกาของแบรนด์เรื่องยอดขาย ต้นทุน และสต็อก แล้วรวมเป็นตัวเลขชุดเดียวที่กระทบยอดตรงกัน จากนั้นทำ Dashboard รายงานที่ออกเองตามรอบ และ[AI นักวิเคราะห์ข้อมูล](https://bigtre.business/th/ai-data-analyst)ที่ตอบคำถามเป็นภาษาไทย
+
+### Big Tre เหมาะกับธุรกิจแบบไหน
+
+แบรนด์ออนไลน์ไทยยอดขายประมาณ 20 ถึง 500 ล้านบาทต่อปี ขายสามช่องทางขึ้นไป และไม่มีทีม IT หรือมีน้อย ลูกค้าปัจจุบันอยู่ในกลุ่มความงามและเครื่องประดับ
+
+### ธุรกิจ SME ใช้ได้ไหม
+
+ได้ ลูกค้าส่วนใหญ่เป็นธุรกิจ SME ที่กำลังโต ยอดขายประมาณ 20 ถึง 500 ล้านบาทต่อปี ที่สำคัญกว่าขนาดคือขายหลายช่องทางแล้วตัวเลขไม่ตรงกัน
+
+### Big Tre เป็นบริษัทที่จดทะเบียนถูกต้องไหม
+
+ใช่ เป็นบริษัทจำกัดที่จดทะเบียนนิติบุคคลกับกรมพัฒนาธุรกิจการค้า (ไม่ใช่บริษัทในตลาดหลักทรัพย์) ชื่อนิติบุคคลคือ บริษัท เงินมากมาย รวยไม่ จำกัด ชื่อทางการค้า Big Tre (Big-Tre) เลขทะเบียน 0105568204216 ที่อยู่ 101/1 ซอยพหลโยธิน 56 ถนนพหลโยธิน แขวงสายไหม เขตสายไหม กรุงเทพฯ 10220 ตรวจสอบได้ที่กรมพัฒนาธุรกิจการค้า
+
+### ใครเป็นผู้บริหาร
+
+กวิน เสริมศักดิ์สกุล (ผู้ร่วมก่อตั้งและ CTO) และ Napat Rituyanont (ผู้ร่วมก่อตั้งและ COO) ดู[เกี่ยวกับเรา](https://bigtre.business/th/about)
+
+### Big Tre เกี่ยวข้องกับ Void Engineering ยังไง
+
+เป็นคนละบริษัท กวิน เสริมศักดิ์สกุล เป็นผู้ก่อตั้งทั้งสองบริษัท Big Tre ทำระบบข้อมูลและ AI นักวิเคราะห์ข้อมูลให้แบรนด์ที่ขายหลายช่องทาง ส่วน [Void Engineering](https://voidengineer.ing) เป็น Fractional CTO สำหรับบริษัทที่ต้องการวางและสร้างระบบเทคโนโลยีทั้งองค์กร
+
+## ราคาและการเริ่มงาน
+
+### ราคาเท่าไหร่
+
+ค่าวางระบบเริ่มต้นประมาณ 60,000 บาท ค่าบริการรายเดือนเริ่มต้นประมาณ 14,000 บาทต่อเดือน ตรวจความพร้อม AI ฟรี ดู[ราคา](https://bigtre.business/th/pricing)
+
+### เริ่มยังไง
+
+เริ่มจาก[ตรวจความพร้อม AI ฟรี](https://bigtre.business/th/ai-readiness-health-check) ตอบ 10 ข้อออนไลน์ ได้แผนทางอีเมล และผู้ก่อตั้งติดต่อกลับภายใน 48 ชั่วโมง ถ้าเหมาะกัน Big Tre ใช้เวลาประมาณหนึ่งสัปดาห์ทำความเข้าใจธุรกิจ แล้วส่งแผนและใบเสนอราคา
+
+### นานแค่ไหนกว่าตัวเลขจะใช้ได้
+
+กติกา ระบบข้อมูลที่กระทบยอดแล้ว และ Dashboard ภายใน 6 สัปดาห์แรก รายงานอัตโนมัติและการแจ้งเตือนในเดือนที่ 2 ถึง 4
+
+### ต้องมีทีม IT ไหม
+
+ไม่ต้อง Big Tre ทำงานเทคนิคเอง ส่วนของทีมคือเล่าว่าธุรกิจทำงานยังไง และยืนยันกติกา
+
+## ระบบและข้อมูล
+
+### เชื่อมกับระบบอะไรได้บ้าง
+
+ใช้งานจริงกับลูกค้าแล้ว: Zort, Shipnity, รายงานยอดโอนของ Shopee, Lazada และ TikTok Shop, Google Sheets และ POS หน้าร้าน ทำเพิ่มได้: BigSeller, Shopify, ERP, โปรแกรมบัญชี, บัญชีโฆษณา และขนส่ง ดู[ระบบที่เชื่อมได้](https://bigtre.business/th/integrations)
+
+### ต้องเปลี่ยน OMS หรือ ERP ไหม
+
+ไม่ต้อง Big Tre อ่านจากระบบที่ใช้อยู่ ไม่ได้เข้าไปแทน
+
+### Big Tre แก้อะไรในระบบเราไหม
+
+ไม่ เชื่อมแบบอ่านอย่างเดียว
+
+### ข้อมูลเก็บที่ไหน
+
+Google Cloud (BigQuery) ภูมิภาคสิงคโปร์ แยกของแต่ละลูกค้า ข้อมูล รายงาน และกติกาเป็นของลูกค้า ถ้าเลิกสัญญาจะได้รับคืนภายใน 30 วัน ดู[ข้อมูลเป็นของใคร และการเลิกใช้](https://bigtre.business/th/data-ownership-security)
+
+### AI นักวิเคราะห์ข้อมูลใช้ AI ตัวไหน
+
+Claude ของ Anthropic อ่านได้เฉพาะข้อมูลและกติกาของลูกค้ารายนั้น
+
+### Big Tre ทำบัญชีหรือยื่นภาษีให้ไหม
+
+ไม่ Big Tre ทำให้ตัวเลขบริหารถูกต้อง และส่งไฟล์ที่สะอาดให้นักบัญชี การยื่นภาษียังเป็นงานของนักบัญชี
+
+## ติดต่อ
+
+[hello@bigtre.business](mailto:hello@bigtre.business) โทร 082-925-6365 ทำงานภาษาไทยและอังกฤษ ในกรุงเทพฯ และออนไลน์
+
+---
+
+https://bigtre.business/th/data-ownership-security
+
+# ข้อมูลเป็นของใคร ความปลอดภัย และการเลิกใช้ Big Tre
+
+Canonical: https://bigtre.business/th/data-ownership-security  
+Updated: 2026-11-18
+
+ข้อมูลเป็นของลูกค้า รวมถึงทุกอย่างที่ทำขึ้นเฉพาะให้ลูกค้า ทั้งรายงาน กติกาการนับตัวเลข SOP และการตั้งค่าบัญชีของลูกค้าเอง Big Tre ดึงข้อมูลอย่างเดียวด้วยสิทธิ์ที่ลูกค้ายกเลิกได้ เก็บข้อมูลของแต่ละลูกค้าแยกกัน และเมื่อเลิกสัญญาจะส่งมอบข้อมูล เอกสาร และกติกาในรูปแบบที่เอาไปใช้ต่อได้ภายใน 30 วัน ทั้งหมดนี้เป็นเงื่อนไขในสัญญาลูกค้าปัจจุบันของ Big Tre
+
+## ใครเป็นเจ้าของอะไร
+
+| รายการ | เจ้าของ |
+|---|---|
+| ข้อมูลของลูกค้า | ลูกค้า |
+| รายงาน Dashboard กติกาการนับตัวเลข SOP และคู่มือที่ทำให้ลูกค้า | ลูกค้า |
+| การตั้งค่าระบบและบัญชีของลูกค้าเอง | ลูกค้า |
+| เครื่องมือ โค้ด วิธีการ และโครงสร้างระบบที่ Big Tre ใช้ร่วมกับลูกค้าหลายราย | Big Tre ลูกค้าใช้ได้ตลอดอายุสัญญา |
+
+ข้อมูลและกติกาธุรกิจของลูกค้าแต่ละราย ไม่ถูกแชร์ให้ลูกค้ารายอื่น
+
+## สิทธิ์เข้าถึง
+
+- ดึงข้อมูลอย่างเดียว Big Tre ไม่แก้ออเดอร์ สต็อก ราคา หรือบัญชีในระบบของลูกค้า
+- ผ่าน API key หรือไฟล์ export ที่ลูกค้าออกให้ และยกเลิกได้ทุกเมื่อ
+- เซ็นสัญญารักษาความลับ (NDA) ก่อนให้สิทธิ์เข้าถึงใดๆ
+
+## ข้อมูลเก็บที่ไหน
+
+Google Cloud (BigQuery) ภูมิภาคสิงคโปร์ แยกชุดข้อมูลของแต่ละลูกค้า AI ของลูกค้าแต่ละรายแยกกัน และอ่านได้เฉพาะข้อมูลของรายนั้น
+
+## AI ผู้ช่วยตอบเรื่องยอดขาย
+
+- ใช้โมเดล Claude ของ Anthropic คำถามและตัวเลขที่ต้องใช้ตอบจะถูกประมวลผลโดยโมเดลนี้
+- คำตอบและรายงานอัตโนมัติเป็นตัวช่วยตัดสินใจจากข้อมูลของลูกค้าเอง Big Tre ตรวจด้วยความระมัดระวังตามวิชาชีพ แต่ไม่รับประกันว่าไม่มีข้อผิดพลาด การตัดสินใจทางธุรกิจยังเป็นของลูกค้า
+
+## ระยะสัญญาและการเลิกใช้
+
+- สัญญาปัจจุบันเริ่มจากช่วงทดลองประมาณสามเดือน ทั้งสองฝ่ายแจ้งหยุดเป็นลายลักษณ์อักษรได้ก่อนเริ่มเดือนถัดไป ไม่มีค่าปรับ
+- หลังช่วงทดลอง ค่อยตกลงสัญญาระยะยาว
+- เมื่อเลิกสัญญา Big Tre ส่งมอบข้อมูล เอกสาร และกติกาการนับตัวเลขของลูกค้าในรูปแบบที่เอาไปใช้ต่อได้ภายใน 30 วัน
+- คู่มือกติกาเขียนเป็นภาษาคน จึงใช้ต่อได้แม้ไม่มี Big Tre
+
+## สิ่งที่ Big Tre ยังไม่มี
+
+ยังไม่มีใบรับรองความปลอดภัยจากบุคคลที่สาม เช่น ISO 27001 ถ้าบริษัทต้องการ บอกเราได้ตั้งแต่คุยครั้งแรก
+
+สอบถาม: [hello@bigtre.business](mailto:hello@bigtre.business) โทร 082-925-6365

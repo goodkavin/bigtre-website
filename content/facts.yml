@@ -1,0 +1,53 @@
+# Company facts. Single source for every page and for JSON-LD.
+# Used in content as {{key}} and {{founders.0.name_en}}. Empty scalars are omitted from JSON-LD.
+# Entity SoT: bigtre-hq README.md and 1-projects/yvis/contract-2026-09.md (2026-09-23).
+name: Big Tre
+alternate_names:
+  - Big-Tre
+  - บิ๊กเทร
+legal_name_en: ""
+legal_name_th: บริษัท เงินมากมาย รวยไม่ จำกัด
+registration_no: "0105568204216"
+founded: ""
+founded_en: ""
+founded_th: ""
+url: https://bigtre.business
+email: hello@bigtre.business
+telephone: "+66829256365"
+telephone_display: "+66 82-925-6365"
+telephone_display_th: "082-925-6365"
+line_oa: ""
+street_en: 101/1 Soi Phahonyothin 56, Phahonyothin Road, Sai Mai, Sai Mai
+street_th: 101/1 ซอยพหลโยธิน 56 ถนนพหลโยธิน แขวงสายไหม เขตสายไหม
+postal_code: "10220"
+city_en: Bangkok
+city_th: กรุงเทพฯ
+country_code: TH
+country_en: Thailand
+country_th: ประเทศไทย
+logo: https://bigtre.business/favicon.svg
+same_as: []
+slogan: Your tech and data, made to work.
+price_setup_from_en: about 60,000 baht
+price_setup_from_th: ประมาณ 60,000 บาท
+price_monthly_from_en: about 14,000 baht a month
+price_monthly_from_th: ประมาณ 14,000 บาทต่อเดือน
+description_en: A Bangkok company that gives multi-channel e-commerce brands one trusted set of sales, stock and profit numbers, and an AI data analyst that answers from them in Thai.
+description_th: บริษัทในกรุงเทพฯ ที่รวมยอดขาย สต็อก และกำไรของแบรนด์ที่ขายหลายช่องทางให้เป็นตัวเลขชุดเดียวที่เชื่อถือได้ พร้อม AI นักวิเคราะห์ข้อมูลที่ตอบเป็นภาษาไทยจากตัวเลขชุดนั้น
+founders:
+  - id: kavin
+    name_en: Kavin Sermsaksakon
+    name_th: กวิน เสริมศักดิ์สกุล
+    title_en: Co-founder and CTO
+    title_th: ผู้ร่วมก่อตั้งและ CTO
+    bio_en: Eight years building ERP, data and AI systems for Thai companies. Co-founder and former COO of MineERP, an ERP for Thai manufacturers; earlier a data engineer at Accenture. Engineering graduate of Chulalongkorn University. Also founder of Void Engineering, a separate fractional CTO company.
+    bio_th: ทำระบบ ERP ข้อมูล และ AI ให้บริษัทไทยมาแปดปี เป็นผู้ร่วมก่อตั้งและอดีต COO ของ MineERP ระบบ ERP สำหรับโรงงานไทย ก่อนหน้านั้นเป็น Data Engineer ที่ Accenture จบวิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย และเป็นผู้ก่อตั้ง Void Engineering บริษัท Fractional CTO ที่แยกจาก Big Tre
+    same_as: []
+  - id: napat
+    name_en: Napat Rituyanont
+    name_th: ""
+    title_en: Co-founder and COO
+    title_th: ผู้ร่วมก่อตั้งและ COO
+    bio_en: Runs client operations at Big Tre, from process definition and SOPs with each client team to weekly follow-up. Previously at UPCO.
+    bio_th: ดูแลงานกับลูกค้าของ Big Tre ตั้งแต่กำหนดขั้นตอนงานและ SOP กับทีมของลูกค้า ไปจนถึงการติดตามผลทุกสัปดาห์ ก่อนหน้านี้ทำงานที่ UPCO
+    same_as: []

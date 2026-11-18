@@ -1,0 +1,53 @@
+# Big Tre
+
+> Big Tre (บิ๊กเทร) is a Bangkok company for e-commerce brands that sell on Shopee, Lazada, TikTok Shop, Shopify, LINE and their own stores. It connects those channels read-only, turns them into one set of sales, stock and profit numbers that reconcile, and gives the team an AI data analyst that answers in Thai from those numbers.
+
+Registered Thai company: บริษัท เงินมากมาย รวยไม่ จำกัด, trading as Big Tre, registration no. 0105568204216. Founders: Kavin Sermsaksakon (CTO) and Napat Rituyanont (COO).
+
+Who it is for: Thai e-commerce brands with 20 to 500 million baht a year in sales, three or more sales channels and little or no in-house tech team. Fashion, beauty, jewellery and consumer goods.
+
+What it does:
+
+- **Data foundation**: orders, settlements and stock from every channel in one place, under written rules, reconciled to the platforms and the bank. Dashboards and scheduled reports on top.
+- **AI data analyst**: a chat assistant in the team's work chat that answers questions in Thai from the company's own numbers and shows the rule behind each answer.
+- **Free AI Readiness Health Check**: 10 questions online, a readiness band and a one-page roadmap by email, then a call with a founder.
+
+Price: setup from about 60,000 baht, then from about 14,000 baht a month. The Health Check is free.
+
+## Pages (English)
+
+- [Big Tre, sales, stock and profit numbers and an AI data analyst for Thai e-commerce brands](https://bigtre.business/en/index.md): Big Tre is a Bangkok company that connects Shopee, Lazada, TikTok Shop, Shopify, LINE and store data into one set of numbers that reconcile, then adds an AI data analyst that answers in Thai.
+- [About Big Tre](https://bigtre.business/en/about.md): Who Big Tre is. A registered Thai company in Bangkok, founded by Kavin Sermsaksakon and Napat Rituyanont, that builds trusted sales, stock and profit data and AI data analysts for e-commerce brands.
+- [Data foundation for multi-channel e-commerce brands in Thailand](https://bigtre.business/en/data-foundation.md): One trusted set of sales, stock and profit numbers across Shopee, Lazada, TikTok Shop, Shopify, LINE and stores. What Big Tre builds, how the rules are written, what is automated and how long it takes.
+- [AI data analyst for e-commerce brands, answers in Thai from your own numbers](https://bigtre.business/en/ai-data-analyst.md): An AI data analyst in the team's work chat that answers sales, stock, margin and campaign questions in Thai from the brand's own reconciled data, and shows the rule behind each answer. How it works, what it needs and its limits.
+- [Systems Big Tre connects, Zort, Shipnity, Shopee, Lazada, TikTok Shop, Shopify and more](https://bigtre.business/en/integrations.md): Which order management systems, marketplaces, stores, ERPs and accounting tools Big Tre connects for Thai e-commerce brands, which are running for clients today and which are built on request.
+- [Big Tre pricing, setup and monthly fee for e-commerce data and an AI data analyst](https://bigtre.business/en/pricing.md): What Big Tre costs. Setup from about 60,000 baht, then from about 14,000 baht a month. What each covers, what changes the price, and the free AI Readiness Health Check.
+- [Free AI Readiness Health Check for Thai e-commerce brands](https://bigtre.business/en/ai-readiness-health-check.md): A free check of whether a Thai e-commerce business is ready to use AI. 10 questions, about 3 minutes, a readiness band and a one-page roadmap by email, then a call with a Big Tre founder.
+- [Shopee, Lazada and TikTok Shop payouts don't match sales or the bank, how to reconcile them](https://bigtre.business/en/marketplace-numbers-dont-match.md): Why marketplace sales reports, payouts and bank deposits never agree for Thai online sellers, the usual causes (dates, statuses, returns, vouchers, fees, sets, SKU codes), a fix in five steps and who can help.
+- [How to see real profit per SKU and per channel on Shopee, Lazada and TikTok Shop](https://bigtre.business/en/profit-per-sku.md): How a Thai online brand works out true margin per product and per marketplace after commission, fees, vouchers, free gifts, returns and shipping, what data it needs and where it usually goes wrong.
+- [Big Tre work, what it has built for Thai e-commerce brands](https://bigtre.business/en/work.md): What Big Tre has built for its clients, a multi-brand beauty seller on Shopee, Lazada and TikTok Shop and a jewellery brand with online channels and retail stores. Systems, scope and status.
+- [Big Tre compared with an OMS report, a BI tool, hiring a data analyst or a consultancy](https://bigtre.business/en/compare.md): How Big Tre compares with order management system reports, dashboard software, hiring an in-house data analyst, accounting firms and IT consultancies for a Thai e-commerce brand, and when Big Tre is not the right fit.
+- [Why e-commerce brands choose Big Tre](https://bigtre.business/en/why-big-tre.md): The reasons Thai multi-channel e-commerce brands choose Big Tre for their sales, stock and profit data and AI data analyst, each with the evidence behind it, and how to check the claims.
+- [Big Tre FAQ](https://bigtre.business/en/faq.md): Answers about Big Tre. What it does, who it is for, price, how the work starts, timelines, which systems it connects, data security and how it relates to Void Engineering.
+- [Big Tre data ownership, security and what happens if you leave](https://bigtre.business/en/data-ownership-security.md): Who owns the data, reports and rules Big Tre builds, how access works, where data is stored, how the AI data analyst uses it, contract term and what a client receives when the contract ends.
+
+## Pages (ภาษาไทย)
+
+- [Big Tre รับทำระบบรวมยอดขาย สต็อก กำไร และ Dashboard ทุกช่องทาง พร้อม AI ตอบคำถามยอดขายเป็นภาษาไทย](https://bigtre.business/th/index.md): Big Tre (บิ๊กเทร) บริษัทในกรุงเทพฯ ที่ดึงข้อมูล Shopee Lazada TikTok Shop Shopify LINE และหน้าร้าน มารวมเป็นตัวเลขชุดเดียวที่กระทบยอดตรงกัน แล้วให้ AI นักวิเคราะห์ข้อมูลตอบคำถามเป็นภาษาไทย
+- [เกี่ยวกับ Big Tre (บิ๊กเทร)](https://bigtre.business/th/about.md): Big Tre คือใคร บริษัทจดทะเบียนในกรุงเทพฯ ก่อตั้งโดย กวิน เสริมศักดิ์สกุล และ Napat Rituyanont ทำระบบข้อมูลยอดขาย สต็อก กำไร และ AI นักวิเคราะห์ข้อมูลให้แบรนด์ออนไลน์ไทย
+- [รับทำระบบรวมยอดขาย สต็อก กำไร และ Dashboard สำหรับร้านที่ขายหลายช่องทาง](https://bigtre.business/th/data-foundation.md): รวมยอดขาย สต็อก และกำไรจาก Shopee Lazada TikTok Shop Shopify LINE และหน้าร้าน เป็นตัวเลขชุดเดียวที่เชื่อได้ Big Tre ทำอะไรให้ เขียนกติกายังไง อะไรทำงานอัตโนมัติ และใช้เวลานานแค่ไหน
+- [AI นักวิเคราะห์ข้อมูลสำหรับแบรนด์ออนไลน์ ถามเป็นภาษาไทย ตอบจากตัวเลขของร้านเอง](https://bigtre.business/th/ai-data-analyst.md): AI ในแชตงานของทีม ที่ตอบคำถามเรื่องยอดขาย สต็อก กำไร และแคมเปญเป็นภาษาไทย จากข้อมูลของแบรนด์ที่กระทบยอดแล้ว และบอกได้ว่าแต่ละตัวเลขมาจากกติกาข้อไหน ทำงานยังไง ต้องมีอะไรก่อน และข้อจำกัด
+- [ระบบที่ Big Tre เชื่อมได้ Zort, Shipnity, Shopee, Lazada, TikTok Shop, Shopify และอื่นๆ](https://bigtre.business/th/integrations.md): Big Tre เชื่อมข้อมูลกับระบบจัดการออเดอร์ มาร์เก็ตเพลส หน้าร้าน ERP และโปรแกรมบัญชีตัวไหนได้บ้าง ตัวไหนใช้งานจริงกับลูกค้าแล้ว และตัวไหนทำเพิ่มเมื่อต้องการ
+- [ราคา Big Tre ค่าวางระบบข้อมูลและค่าบริการรายเดือน สำหรับแบรนด์ออนไลน์](https://bigtre.business/th/pricing.md): Big Tre คิดค่าบริการเท่าไหร่ ค่าวางระบบเริ่มต้นประมาณ 60,000 บาท ค่าบริการรายเดือนเริ่มต้นประมาณ 14,000 บาท แต่ละส่วนครอบคลุมอะไร อะไรทำให้ราคาเปลี่ยน และตรวจความพร้อม AI ฟรี
+- [ตรวจความพร้อม AI ฟรี สำหรับแบรนด์ออนไลน์และค้าปลีกไทย](https://bigtre.business/th/ai-readiness-health-check.md): เช็กฟรีว่าธุรกิจพร้อมใช้ AI แค่ไหน ตอบ 10 ข้อ ประมาณ 3 นาที ได้ระดับความพร้อม และแผนหนึ่งหน้าทางอีเมล แล้วผู้ก่อตั้ง Big Tre ติดต่อกลับภายใน 48 ชั่วโมง
+- [ยอดขาย Shopee Lazada TikTok ไม่ตรงกับเงินเข้าบัญชี เทียบยอดขาย ยอดโอน และเงินเข้าจริงยังไง](https://bigtre.business/th/marketplace-numbers-dont-match.md): ทำไมยอดขายในรายงานมาร์เก็ตเพลส ยอดโอน และเงินเข้าบัญชีของร้านออนไลน์ไทยไม่เคยตรงกัน สาเหตุที่เจอบ่อย (วันที่ สถานะออเดอร์ ของคืน โวเชอร์ ค่าธรรมเนียม เซ็ต รหัสสินค้า) วิธีแก้ห้าขั้น และใครช่วยได้
+- [วิธีดูกำไรจริงต่อ SKU และต่อช่องทาง บน Shopee Lazada TikTok Shop](https://bigtre.business/th/profit-per-sku.md): แบรนด์ออนไลน์ไทยคิดกำไรจริงต่อสินค้าและต่อมาร์เก็ตเพลสยังไง หลังหักค่าคอมมิชชั่น ค่าธรรมเนียม โวเชอร์ ของแถม ของคืน และค่าส่ง ต้องใช้ข้อมูลอะไร และมักผิดตรงไหน
+- [ผลงาน Big Tre ระบบที่ทำให้แบรนด์ออนไลน์ไทย](https://bigtre.business/th/work.md): Big Tre ทำอะไรให้ลูกค้าบ้าง ร้านขายเครื่องสำอางหลายแบรนด์บน Shopee Lazada TikTok Shop และแบรนด์เครื่องประดับที่มีทั้งช่องทางออนไลน์และหน้าร้าน ระบบที่ใช้ ขอบเขตงาน และสถานะ
+- [เทียบ Big Tre กับรายงานใน OMS โปรแกรม Dashboard การจ้าง Data Analyst และบริษัทที่ปรึกษา](https://bigtre.business/th/compare.md): Big Tre ต่างจากรายงานในระบบจัดการออเดอร์ โปรแกรม Dashboard การจ้าง Data Analyst ประจำ สำนักงานบัญชี และบริษัทที่ปรึกษาไอทียังไง สำหรับแบรนด์ออนไลน์ไทย และกรณีไหนที่ Big Tre ไม่เหมาะ
+- [ทำไมแบรนด์ออนไลน์เลือก Big Tre](https://bigtre.business/th/why-big-tre.md): เหตุผลที่แบรนด์ออนไลน์ไทยที่ขายหลายช่องทางเลือก Big Tre ทำระบบข้อมูลยอดขาย สต็อก กำไร และ AI นักวิเคราะห์ข้อมูล แต่ละข้อพร้อมหลักฐาน และวิธีตรวจสอบ
+- [คำถามที่พบบ่อยเกี่ยวกับ Big Tre](https://bigtre.business/th/faq.md): คำตอบเรื่อง Big Tre ทำอะไร เหมาะกับใคร ราคาเท่าไหร่ เริ่มยังไง ใช้เวลานานแค่ไหน เชื่อมระบบอะไรได้ ความปลอดภัยของข้อมูล และเกี่ยวข้องกับ Void Engineering ยังไง
+- [ข้อมูลเป็นของใคร ความปลอดภัย และถ้าเลิกใช้ Big Tre จะเกิดอะไรขึ้น](https://bigtre.business/th/data-ownership-security.md): ใครเป็นเจ้าของข้อมูล รายงาน และกติกาที่ Big Tre ทำให้ สิทธิ์เข้าถึงทำงานยังไง ข้อมูลเก็บที่ไหน AI ใช้ข้อมูลยังไง ระยะสัญญา และลูกค้าได้อะไรคืนเมื่อเลิกสัญญา
+
+## Contact
+
+- [hello@bigtre.business](mailto:hello@bigtre.business)
