@@ -31,7 +31,7 @@ Yes. The registered name is {{legal_name_th}}, trading as Big Tre (Big-Tre), reg
 
 ### Who runs Big Tre?
 
-{{founders.0.name_en}} ({{founders.0.title_en}}) and {{founders.1.name_en}} ({{founders.1.title_en}}). See [about](/en/about).
+{{founders.1.name_en}} ({{founders.1.title_en}}) and {{founders.0.name_en}} ({{founders.0.title_en}}). See [about](/en/about).
 
 ### How is Big Tre related to Void Engineering?
 

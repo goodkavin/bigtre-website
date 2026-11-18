@@ -13,7 +13,7 @@ Big Tre is run by a Thai limited company registered with the Department of Busin
 | Registered name | บริษัท เงินมากมาย รวยไม่ จำกัด |
 | Company registration no. | 0105568204216. Searchable at the [Department of Business Development](https://datawarehouse.dbd.go.th/) |
 | Registered address | 101/1 Soi Phahonyothin 56, Phahonyothin Road, Sai Mai, Sai Mai, Bangkok 10220, Thailand |
-| Founders | Kavin Sermsaksakon (Co-founder and CTO), Napat Rituyanont (Co-founder and COO) |
+| Founders | Napat Rituyanont (Co-founder and CEO), Kavin Sermsaksakon (Co-founder and CTO) |
 | Website | [bigtre.business](https://bigtre.business) |
 | Email | [hello@bigtre.business](mailto:hello@bigtre.business) |
 | Phone | +66 82-925-6365 |
@@ -23,9 +23,9 @@ The registered name differs from the trading name. To look the company up at the
 
 ## Founders
 
-**Kavin Sermsaksakon** (กวิน เสริมศักดิ์สกุล), Co-founder and CTO. Eight years building ERP, data and AI systems for Thai companies. Co-founder and former COO of MineERP, an ERP for Thai manufacturers; earlier a data engineer at Accenture. Engineering graduate of Chulalongkorn University. Also founder of Void Engineering, a separate fractional CTO company.
+**Napat Rituyanont**, Co-founder and CEO. Leads Big Tre and its client work, from process definition and SOPs with each client team to weekly follow-up. Previously at UPCO.
 
-**Napat Rituyanont**, Co-founder and COO. Runs client operations at Big Tre, from process definition and SOPs with each client team to weekly follow-up. Previously at UPCO.
+**Kavin Sermsaksakon** (กวิน เสริมศักดิ์สกุล), Co-founder and CTO. Eight years building ERP, data and AI systems for Thai companies. Co-founder and former COO of MineERP, an ERP for Thai manufacturers; earlier a data engineer at Accenture. Engineering graduate of Chulalongkorn University. Also founder of Void Engineering, a separate fractional CTO company.
 
 ## Why it exists
 

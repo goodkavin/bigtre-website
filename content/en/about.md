@@ -1,6 +1,6 @@
 ---
 title: About Big Tre
-description: Who Big Tre is. A registered Thai company in Bangkok, founded by Kavin Sermsaksakon and Napat Rituyanont, that builds trusted sales, stock and profit data and AI data analysts for e-commerce brands.
+description: Who Big Tre is. A Thai limited company in Bangkok, founded by Napat Rituyanont (CEO) and Kavin Sermsaksakon (CTO), that builds trusted sales, stock and profit data and AI data analysts for e-commerce brands.
 schema: about
 updated: 2026-11-18
 order: 1
@@ -19,7 +19,7 @@ Big Tre is run by a Thai limited company registered with the Department of Busin
 | Registered name | {{legal_name_th}} |
 | Company registration no. | {{registration_no}}. Searchable at the [Department of Business Development](https://datawarehouse.dbd.go.th/) |
 | Registered address | {{street_en}}, {{city_en}} {{postal_code}}, {{country_en}} |
-| Founders | {{founders.0.name_en}} ({{founders.0.title_en}}), {{founders.1.name_en}} ({{founders.1.title_en}}) |
+| Founders | {{founders.1.name_en}} ({{founders.1.title_en}}), {{founders.0.name_en}} ({{founders.0.title_en}}) |
 | Website | [bigtre.business]({{url}}) |
 | Email | [{{email}}](mailto:{{email}}) |
 | Phone | {{telephone_display}} |
@@ -29,9 +29,9 @@ The registered name differs from the trading name. To look the company up at the
 
 ## Founders
 
-**{{founders.0.name_en}}** ({{founders.0.name_th}}), {{founders.0.title_en}}. {{founders.0.bio_en}}
-
 **{{founders.1.name_en}}**, {{founders.1.title_en}}. {{founders.1.bio_en}}
+
+**{{founders.0.name_en}}** ({{founders.0.name_th}}), {{founders.0.title_en}}. {{founders.0.bio_en}}
 
 ## Why it exists
 

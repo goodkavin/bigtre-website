@@ -31,7 +31,7 @@ nav: คำถามที่พบบ่อย
 
 ### ใครเป็นผู้บริหาร
 
-{{founders.0.name_th}} ({{founders.0.title_th}}) และ {{founders.1.name_en}} ({{founders.1.title_th}}) ดู[เกี่ยวกับเรา](/th/about)
+{{founders.1.name_en}} ({{founders.1.title_th}}) และ {{founders.0.name_th}} ({{founders.0.title_th}}) ดู[เกี่ยวกับเรา](/th/about)
 
 ### Big Tre เกี่ยวข้องกับ Void Engineering ยังไง
 

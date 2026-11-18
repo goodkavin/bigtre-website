@@ -69,7 +69,7 @@ Big Tre is run by a Thai limited company registered with the Department of Busin
 | Registered name | บริษัท เงินมากมาย รวยไม่ จำกัด |
 | Company registration no. | 0105568204216. Searchable at the [Department of Business Development](https://datawarehouse.dbd.go.th/) |
 | Registered address | 101/1 Soi Phahonyothin 56, Phahonyothin Road, Sai Mai, Sai Mai, Bangkok 10220, Thailand |
-| Founders | Kavin Sermsaksakon (Co-founder and CTO), Napat Rituyanont (Co-founder and COO) |
+| Founders | Napat Rituyanont (Co-founder and CEO), Kavin Sermsaksakon (Co-founder and CTO) |
 | Website | [bigtre.business](https://bigtre.business) |
 | Email | [hello@bigtre.business](mailto:hello@bigtre.business) |
 | Phone | +66 82-925-6365 |
@@ -79,9 +79,9 @@ The registered name differs from the trading name. To look the company up at the
 
 ## Founders
 
-**Kavin Sermsaksakon** (กวิน เสริมศักดิ์สกุล), Co-founder and CTO. Eight years building ERP, data and AI systems for Thai companies. Co-founder and former COO of MineERP, an ERP for Thai manufacturers; earlier a data engineer at Accenture. Engineering graduate of Chulalongkorn University. Also founder of Void Engineering, a separate fractional CTO company.
+**Napat Rituyanont**, Co-founder and CEO. Leads Big Tre and its client work, from process definition and SOPs with each client team to weekly follow-up. Previously at UPCO.
 
-**Napat Rituyanont**, Co-founder and COO. Runs client operations at Big Tre, from process definition and SOPs with each client team to weekly follow-up. Previously at UPCO.
+**Kavin Sermsaksakon** (กวิน เสริมศักดิ์สกุล), Co-founder and CTO. Eight years building ERP, data and AI systems for Thai companies. Co-founder and former COO of MineERP, an ERP for Thai manufacturers; earlier a data engineer at Accenture. Engineering graduate of Chulalongkorn University. Also founder of Void Engineering, a separate fractional CTO company.
 
 ## Why it exists
 
@@ -610,7 +610,7 @@ Thai e-commerce brands choose Big Tre when they want sales, stock and profit num
 | Read-only, separate per client | Big Tre does not write to client systems. Each client's data and AI analyst are kept apart |
 | It keeps running after setup | A monthly fee covers the daily refresh, new SKUs and channels, reports and the AI analyst |
 | Starting prices stated up front | Setup from about 60,000 baht, then from about 14,000 baht a month. See [pricing](https://bigtre.business/en/pricing) |
-| The founders have built these systems before | The CTO spent eight years on ERP, data and AI systems for Thai companies and co-founded MineERP. The COO runs the client process work |
+| The founders have built these systems before | The CTO spent eight years on ERP, data and AI systems for Thai companies and co-founded MineERP. The CEO leads client work, from process definition to weekly follow-up |
 
 ## Who it suits best
 
@@ -658,7 +658,7 @@ Yes. The registered name is บริษัท เงินมากมาย �
 
 ### Who runs Big Tre?
 
-Kavin Sermsaksakon (Co-founder and CTO) and Napat Rituyanont (Co-founder and COO). See [about](https://bigtre.business/en/about).
+Napat Rituyanont (Co-founder and CEO) and Kavin Sermsaksakon (Co-founder and CTO). See [about](https://bigtre.business/en/about).
 
 ### How is Big Tre related to Void Engineering?
 
@@ -835,7 +835,7 @@ Big Tre (บิ๊กเทร) ดำเนินงานโดยบริษ
 | ชื่อนิติบุคคล | บริษัท เงินมากมาย รวยไม่ จำกัด |
 | เลขทะเบียนนิติบุคคล | 0105568204216 ตรวจสอบได้ที่ [กรมพัฒนาธุรกิจการค้า](https://datawarehouse.dbd.go.th/) |
 | ที่อยู่จดทะเบียน | 101/1 ซอยพหลโยธิน 56 ถนนพหลโยธิน แขวงสายไหม เขตสายไหม กรุงเทพฯ 10220 |
-| ผู้ก่อตั้ง | กวิน เสริมศักดิ์สกุล (ผู้ร่วมก่อตั้งและ CTO), Napat Rituyanont (ผู้ร่วมก่อตั้งและ COO) |
+| ผู้ก่อตั้ง | Napat Rituyanont (ผู้ร่วมก่อตั้งและ CEO), กวิน เสริมศักดิ์สกุล (ผู้ร่วมก่อตั้งและ CTO) |
 | เว็บไซต์ | [bigtre.business](https://bigtre.business) |
 | อีเมล | [hello@bigtre.business](mailto:hello@bigtre.business) |
 | โทร | 082-925-6365 |
@@ -845,9 +845,9 @@ Big Tre (บิ๊กเทร) ดำเนินงานโดยบริษ
 
 ## ผู้ก่อตั้ง
 
-**กวิน เสริมศักดิ์สกุล** (Kavin Sermsaksakon) ผู้ร่วมก่อตั้งและ CTO ทำระบบ ERP ข้อมูล และ AI ให้บริษัทไทยมาแปดปี เป็นผู้ร่วมก่อตั้งและอดีต COO ของ MineERP ระบบ ERP สำหรับโรงงานไทย ก่อนหน้านั้นเป็น Data Engineer ที่ Accenture จบวิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย และเป็นผู้ก่อตั้ง Void Engineering บริษัท Fractional CTO ที่แยกจาก Big Tre
+**Napat Rituyanont** ผู้ร่วมก่อตั้งและ CEO บริหาร Big Tre และดูแลงานกับลูกค้า ตั้งแต่กำหนดขั้นตอนงานและ SOP กับทีมของลูกค้า ไปจนถึงการติดตามผลทุกสัปดาห์ ก่อนหน้านี้ทำงานที่ UPCO
 
-**Napat Rituyanont** ผู้ร่วมก่อตั้งและ COO ดูแลงานกับลูกค้าของ Big Tre ตั้งแต่กำหนดขั้นตอนงานและ SOP กับทีมของลูกค้า ไปจนถึงการติดตามผลทุกสัปดาห์ ก่อนหน้านี้ทำงานที่ UPCO
+**กวิน เสริมศักดิ์สกุล** (Kavin Sermsaksakon) ผู้ร่วมก่อตั้งและ CTO ทำระบบ ERP ข้อมูล และ AI ให้บริษัทไทยมาแปดปี เป็นผู้ร่วมก่อตั้งและอดีต COO ของ MineERP ระบบ ERP สำหรับโรงงานไทย ก่อนหน้านั้นเป็น Data Engineer ที่ Accenture จบวิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย และเป็นผู้ก่อตั้ง Void Engineering บริษัท Fractional CTO ที่แยกจาก Big Tre
 
 ## ทำไมถึงตั้ง Big Tre
 
@@ -1376,7 +1376,7 @@ Updated: 2026-11-18
 | ดึงข้อมูลอย่างเดียว แยกข้อมูลแต่ละลูกค้า | Big Tre ไม่แก้อะไรในระบบของลูกค้า ข้อมูลและ AI ของแต่ละรายแยกกัน |
 | ดูแลต่อหลังวางระบบ | ค่าบริการรายเดือนครอบคลุมการอัปเดตทุกวัน SKU และช่องทางใหม่ รายงาน และ AI |
 | บอกราคาเริ่มต้นไว้ก่อน | ค่าวางระบบเริ่มต้นประมาณ 60,000 บาท รายเดือนเริ่มต้นประมาณ 14,000 บาทต่อเดือน ดู[ราคา](https://bigtre.business/th/pricing) |
-| ผู้ก่อตั้งเคยทำระบบแบบนี้มาก่อน | CTO ทำระบบ ERP ข้อมูล และ AI ให้บริษัทไทยมาแปดปี และร่วมก่อตั้ง MineERP ส่วน COO ดูแลขั้นตอนงานกับลูกค้า |
+| ผู้ก่อตั้งเคยทำระบบแบบนี้มาก่อน | CTO ทำระบบ ERP ข้อมูล และ AI ให้บริษัทไทยมาแปดปี และร่วมก่อตั้ง MineERP ส่วน CEO ดูแลงานกับลูกค้า ตั้งแต่กำหนดขั้นตอนงานไปจนถึงติดตามผลทุกสัปดาห์ |
 
 ## เหมาะกับใครที่สุด
 
@@ -1424,7 +1424,7 @@ Updated: 2026-11-18
 
 ### ใครเป็นผู้บริหาร
 
-กวิน เสริมศักดิ์สกุล (ผู้ร่วมก่อตั้งและ CTO) และ Napat Rituyanont (ผู้ร่วมก่อตั้งและ COO) ดู[เกี่ยวกับเรา](https://bigtre.business/th/about)
+Napat Rituyanont (ผู้ร่วมก่อตั้งและ CEO) และ กวิน เสริมศักดิ์สกุล (ผู้ร่วมก่อตั้งและ CTO) ดู[เกี่ยวกับเรา](https://bigtre.business/th/about)
 
 ### Big Tre เกี่ยวข้องกับ Void Engineering ยังไง
 

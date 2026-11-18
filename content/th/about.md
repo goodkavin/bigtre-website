@@ -1,6 +1,6 @@
 ---
 title: เกี่ยวกับ Big Tre (บิ๊กเทร)
-description: Big Tre คือใคร บริษัทจดทะเบียนในกรุงเทพฯ ก่อตั้งโดย กวิน เสริมศักดิ์สกุล และ Napat Rituyanont ทำระบบข้อมูลยอดขาย สต็อก กำไร และ AI นักวิเคราะห์ข้อมูลให้แบรนด์ออนไลน์ไทย
+description: Big Tre คือใคร บริษัทจำกัดในกรุงเทพฯ ก่อตั้งโดย Napat Rituyanont (CEO) และ กวิน เสริมศักดิ์สกุล (CTO) ทำระบบรวมยอดขาย สต็อก กำไร และ AI ตอบคำถามยอดขายให้แบรนด์ออนไลน์ไทย
 schema: about
 updated: 2026-11-18
 order: 1
@@ -19,7 +19,7 @@ Big Tre (บิ๊กเทร) ดำเนินงานโดยบริษ
 | ชื่อนิติบุคคล | {{legal_name_th}} |
 | เลขทะเบียนนิติบุคคล | {{registration_no}} ตรวจสอบได้ที่ [กรมพัฒนาธุรกิจการค้า](https://datawarehouse.dbd.go.th/) |
 | ที่อยู่จดทะเบียน | {{street_th}} {{city_th}} {{postal_code}} |
-| ผู้ก่อตั้ง | {{founders.0.name_th}} ({{founders.0.title_th}}), {{founders.1.name_en}} ({{founders.1.title_th}}) |
+| ผู้ก่อตั้ง | {{founders.1.name_en}} ({{founders.1.title_th}}), {{founders.0.name_th}} ({{founders.0.title_th}}) |
 | เว็บไซต์ | [bigtre.business]({{url}}) |
 | อีเมล | [{{email}}](mailto:{{email}}) |
 | โทร | {{telephone_display_th}} |
@@ -29,9 +29,9 @@ Big Tre (บิ๊กเทร) ดำเนินงานโดยบริษ
 
 ## ผู้ก่อตั้ง
 
-**{{founders.0.name_th}}** ({{founders.0.name_en}}) {{founders.0.title_th}} {{founders.0.bio_th}}
-
 **{{founders.1.name_en}}** {{founders.1.title_th}} {{founders.1.bio_th}}
+
+**{{founders.0.name_th}}** ({{founders.0.name_en}}) {{founders.0.title_th}} {{founders.0.bio_th}}
 
 ## ทำไมถึงตั้ง Big Tre
 

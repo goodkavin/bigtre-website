@@ -25,7 +25,7 @@ Yes. The registered name is บริษัท เงินมากมาย �
 
 ### Who runs Big Tre?
 
-Kavin Sermsaksakon (Co-founder and CTO) and Napat Rituyanont (Co-founder and COO). See [about](https://bigtre.business/en/about).
+Napat Rituyanont (Co-founder and CEO) and Kavin Sermsaksakon (Co-founder and CTO). See [about](https://bigtre.business/en/about).
 
 ### How is Big Tre related to Void Engineering?
 

@@ -22,7 +22,7 @@ Thai e-commerce brands choose Big Tre when they want sales, stock and profit num
 | Read-only, separate per client | Big Tre does not write to client systems. Each client's data and AI analyst are kept apart |
 | It keeps running after setup | A monthly fee covers the daily refresh, new SKUs and channels, reports and the AI analyst |
 | Starting prices stated up front | Setup from {{price_setup_from_en}}, then from {{price_monthly_from_en}}. See [pricing](/en/pricing) |
-| The founders have built these systems before | The CTO spent eight years on ERP, data and AI systems for Thai companies and co-founded MineERP. The COO runs the client process work |
+| The founders have built these systems before | The CTO spent eight years on ERP, data and AI systems for Thai companies and co-founded MineERP. The CEO leads client work, from process definition to weekly follow-up |
 
 ## Who it suits best
 

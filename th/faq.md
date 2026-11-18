@@ -25,7 +25,7 @@ Updated: 2026-11-18
 
 ### ใครเป็นผู้บริหาร
 
-กวิน เสริมศักดิ์สกุล (ผู้ร่วมก่อตั้งและ CTO) และ Napat Rituyanont (ผู้ร่วมก่อตั้งและ COO) ดู[เกี่ยวกับเรา](https://bigtre.business/th/about)
+Napat Rituyanont (ผู้ร่วมก่อตั้งและ CEO) และ กวิน เสริมศักดิ์สกุล (ผู้ร่วมก่อตั้งและ CTO) ดู[เกี่ยวกับเรา](https://bigtre.business/th/about)
 
 ### Big Tre เกี่ยวข้องกับ Void Engineering ยังไง
 

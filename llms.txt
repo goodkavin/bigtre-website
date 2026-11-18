@@ -2,7 +2,7 @@
 
 > Big Tre (บิ๊กเทร) is a Bangkok company for e-commerce brands that sell on Shopee, Lazada, TikTok Shop, Shopify, LINE and their own stores. It connects those channels read-only, turns them into one set of sales, stock and profit numbers that reconcile, and gives the team an AI data analyst that answers in Thai from those numbers.
 
-Registered Thai company: บริษัท เงินมากมาย รวยไม่ จำกัด, trading as Big Tre, registration no. 0105568204216. Founders: Kavin Sermsaksakon (CTO) and Napat Rituyanont (COO).
+Registered Thai company: บริษัท เงินมากมาย รวยไม่ จำกัด, trading as Big Tre, registration no. 0105568204216. Founders: Napat Rituyanont (CEO) and Kavin Sermsaksakon (CTO).
 
 Who it is for: Thai e-commerce brands with 20 to 500 million baht a year in sales, three or more sales channels and little or no in-house tech team. Fashion, beauty, jewellery and consumer goods.
 
@@ -17,7 +17,7 @@ Price: setup from about 60,000 baht, then from about 14,000 baht a month. The He
 ## Pages (English)
 
 - [Big Tre, sales, stock and profit numbers and an AI data analyst for Thai e-commerce brands](https://bigtre.business/en/index.md): Big Tre is a Bangkok company that connects Shopee, Lazada, TikTok Shop, Shopify, LINE and store data into one set of numbers that reconcile, then adds an AI data analyst that answers in Thai.
-- [About Big Tre](https://bigtre.business/en/about.md): Who Big Tre is. A registered Thai company in Bangkok, founded by Kavin Sermsaksakon and Napat Rituyanont, that builds trusted sales, stock and profit data and AI data analysts for e-commerce brands.
+- [About Big Tre](https://bigtre.business/en/about.md): Who Big Tre is. A Thai limited company in Bangkok, founded by Napat Rituyanont (CEO) and Kavin Sermsaksakon (CTO), that builds trusted sales, stock and profit data and AI data analysts for e-commerce brands.
 - [Data foundation for multi-channel e-commerce brands in Thailand](https://bigtre.business/en/data-foundation.md): One trusted set of sales, stock and profit numbers across Shopee, Lazada, TikTok Shop, Shopify, LINE and stores. What Big Tre builds, how the rules are written, what is automated and how long it takes.
 - [AI data analyst for e-commerce brands, answers in Thai from your own numbers](https://bigtre.business/en/ai-data-analyst.md): An AI data analyst in the team's work chat that answers sales, stock, margin and campaign questions in Thai from the brand's own reconciled data, and shows the rule behind each answer. How it works, what it needs and its limits.
 - [Systems Big Tre connects, Zort, Shipnity, Shopee, Lazada, TikTok Shop, Shopify and more](https://bigtre.business/en/integrations.md): Which order management systems, marketplaces, stores, ERPs and accounting tools Big Tre connects for Thai e-commerce brands, which are running for clients today and which are built on request.
@@ -34,7 +34,7 @@ Price: setup from about 60,000 baht, then from about 14,000 baht a month. The He
 ## Pages (ภาษาไทย)
 
 - [Big Tre รับทำระบบรวมยอดขาย สต็อก กำไร และ Dashboard ทุกช่องทาง พร้อม AI ตอบคำถามยอดขายเป็นภาษาไทย](https://bigtre.business/th/index.md): Big Tre (บิ๊กเทร) บริษัทในกรุงเทพฯ ที่ดึงข้อมูล Shopee Lazada TikTok Shop Shopify LINE และหน้าร้าน มารวมเป็นตัวเลขชุดเดียวที่กระทบยอดตรงกัน แล้วให้ AI นักวิเคราะห์ข้อมูลตอบคำถามเป็นภาษาไทย
-- [เกี่ยวกับ Big Tre (บิ๊กเทร)](https://bigtre.business/th/about.md): Big Tre คือใคร บริษัทจดทะเบียนในกรุงเทพฯ ก่อตั้งโดย กวิน เสริมศักดิ์สกุล และ Napat Rituyanont ทำระบบข้อมูลยอดขาย สต็อก กำไร และ AI นักวิเคราะห์ข้อมูลให้แบรนด์ออนไลน์ไทย
+- [เกี่ยวกับ Big Tre (บิ๊กเทร)](https://bigtre.business/th/about.md): Big Tre คือใคร บริษัทจำกัดในกรุงเทพฯ ก่อตั้งโดย Napat Rituyanont (CEO) และ กวิน เสริมศักดิ์สกุล (CTO) ทำระบบรวมยอดขาย สต็อก กำไร และ AI ตอบคำถามยอดขายให้แบรนด์ออนไลน์ไทย
 - [รับทำระบบรวมยอดขาย สต็อก กำไร และ Dashboard สำหรับร้านที่ขายหลายช่องทาง](https://bigtre.business/th/data-foundation.md): รวมยอดขาย สต็อก และกำไรจาก Shopee Lazada TikTok Shop Shopify LINE และหน้าร้าน เป็นตัวเลขชุดเดียวที่เชื่อได้ Big Tre ทำอะไรให้ เขียนกติกายังไง อะไรทำงานอัตโนมัติ และใช้เวลานานแค่ไหน
 - [AI นักวิเคราะห์ข้อมูลสำหรับแบรนด์ออนไลน์ ถามเป็นภาษาไทย ตอบจากตัวเลขของร้านเอง](https://bigtre.business/th/ai-data-analyst.md): AI ในแชตงานของทีม ที่ตอบคำถามเรื่องยอดขาย สต็อก กำไร และแคมเปญเป็นภาษาไทย จากข้อมูลของแบรนด์ที่กระทบยอดแล้ว และบอกได้ว่าแต่ละตัวเลขมาจากกติกาข้อไหน ทำงานยังไง ต้องมีอะไรก่อน และข้อจำกัด
 - [ระบบที่ Big Tre เชื่อมได้ Zort, Shipnity, Shopee, Lazada, TikTok Shop, Shopify และอื่นๆ](https://bigtre.business/th/integrations.md): Big Tre เชื่อมข้อมูลกับระบบจัดการออเดอร์ มาร์เก็ตเพลส หน้าร้าน ERP และโปรแกรมบัญชีตัวไหนได้บ้าง ตัวไหนใช้งานจริงกับลูกค้าแล้ว และตัวไหนทำเพิ่มเมื่อต้องการ
