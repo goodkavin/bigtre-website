@@ -1,0 +1,37 @@
+# Company facts. Single source for every page and for JSON-LD.
+# Used in content as {{key}} and {{founders.0.name_en}}. Empty scalars are omitted from JSON-LD.
+# TODO: the content author replaces every TODO value.
+name: Big Tre
+alternate_names:
+  - Big Tre Co.
+  - บริษัท บิ๊กทรี
+  - Big Tre AI
+legal_name_en: Big Tre Co., Ltd.
+legal_name_th: บริษัท บิ๊กทรี จำกัด
+registration_no: "0105500000000"
+founded: 2026-01-01
+founded_en: 1 January 2026
+founded_th: 1 มกราคม 2569
+url: https://bigtre.business
+email: hello@bigtre.business
+telephone: "+66829256365"
+line_oa: ""
+city_en: Bangkok
+city_th: กรุงเทพฯ
+country_code: TH
+country_en: Thailand
+country_th: ประเทศไทย
+logo: https://bigtre.business/favicon.svg
+same_as: []
+slogan: Your tech and data, made to work.
+description_en: AI-Fused Company building business context layers for growing Thai SMEs. Multi-channel commerce, live dashboards, agentic AI teammates.
+description_th: ทีมในกรุงเทพฯ ที่วางระบบข้อมูลและ AI ให้ธุรกิจ SME
+founders:
+  - id: a
+    name_en: Test Founder
+    name_th: ทดสอบ ผู้ก่อตั้ง
+    title_en: Co-founder
+    title_th: ผู้ร่วมก่อตั้ง
+    bio_en: Fixture bio.
+    bio_th: ประวัติทดสอบ
+    same_as: []

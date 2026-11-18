@@ -1,0 +1,9 @@
+content/
+build.py
+tests/
+docs/
+archive/
+CLAUDE.md
+README.md
+.github/
+vitest.config.js
